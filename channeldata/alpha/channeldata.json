@@ -1,0 +1,1385 @@
+{
+  "channeldata_version": 1,
+  "packages": {
+    "canfam3-dbsnp": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/canfam3-dbsnp-20140510-2.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20140510"
+    },
+    "canfam3-transcripts": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/canfam3-transcripts-2014.07.20-4.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2014.07.20"
+    },
+    "grch37-1000g_omni_snps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-1000g_omni_snps-2.5-2.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.5"
+    },
+    "grch37-1000g_snps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-1000g_snps-2.8-2.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8"
+    },
+    "grch37-ancestral": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-ancestral-20141010-3.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20141010"
+    },
+    "grch37-cosmic": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-cosmic-68-2.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "68"
+    },
+    "grch37-dbnsfp": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-dbnsfp-3.1c-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "3.1c"
+    },
+    "grch37-dbsnp": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-dbsnp-138-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "138"
+    },
+    "grch37-dream-syn3": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-dream-syn3-2014.08.04-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2014.08.04"
+    },
+    "grch37-dream-syn4": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-dream-syn4-2014.08.09-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2014.08.09"
+    },
+    "grch37-ga4gh-problem-regions": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-ga4gh-problem-regions-20151116-3.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20151116"
+    },
+    "grch37-giab-na12878": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-giab-na12878-v2_19_1-2.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "v2_19_1"
+    },
+    "grch37-hapmap": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-hapmap-3.3-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "3.3"
+    },
+    "grch37-mig": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-mig-20150730-2.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20150730"
+    },
+    "grch37-mills_indels": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-mills_indels-2.8-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8"
+    },
+    "grch37-prioritize": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-prioritize-20160215-2.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20160215"
+    },
+    "grch37-qsignature": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-qsignature-20140703-3.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20140703"
+    },
+    "grch37-radar": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-radar-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1"
+    },
+    "grch37-radar-grch37": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "linux-64/grch37-radar-grch37-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1"
+    },
+    "grch37-reference-genome": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "linux-64/grch37-reference-genome-1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "GRCh37 reference genome from 1000 genomes",
+      "text_prefix": false,
+      "version": "1"
+    },
+    "grch37-sequence": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/grch37-sequence-37-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "37"
+    },
+    "grch37-srnaseq": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "linux-64/grch37-srnaseq-20160224-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20160224"
+    },
+    "grch37-transcripts": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "linux-64/grch37-transcripts-2015.12.01-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2015.12.01"
+    },
+    "hg19-1000g_omni_snps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-1000g_omni_snps-2.5-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.5"
+    },
+    "hg19-1000g_snps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-1000g_snps-2.8-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8"
+    },
+    "hg19-ancestral": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-ancestral-20141010-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20141010"
+    },
+    "hg19-cosmic": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-cosmic-68-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "68"
+    },
+    "hg19-dbnsfp": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-dbnsfp-3.1c-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "3.1c"
+    },
+    "hg19-dbsnp": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-dbsnp-138-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "138"
+    },
+    "hg19-ga4gh-problem-regions": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-ga4gh-problem-regions-20151116-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20151116"
+    },
+    "hg19-gaps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-gaps-1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-giab-na12878": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-giab-na12878-v2_19_1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "v2_19_1"
+    },
+    "hg19-hapmap": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-hapmap-3.3-3.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "3.3"
+    },
+    "hg19-mig": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-mig-20150730-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20150730"
+    },
+    "hg19-mills_indels": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-mills_indels-2.8-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8"
+    },
+    "hg19-phastcons": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-phastcons-1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-platinum-genome-na12878": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-platinum-genome-na12878-v8_0_1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "v8_0_1"
+    },
+    "hg19-prioritize": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-prioritize-20160215-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20160215"
+    },
+    "hg19-qsignature": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-qsignature-20140703-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20140703"
+    },
+    "hg19-radar": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-radar-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-repeatmasker": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-repeatmasker-1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-simplerepeats": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-simplerepeats-1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-srnaseq": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg19-srnaseq-20160224-2.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20160224"
+    },
+    "hg19-transcripts": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "linux-64/hg19-transcripts-2014.07.17-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2014.07.17"
+    },
+    "hg38-1000g_indels": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-1000g_indels-2.8_hg38_20150522-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8_hg38_20150522"
+    },
+    "hg38-1000g_omni_snps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-1000g_omni_snps-2.8_hg38_20150522-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8_hg38_20150522"
+    },
+    "hg38-1000g_snps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-1000g_snps-2.8_hg38_20150522-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8_hg38_20150522"
+    },
+    "hg38-bwa": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-bwa-1000g.20150219-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1000g.20150219"
+    },
+    "hg38-clinvar": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-clinvar-20150330.2-2.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20150330.2"
+    },
+    "hg38-coverage": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-coverage-2015.11.17-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2015.11.17"
+    },
+    "hg38-dbsnp": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-dbsnp-144.20150603-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "144.20150603"
+    },
+    "hg38-dream-syn3-crossmap": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-dream-syn3-crossmap-2014.08.04-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2014.08.04"
+    },
+    "hg38-dream-syn4-crossmap": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-dream-syn4-crossmap-2014.08.09-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2014.08.09"
+    },
+    "hg38-giab-na12878-crossmap": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-giab-na12878-crossmap-v2_19_1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "v2_19_1"
+    },
+    "hg38-giab-na12878-remap": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-giab-na12878-remap-v2_19_1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "v2_19_1"
+    },
+    "hg38-gtf": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-gtf-78-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "78"
+    },
+    "hg38-hapmap_snps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-hapmap_snps-2.8_hg38_20150522-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8_hg38_20150522"
+    },
+    "hg38-hisat2": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-hisat2-12.07.2015-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "12.07.2015"
+    },
+    "hg38-mills_indels": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-mills_indels-2.8_hg38_20150522-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8_hg38_20150522"
+    },
+    "hg38-noalt-1000g_indels": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-1000g_indels-2.8_hg38_20150522-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8_hg38_20150522"
+    },
+    "hg38-noalt-1000g_omni_snps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-1000g_omni_snps-2.8_hg38_20150522-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8_hg38_20150522"
+    },
+    "hg38-noalt-1000g_snps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-1000g_snps-2.8_hg38_20150522-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8_hg38_20150522"
+    },
+    "hg38-noalt-bowtie2": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-bowtie2-0.1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "0.1"
+    },
+    "hg38-noalt-bwa": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-bwa-0.1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "0.1"
+    },
+    "hg38-noalt-clinvar": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-clinvar-20150330.2-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20150330.2"
+    },
+    "hg38-noalt-coverage": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-coverage-2015.11.17-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2015.11.17"
+    },
+    "hg38-noalt-dbsnp": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-dbsnp-144.20150603-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "144.20150603"
+    },
+    "hg38-noalt-gtf": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-gtf-78-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "78"
+    },
+    "hg38-noalt-hapmap_snps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-hapmap_snps-2.8_hg38_20150522-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8_hg38_20150522"
+    },
+    "hg38-noalt-mills_indels": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-mills_indels-2.8_hg38_20150522-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2.8_hg38_20150522"
+    },
+    "hg38-noalt-radar-hg38": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-radar-hg38-1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg38-noalt-seq": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-seq-0.1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "0.1"
+    },
+    "hg38-noalt-sequence": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-sequence-0.1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "0.1"
+    },
+    "hg38-noalt-transcripts": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-noalt-transcripts-2015.11.22-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2015.11.22"
+    },
+    "hg38-platinum-genome-na12878": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-platinum-genome-na12878-v2_0_1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "v2_0_1"
+    },
+    "hg38-prioritize": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-prioritize-20160215-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20160215"
+    },
+    "hg38-radar-hg38": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-radar-hg38-1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg38-reference": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-reference-1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg38-repeatmasker": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-repeatmasker-1-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg38-seq": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-seq-1000g.20150219-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1000g.20150219"
+    },
+    "hg38-sequence": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-sequence-1000g.20150219-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "1000g.20150219"
+    },
+    "hg38-transcripts": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/hg38-transcripts-2015.11.24-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2015.11.24"
+    },
+    "mm10-dbsnp": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/mm10-dbsnp-20130912-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20130912"
+    },
+    "mm10-problem_regions": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/mm10-problem_regions-20151028-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20151028"
+    },
+    "mm10-srnaseq": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/mm10-srnaseq-20160328-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "20160328"
+    },
+    "mm10-transcripts": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "post_link": false,
+      "pre_link": true,
+      "pre_unlink": false,
+      "reference_package": "osx-64/mm10-transcripts-2014.07.14-0.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "linux-64",
+        "osx-64"
+      ],
+      "text_prefix": false,
+      "version": "2014.07.14"
+    }
+  },
+  "subdirs": [
+    "linux-64",
+    "noarch",
+    "osx-64"
+  ]
+}

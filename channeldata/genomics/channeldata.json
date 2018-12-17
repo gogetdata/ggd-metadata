@@ -15,15 +15,15 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-esp-variants-1-pl526_1.tar.bz2",
+      "reference_package": "noarch/grch37-esp-variants-1-pl526_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
-      "summary": "ESP variants",
-      "tags": [
-        "uploaded_to_aws"
-      ],
+      "summary": "ESP variants (More Info: http://evs.gs.washington.edu/EVS/#tabs-7)",
+      "tags": {
+        "data-version": "ESP6500SI-V2"
+      },
       "text_prefix": false,
       "version": "1"
     },
@@ -48,7 +48,9 @@
         "noarch"
       ],
       "summary": "GRCh37 reference genome from 1000 genomes",
-      "tags": [],
+      "tags": {
+        "data-version": "phase2_reference"
+      },
       "text_prefix": false,
       "version": "1"
     },
@@ -73,7 +75,9 @@
         "noarch"
       ],
       "summary": "Assembly gaps from USCS",
-      "tags": [],
+      "tags": {
+        "data-version": "27-Apr-2009"
+      },
       "text_prefix": false,
       "version": "1"
     },
@@ -97,8 +101,10 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "phastCons scores for MSA of 99 genomes  to hg19",
-      "tags": [],
+      "summary": "phastCons scores for MSA of 99 genomes to hg19",
+      "tags": {
+        "data-version": "09-Feb-2014"
+      },
       "text_prefix": false,
       "version": "1"
     },
@@ -123,7 +129,9 @@
         "noarch"
       ],
       "summary": "RepeatMasker track from UCSC",
-      "tags": [],
+      "tags": {
+        "data-version": "27-Apr-2009"
+      },
       "text_prefix": false,
       "version": "1"
     },
@@ -148,7 +156,9 @@
         "noarch"
       ],
       "summary": "Simple repeasts track from UCSC | name=sequence | score=alignment score | col 7 = period | col 8 = copy_num",
-      "tags": [],
+      "tags": {
+        "data-version": "27-Apr-2009"
+      },
       "text_prefix": false,
       "version": "1"
     },
@@ -173,7 +183,9 @@
         "noarch"
       ],
       "summary": "RepeatMasker track from UCSC",
-      "tags": [],
+      "tags": {
+        "data-version": "06-Mar-2014"
+      },
       "text_prefix": false,
       "version": "1"
     }

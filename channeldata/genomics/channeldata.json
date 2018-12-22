@@ -73,13 +73,16 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-phastcons-1-0.tar.bz2",
+      "reference_package": "noarch/hg19-phastcons-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "phastCons scores for MSA of 99 genomes to hg19",
       "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
         "data-version": "09-Feb-2014"
       },
       "text_prefix": false,

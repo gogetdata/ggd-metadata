@@ -16,14 +16,142 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-reference-genome-1-h2f8a211_0.tar.bz2",
+      "reference_package": "noarch/grch37-reference-genome-1-h2f8a211_1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "GRCh37 reference genome from 1000 genomes",
       "tags": {
-        "data-version": "phase2_reference"
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "phase2_reference",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-gaps": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gaps",
+        "region"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-gaps-1-h2f8a211_1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Assembly gaps from USCS",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "27-Apr-2009",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-phastcons": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "phastCons",
+        "conservation"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-phastcons-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "phastCons scores for MSA of 99 genomes to hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "09-Feb-2014",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-repeatmasker": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "rmsk",
+        "region"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-repeatmasker-1-h2f8a211_1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "RepeatMasker track from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "27-Apr-2009",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-simplerepeats": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "simrep",
+        "regions"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-simplerepeats-1-h2f8a211_1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Simple repeats track from UCSC | name=sequence | score=alignment score | col 7 = period | col 8 = copy_num",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "27-Apr-2009",
+        "ggd-channel": "genomics"
       },
       "text_prefix": false,
       "version": "1"
@@ -53,7 +181,8 @@
         "cached": [
           "uploaded_to_aws"
         ],
-        "data-version": "06-Mar-2014"
+        "data-version": "06-Mar-2014",
+        "ggd-channel": "genomics"
       },
       "text_prefix": false,
       "version": "1"

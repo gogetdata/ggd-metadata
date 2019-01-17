@@ -186,6 +186,37 @@
       },
       "text_prefix": false,
       "version": "1"
+    },
+    "hg38-simplerepeats": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "simrep",
+        "regions"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg38-simplerepeats-1-h2f8a211_1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Simple repeats track from UCSC | name=sequence | score=alignment score | col 7 = period | col 8 = copy_num",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "06-Mar-2014",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
     }
   },
   "subdirs": [

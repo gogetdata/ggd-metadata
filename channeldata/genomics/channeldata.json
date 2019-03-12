@@ -98,6 +98,37 @@
       "text_prefix": false,
       "version": "1"
     },
+    "hg19-cpg-islands": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "CpG",
+        "region"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-cpg-islands-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "cpg islands from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "27-Apr-2009",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "hg19-gaps": {
       "activate.d": false,
       "binary_prefix": false,
@@ -217,6 +248,70 @@
           "uploaded_to_aws"
         ],
         "data-version": "27-Apr-2009",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg38-cpg-islands": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "CpG",
+        "region"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg38-cpg-islands-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "hg38 cpg islands from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "11-Mar-2019",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg38-reference-genome-ucsc": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "ref",
+        "reference",
+        "genome",
+        "UCSC"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg38-reference-genome-ucsc-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The hg38 reference genome from UCSC. This version includes the latest patch, patch 12. (url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/p12/)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "10-Aug-2018",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,

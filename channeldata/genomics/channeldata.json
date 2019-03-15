@@ -113,7 +113,7 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-cpg-islands-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-cpg-islands-1-3.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
@@ -144,7 +144,7 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-gaps-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-gaps-1-3.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
@@ -178,7 +178,7 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-pfam-domains-ucsc-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-pfam-domains-ucsc-1-3.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
@@ -209,7 +209,7 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-phastcons-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-phastcons-1-3.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
@@ -242,7 +242,7 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-reference-genome-ucsc-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-reference-genome-ucsc-1-3.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
@@ -273,7 +273,7 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-repeatmasker-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-repeatmasker-1-3.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
@@ -304,7 +304,7 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-simplerepeats-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-simplerepeats-1-3.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"

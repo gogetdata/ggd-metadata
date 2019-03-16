@@ -1,6 +1,36 @@
 {
   "channeldata_version": 1,
   "packages": {
+    "grch37-esp-variants": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "ESP"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/grch37-esp-variants-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "ESP variants (More Info: http://evs.gs.washington.edu/EVS/#tabs-7)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "ESP6500SI-V2",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "grch37-reference-genome": {
       "activate.d": false,
       "binary_prefix": false,

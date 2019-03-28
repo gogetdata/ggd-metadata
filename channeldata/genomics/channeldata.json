@@ -31,6 +31,36 @@
       "text_prefix": false,
       "version": "1"
     },
+    "grch37-esp-variants-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "ESP"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/grch37-esp-variants-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "ESP variants (More Info: http://evs.gs.washington.edu/EVS/#tabs-7)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "ESP6500SI-V2",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "grch37-reference-genome": {
       "activate.d": false,
       "binary_prefix": false,
@@ -80,6 +110,39 @@
       "pre_link": false,
       "pre_unlink": false,
       "reference_package": "noarch/grch37-reference-genome-ensembl-1-3.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The GRCh37 reference genome from Ensembl. Release 75. Primary Assembly file",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "Release-75",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "grch37-reference-genome-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "ref",
+        "reference",
+        "Ensembl",
+        "Release75"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/grch37-reference-genome-ensembl-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"

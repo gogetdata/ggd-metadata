@@ -1,36 +1,6 @@
 {
   "channeldata_version": 1,
   "packages": {
-    "grch37-esp-variants": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "GRCh37",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "ESP"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/grch37-esp-variants-1-1.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "ESP variants (More Info: http://evs.gs.washington.edu/EVS/#tabs-7)",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "ESP6500SI-V2",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
     "grch37-esp-variants-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -56,70 +26,6 @@
           "uploaded_to_aws"
         ],
         "data-version": "ESP6500SI-V2",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
-    "grch37-reference-genome": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "GRCh37",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "ref",
-        "reference"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/grch37-reference-genome-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "GRCh37 reference genome from 1000 genomes",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "phase2_reference",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
-    "grch37-reference-genome-ensembl": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "GRCh37",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "ref",
-        "reference",
-        "Ensembl",
-        "Release75"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/grch37-reference-genome-ensembl-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "The GRCh37 reference genome from Ensembl. Release 75. Primary Assembly file",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "Release-75",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
@@ -189,39 +95,6 @@
       "text_prefix": false,
       "version": "1"
     },
-    "grch38-reference-genome-ensembl": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "GRCh38",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "ref",
-        "reference",
-        "genome",
-        "Ensembl"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/grch38-reference-genome-ensembl-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "The GRCh38 reference genome from Ensembl. Release 95. Primary Assembly file",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "Release-95",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
     "grch38-reference-genome-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -255,37 +128,6 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg19-cpg-islands": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg19",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "CpG",
-        "region"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg19-cpg-islands-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "cpg islands from UCSC",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "27-Apr-2009",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
     "hg19-cpg-islands-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -307,37 +149,6 @@
         "noarch"
       ],
       "summary": "cpg islands from UCSC",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "27-Apr-2009",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
-    "hg19-gaps": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg19",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "gaps",
-        "region"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg19-gaps-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "Assembly gaps from USCS",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -379,40 +190,6 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg19-pfam-domains-ucsc": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg19",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "pfam",
-        "domains",
-        "protein",
-        "protein-domains",
-        "UCSC"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg19-pfam-domains-ucsc-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "Pfam domain annotation in bed12 format. (From UCSC)",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "16-Apr-2017",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
     "hg19-pfam-domains-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -447,37 +224,6 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg19-phastcons": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg19",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "phastCons",
-        "conservation"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg19-phastcons-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "phastCons scores for MSA of 99 genomes to hg19",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "09-Feb-2014",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
     "hg19-phastcons-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -504,39 +250,6 @@
           "uploaded_to_aws"
         ],
         "data-version": "09-Feb-2014",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
-    "hg19-reference-genome-ucsc": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg19",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "ref",
-        "reference",
-        "genome",
-        "UCSC"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg19-reference-genome-ucsc-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "The hg19 reference genome from UCSC. This version includes the latest patch, patch 13. (http://hgdownload.soe.ucsc.edu/goldenPath/hg19/hg19Patch13/)",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "25-May-2018",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
@@ -575,37 +288,6 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg19-repeatmasker": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg19",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "rmsk",
-        "region"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg19-repeatmasker-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "RepeatMasker track from UCSC",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "27-Apr-2009",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
     "hg19-repeatmasker-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -627,37 +309,6 @@
         "noarch"
       ],
       "summary": "RepeatMasker track from UCSC",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "27-Apr-2009",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
-    "hg19-simplerepeats": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg19",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "simrep",
-        "regions"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg19-simplerepeats-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "Simple repeats track from UCSC | name=sequence | score=alignment score | col 7 = period | col 8 = copy_num",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -694,37 +345,6 @@
           "uploaded_to_aws"
         ],
         "data-version": "27-Apr-2009",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
-    "hg38-cpg-islands": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg38",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "CpG",
-        "region"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg38-cpg-islands-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "hg38 cpg islands from UCSC",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "11-Mar-2019",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
@@ -792,40 +412,6 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg38-pfam-domains-ucsc": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg38",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "pfam",
-        "domains",
-        "protein",
-        "protein-domains",
-        "UCSC"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg38-pfam-domains-ucsc-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "Pfam domain annotation in bed12 format. (From UCSC)",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "18-Nov-2018",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
     "hg38-pfam-domains-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -855,39 +441,6 @@
           "uploaded_to_aws"
         ],
         "data-version": "18-Nov-2018",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
-    "hg38-reference-genome-ucsc": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg38",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "ref",
-        "reference",
-        "genome",
-        "UCSC"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg38-reference-genome-ucsc-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "The hg38 reference genome from UCSC. This version includes the latest patch, patch 12. (url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/p12/)",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "10-Aug-2018",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
@@ -926,37 +479,6 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg38-repeatmasker": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg38",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "rmsk",
-        "region"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg38-repeatmasker-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "RepeatMasker track from UCSC",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "06-Mar-2014",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
     "hg38-repeatmasker-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -978,37 +500,6 @@
         "noarch"
       ],
       "summary": "RepeatMasker track from UCSC",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "06-Mar-2014",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
-    "hg38-simplerepeats": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "hg38",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "simrep",
-        "regions"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/hg38-simplerepeats-1-3.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "Simple repeats track from UCSC | name=sequence | score=alignment score | col 7 = period | col 8 = copy_num",
       "tags": {
         "cached": [
           "uploaded_to_aws"

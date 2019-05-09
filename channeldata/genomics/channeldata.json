@@ -1,7 +1,7 @@
 {
   "channeldata_version": 1,
   "packages": {
-    "grch37-esp-variants-v1": {
+    "grch37-reference-genome-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
@@ -10,22 +10,24 @@
         "species": "Homo_sapiens"
       },
       "keywords": [
-        "ESP"
+        "ref",
+        "reference",
+        "fasta-file"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-esp-variants-v1-1-1.tar.bz2",
+      "reference_package": "noarch/grch37-reference-genome-1000g-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
-      "summary": "ESP variants (More Info: http://evs.gs.washington.edu/EVS/#tabs-7)",
+      "summary": "GRCh37 reference genome from 1000 genomes",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
-        "data-version": "ESP6500SI-V2",
+        "data-version": "phase2_reference",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
@@ -64,37 +66,6 @@
       "text_prefix": false,
       "version": "1"
     },
-    "grch37-reference-genome-v1": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "identifiers": {
-        "genome-build": "GRCh37",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "ref",
-        "reference"
-      ],
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "reference_package": "noarch/grch37-reference-genome-v1-1-1.tar.bz2",
-      "run_exports": {},
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "GRCh37 reference genome from 1000 genomes",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "phase2_reference",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "version": "1"
-    },
     "grch38-reference-genome-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -128,7 +99,7 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg19-cpg-islands-v1": {
+    "hg19-cpg-islands-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
@@ -138,17 +109,18 @@
       },
       "keywords": [
         "CpG",
-        "region"
+        "region",
+        "bed-file"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-cpg-islands-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-cpg-islands-ucsc-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
-      "summary": "cpg islands from UCSC",
+      "summary": "cpg islands from UCSC in bed format",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -159,7 +131,7 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg19-gaps-v1": {
+    "hg19-gaps-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
@@ -169,17 +141,18 @@
       },
       "keywords": [
         "gaps",
-        "region"
+        "region",
+        "bed-file"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-gaps-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-gaps-ucsc-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
-      "summary": "hg19- Assembly gaps from UCSC",
+      "summary": "Assembly gaps from UCSC in bed format",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -203,7 +176,8 @@
         "domains",
         "protein",
         "protein-domains",
-        "UCSC"
+        "UCSC",
+        "bed-file"
       ],
       "post_link": true,
       "pre_link": false,
@@ -224,7 +198,7 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg19-phastcons-v1": {
+    "hg19-phastcons-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
@@ -234,12 +208,13 @@
       },
       "keywords": [
         "phastCons",
-        "conservation"
+        "conservation",
+        "bigWig-file"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-phastcons-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-phastcons-ucsc-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
@@ -267,7 +242,8 @@
         "ref",
         "reference",
         "genome",
-        "UCSC"
+        "UCSC",
+        "fasta-file"
       ],
       "post_link": true,
       "pre_link": false,
@@ -288,7 +264,7 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg19-repeatmasker-v1": {
+    "hg19-repeatmasker-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
@@ -298,17 +274,18 @@
       },
       "keywords": [
         "rmsk",
-        "region"
+        "region",
+        "bed-file"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-repeatmasker-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-repeatmasker-ucsc-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
-      "summary": "RepeatMasker track from UCSC",
+      "summary": "RepeatMasker track from UCSC in bed format",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -319,7 +296,7 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg19-simplerepeats-v1": {
+    "hg19-simplerepeats-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
@@ -329,12 +306,13 @@
       },
       "keywords": [
         "simrep",
-        "regions"
+        "regions",
+        "bed-file"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-simplerepeats-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-simplerepeats-ucsc-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
@@ -350,7 +328,7 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg38-cpg-islands-v1": {
+    "hg38-cpg-islands-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
@@ -360,17 +338,18 @@
       },
       "keywords": [
         "CpG",
-        "region"
+        "region",
+        "bed-file"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-cpg-islands-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg38-cpg-islands-ucsc-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
-      "summary": "hg38 cpg islands from UCSC",
+      "summary": "hg38 cpg islands from UCSC in bed format",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -381,7 +360,7 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg38-gaps-v1": {
+    "hg38-gaps-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
@@ -391,17 +370,18 @@
       },
       "keywords": [
         "gaps",
-        "region"
+        "region",
+        "bed-file"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-gaps-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg38-gaps-ucsc-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
-      "summary": "hg38 Assembly gaps from UCSC",
+      "summary": "hg38 Assembly gaps from UCSC in bed format",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -425,6 +405,7 @@
         "domains",
         "protein",
         "protein-domains",
+        "bed-file",
         "UCSC"
       ],
       "post_link": true,
@@ -458,7 +439,8 @@
         "ref",
         "reference",
         "genome",
-        "UCSC"
+        "UCSC",
+        "fasta-file"
       ],
       "post_link": true,
       "pre_link": false,
@@ -479,7 +461,7 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg38-repeatmasker-v1": {
+    "hg38-repeatmasker-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
@@ -489,17 +471,18 @@
       },
       "keywords": [
         "rmsk",
-        "region"
+        "region",
+        "bed-file"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-repeatmasker-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg38-repeatmasker-ucsc-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
-      "summary": "RepeatMasker track from UCSC",
+      "summary": "RepeatMasker track from UCSC in bed format",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -510,7 +493,7 @@
       "text_prefix": false,
       "version": "1"
     },
-    "hg38-simplerepeats-v1": {
+    "hg38-simplerepeats-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
@@ -520,12 +503,13 @@
       },
       "keywords": [
         "simrep",
-        "regions"
+        "regions",
+        "bed-file"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-simplerepeats-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg38-simplerepeats-ucsc-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"

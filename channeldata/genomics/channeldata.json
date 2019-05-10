@@ -17,16 +17,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-reference-genome-1000g-v1-1-1.tar.bz2",
+      "reference_package": "noarch/grch37-reference-genome-1000g-v1-1-h2f8a211_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "GRCh37 reference genome from 1000 genomes",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "phase2_reference",
         "ggd-channel": "genomics"
       },
@@ -45,21 +42,19 @@
         "ref",
         "reference",
         "Ensembl",
+        "fasta-file",
         "Release75"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-reference-genome-ensembl-v1-1-1.tar.bz2",
+      "reference_package": "noarch/grch37-reference-genome-ensembl-v1-1-h1341992_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "The GRCh37 reference genome from Ensembl. Release 75. Primary Assembly file",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "Release-75",
         "ggd-channel": "genomics"
       },
@@ -78,21 +73,19 @@
         "ref",
         "reference",
         "genome",
-        "Ensembl"
+        "Ensembl",
+        "fasta-file"
       ],
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch38-reference-genome-ensembl-v1-1-1.tar.bz2",
+      "reference_package": "noarch/grch38-reference-genome-ensembl-v1-1-h1341992_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "The GRCh38 reference genome from Ensembl. Release 95. Primary Assembly file",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "Release-95",
         "ggd-channel": "genomics"
       },
@@ -115,16 +108,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-cpg-islands-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-cpg-islands-ucsc-v1-1-h2f8a211_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "cpg islands from UCSC in bed format",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "27-Apr-2009",
         "ggd-channel": "genomics"
       },
@@ -147,16 +137,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-gaps-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-gaps-ucsc-v1-1-h2f8a211_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "Assembly gaps from UCSC in bed format",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "27-Apr-2009",
         "ggd-channel": "genomics"
       },
@@ -182,16 +169,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-pfam-domains-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-pfam-domains-ucsc-v1-1-h2f8a211_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "Pfam domain annotation in bed12 format. (From UCSC)",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "16-Apr-2017",
         "ggd-channel": "genomics"
       },
@@ -214,16 +198,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-phastcons-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-phastcons-ucsc-v1-1-0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "phastCons scores for MSA of 99 genomes to hg19",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "09-Feb-2014",
         "ggd-channel": "genomics"
       },
@@ -248,16 +229,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-reference-genome-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-reference-genome-ucsc-v1-1-h1341992_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "The hg19 reference genome from UCSC. (http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/)",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "21-Aug-2018",
         "ggd-channel": "genomics"
       },
@@ -280,16 +258,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-repeatmasker-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-repeatmasker-ucsc-v1-1-h2f8a211_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "RepeatMasker track from UCSC in bed format",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "27-Apr-2009",
         "ggd-channel": "genomics"
       },
@@ -312,16 +287,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-simplerepeats-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-simplerepeats-ucsc-v1-1-h2f8a211_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "Simple repeats track from UCSC | name=sequence | score=alignment score | col 7 = period | col 8 = copy_num",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "27-Apr-2009",
         "ggd-channel": "genomics"
       },
@@ -344,16 +316,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-cpg-islands-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg38-cpg-islands-ucsc-v1-1-h2f8a211_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "hg38 cpg islands from UCSC in bed format",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "11-Mar-2019",
         "ggd-channel": "genomics"
       },
@@ -376,16 +345,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-gaps-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg38-gaps-ucsc-v1-1-h2f8a211_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "hg38 Assembly gaps from UCSC in bed format",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "11-Mar-2019",
         "ggd-channel": "genomics"
       },
@@ -411,16 +377,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-pfam-domains-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg38-pfam-domains-ucsc-v1-1-h2f8a211_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "Pfam domain annotation in bed12 format. (From UCSC)",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "18-Nov-2018",
         "ggd-channel": "genomics"
       },
@@ -445,16 +408,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-reference-genome-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg38-reference-genome-ucsc-v1-1-h1341992_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "The hg38 reference genome from UCSC. This version includes the latest patch, patch 12. (url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/p12/)",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "10-Aug-2018",
         "ggd-channel": "genomics"
       },
@@ -477,16 +437,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-repeatmasker-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg38-repeatmasker-ucsc-v1-1-h2f8a211_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "RepeatMasker track from UCSC in bed format",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "06-Mar-2014",
         "ggd-channel": "genomics"
       },
@@ -509,16 +466,13 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-simplerepeats-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg38-simplerepeats-ucsc-v1-1-h2f8a211_0.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "Simple repeats track from UCSC | name=sequence | score=alignment score | col 7 = period | col 8 = copy_num",
       "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
         "data-version": "06-Mar-2014",
         "ggd-channel": "genomics"
       },

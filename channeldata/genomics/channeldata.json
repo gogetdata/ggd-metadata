@@ -137,13 +137,16 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-gaps-ucsc-v1-1-h2f8a211_0.tar.bz2",
+      "reference_package": "noarch/hg19-gaps-ucsc-v1-1-1.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
       ],
       "summary": "Assembly gaps from UCSC in bed format",
       "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
         "data-version": "27-Apr-2009",
         "ggd-channel": "genomics"
       },

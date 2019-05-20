@@ -294,6 +294,38 @@
       "text_prefix": false,
       "version": "1"
     },
+    "grch38-gtf-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gtf",
+        "gtf-file",
+        "ensembl"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/grch38-gtf-ensembl-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The GRCh38 gtf file from ensembl",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "release-96",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "grch38-reference-genome-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -328,6 +360,74 @@
       "text_prefix": false,
       "version": "1"
     },
+    "hg19-1000g-omni-snps-broad-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "omni",
+        "snps",
+        "1000G",
+        "broad-institute",
+        "vcf-fil"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-1000g-omni-snps-broad-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The 1000G omni snps vcf file hosted on the broad's ftp site",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "2.5 - 12/7/13",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-1000g-snps-phase1-broad-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "high-confidence",
+        "snps",
+        "1000G",
+        "broad-institute",
+        "vcf-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-1000g-snps-phase1-broad-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The 1000G high confidence snps from phase 1 in vcf format. (Hosted on the broad's ftp site)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "phase1 - 12/7/13",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "hg19-cpg-islands-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -355,6 +455,38 @@
           "uploaded_to_aws"
         ],
         "data-version": "27-Apr-2009",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-dbsnp-138-broad-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "dpsnps",
+        "broad-institute",
+        "vcf-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-dbsnp-138-broad-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The dbsnp version 138 vcf file (hosted on the broad's ftp site)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "138 - 12/7/13",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
@@ -422,6 +554,38 @@
           "uploaded_to_aws"
         ],
         "data-version": "27-Apr-2009",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-hapmap-broad-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "hapmap",
+        "broad-institute",
+        "vcf-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-hapmap-broad-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The hapmap vcf versoin 3.3 (hosted on the  broad's ftp site)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "3.3 - 12/7/13",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
@@ -592,6 +756,39 @@
       "text_prefix": false,
       "version": "1"
     },
+    "hg38-bwa-1000g-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "bwa",
+        "bwa-index",
+        "1000g",
+        "alignment-index"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg38-bwa-1000g-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "pre-built bwa indicies from 1000g hg38/GRCh38 distribution",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "1000g - 3/8/15",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "hg38-cpg-islands-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -651,6 +848,38 @@
           "uploaded_to_aws"
         ],
         "data-version": "11-Mar-2019",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg38-gtf-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gtf",
+        "gtf-file",
+        "ensembl"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg38-gtf-ensembl-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The GRCh38 gtf file from ensembl remapped to hg38 (Any unmapped entries are removed from the file)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "release-96",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
@@ -752,6 +981,38 @@
           "uploaded_to_aws"
         ],
         "data-version": "06-Mar-2014",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg38-sequence-1000g-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sequence",
+        "1000g",
+        "fasta-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg38-sequence-1000g-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Full hg38/GRCh38 reference genome distributed by 1000 genomes Derived from NCBI set with HLA and decoy alternative alleles ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "1000g - 3/8/15",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,

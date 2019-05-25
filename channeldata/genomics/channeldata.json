@@ -559,6 +559,41 @@
       "text_prefix": false,
       "version": "1"
     },
+    "hg19-gtf-refseq-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "GTF",
+        "ReFSeq",
+        "potein-coding",
+        "non-protein-coding",
+        "refGene",
+        "UCSC"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-gtf-refseq-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The UCSC RefSeq gene track converted into GTF format containing known human protein-coding and non-protein-coding genes from RefSeq. (RefSeq: NCBI RNA reference sequence collection) (UCSC GTF format info: https://genome.ucsc.edu/FAQ/FAQformat.html#format3)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "31-Mar-2019",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "hg19-hapmap-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -586,6 +621,40 @@
           "uploaded_to_aws"
         ],
         "data-version": "3.3 - 12/7/13",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-ncbi-refseq-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "ncbi",
+        "refseq",
+        "UCSC",
+        "NCBI-RNA-reference-seqeunce-collection",
+        "bed-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-ncbi-refseq-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The composite NCBI RefSeq gene track from UCSC converted to bed format. (Human protein-coding and non-protein-coding genes from NCBI RefSeq)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "08-Apr-2018",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
@@ -719,6 +788,42 @@
           "uploaded_to_aws"
         ],
         "data-version": "27-Apr-2009",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg19-segmental-dups-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "superdups",
+        "segdups",
+        "seg",
+        "dups",
+        "duplications",
+        "UCSC",
+        "bed-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg19-segmental-dups-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The hg19 segmental duplications (SuperDups) File from UCSC. That is, duplications of at least 1kb total sequence of non-repeatmasker sequence in bed format",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "25-Oct-2011",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
@@ -885,6 +990,75 @@
       "text_prefix": false,
       "version": "1"
     },
+    "hg38-gtf-refseq-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "GTF",
+        "ReFSeq",
+        "potein-coding",
+        "non-protein-coding",
+        "refGene",
+        "UCSC"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg38-gtf-refseq-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The UCSC RefSeq gene track converted into GTF format containing known human protein-coding and non-protein-coding genes from RefSeq. (RefSeq: NCBI RNA reference sequence collection) (UCSC GTF format info: https://genome.ucsc.edu/FAQ/FAQformat.html#format3)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "31-Mar-2019",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg38-ncbi-refseq-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "ncbi",
+        "refseq",
+        "UCSC",
+        "NCBI-RNA-reference-seqeunce-collection",
+        "bed-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg38-ncbi-refseq-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The composite NCBI RefSeq gene track from UCSC converted to bed format. (Human protein-coding and non-protein-coding genes from NCBI RefSeq)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "03-Mar-2019",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "hg38-pfam-domains-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -981,6 +1155,42 @@
           "uploaded_to_aws"
         ],
         "data-version": "06-Mar-2014",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "hg38-segmental-dups-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "superdups",
+        "segdups",
+        "seg",
+        "dups",
+        "duplications",
+        "UCSC",
+        "bed-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/hg38-segmental-dups-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The hg38 segmental duplications (SuperDups) file from UCSC. That is, duplications of at least 1kb total sequence of non-repeatmasker sequence in bed format",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "19-Oct-2014",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,

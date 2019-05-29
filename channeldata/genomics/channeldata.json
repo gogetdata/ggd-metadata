@@ -1,6 +1,41 @@
 {
   "channeldata_version": 1,
   "packages": {
+    "danrer10-reference-genome-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "danRer10",
+        "species": "Danio_rerio"
+      },
+      "keywords": [
+        "ref",
+        "reference",
+        "zebrafish",
+        "genome",
+        "UCSC",
+        "fasta-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/danrer10-reference-genome-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The danRer10 reference genome from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "1/29/15",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "grch37-1000g-omni-snps-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -196,6 +231,40 @@
       "text_prefix": false,
       "version": "1"
     },
+    "grch37-phase3-vcf-1000g-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "1000g-variants",
+        "1000g",
+        "wgs",
+        "sites",
+        "vcf-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/grch37-phase3-vcf-1000g-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The phase3 1000g vcf file distrubted on 05/02/2013 in vcf format (decomposed and normalized)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "phase3 - 20130502 - 8/17/15",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "grch37-reference-genome-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -355,6 +424,41 @@
           "uploaded_to_aws"
         ],
         "data-version": "Release-95",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "grcz10-reference-genome-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "GRCz10",
+        "species": "Danio_rerio"
+      },
+      "keywords": [
+        "ref",
+        "reference",
+        "zebrafish",
+        "genome",
+        "Ensembl",
+        "fasta-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/grcz10-reference-genome-ensembl-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The GRCz10 release 91 reference genome from Ensembl",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "Release-91",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,

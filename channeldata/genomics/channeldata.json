@@ -36,6 +36,41 @@
       "text_prefix": false,
       "version": "1"
     },
+    "danrer11-reference-genome-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "danRer11",
+        "species": "Danio_rerio"
+      },
+      "keywords": [
+        "ref",
+        "reference",
+        "zebrafish",
+        "genome",
+        "UCSC",
+        "fasta-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/danrer11-reference-genome-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The danRer11 reference genome from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "6/6/17",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "grch37-1000g-omni-snps-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -363,6 +398,39 @@
       "text_prefix": false,
       "version": "1"
     },
+    "grch37-sv-gnomad-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sv",
+        "gnomAD",
+        "structural-variants",
+        "vcf-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/grch37-sv-gnomad-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SV callset from gnomAD",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "2.1.1",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "grch38-gtf-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -459,6 +527,41 @@
           "uploaded_to_aws"
         ],
         "data-version": "Release-91",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "grcz11-reference-genome-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "GRCz11",
+        "species": "Danio_rerio"
+      },
+      "keywords": [
+        "ref",
+        "reference",
+        "zebrafish",
+        "genome",
+        "Ensembl",
+        "fasta-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/grcz11-reference-genome-ensembl-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The GRCz11 release 96 reference genome from Ensembl",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "Release-96",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
@@ -1359,6 +1462,41 @@
           "uploaded_to_aws"
         ],
         "data-version": "06-Mar-2014",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "mm10-reference-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "mm10",
+        "species": "Mus_musculus"
+      },
+      "keywords": [
+        "reference",
+        "ucsc",
+        "mouse",
+        "mm10",
+        "reference-genome",
+        "fasta-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/mm10-reference-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Reference genome for mouse from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "07-Feb-2012",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,

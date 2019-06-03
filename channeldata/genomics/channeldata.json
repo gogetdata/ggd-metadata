@@ -202,6 +202,41 @@
       "text_prefix": false,
       "version": "1"
     },
+    "grch37-evofold-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "mRNA",
+        "secondary-structure",
+        "conserved",
+        "evofold",
+        "UCSC",
+        "bed-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/grch37-evofold-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The evolutionary conserved mRNA secondary structure predictions hosted on UCSC (Evofold). In bed format. (This file has been remapped from hg19 to GRCh37 with any unmappable contigs removed)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "26-Dec-2010",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "grch37-gtf-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -421,6 +456,39 @@
         "noarch"
       ],
       "summary": "SV callset from gnomAD",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "2.1.1",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "grch37-vcf-2.1-exome-gnomad-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gnomAD",
+        "genome-aggregation-database",
+        "Exome",
+        "vcf-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/grch37-vcf-2.1-exome-gnomad-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The gnomAD whole exome vcf file. Version 2.1.1 released on March 6, 2019. VCF file includes all non-neuro, non-cancer, controls-only, and non-TOPMed samples. (https://gnomad.broadinstitute.org/downloads)",
       "tags": {
         "cached": [
           "uploaded_to_aws"

@@ -221,7 +221,7 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-evofold-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/grch37-evofold-ucsc-v1-1-3.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"
@@ -786,7 +786,7 @@
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-evofold-ucsc-v1-1-1.tar.bz2",
+      "reference_package": "noarch/hg19-evofold-ucsc-v1-1-3.tar.bz2",
       "run_exports": {},
       "subdirs": [
         "noarch"

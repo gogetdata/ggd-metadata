@@ -1,6 +1,73 @@
 {
   "channeldata_version": 1,
   "packages": {
+    "danrer10-gtf-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "danRer10",
+        "species": "Danio_rerio"
+      },
+      "keywords": [
+        "gtf",
+        "gtf-file",
+        "ensembl"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/danrer10-gtf-ensembl-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The GRCz10 gtf file from ensembl remapped to danRer10 (Any unmapped entries are removed from the file)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "91",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
+    "danrer10-gtf-refseq-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "danRer10",
+        "species": "Danio_rerio"
+      },
+      "keywords": [
+        "GTF",
+        "RefSeq",
+        "protein-coding",
+        "non-protein-coding",
+        "refGene",
+        "UCSC"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/danrer10-gtf-refseq-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The UCSC RefSeq gene track converted into GTF format containing known zebrafish protein-coding and non-protein-coding genes from RefSeq. (RefSeq: NCBI RNA reference sequence collection) (UCSC GTF format info: https://genome.ucsc.edu/FAQ/FAQformat.html#format3)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-version": "21-May-2019",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "danrer10-reference-genome-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,

@@ -368,6 +368,43 @@
       "text_prefix": false,
       "version": "1"
     },
+    "grch37-pfam-domains-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "pfam",
+        "domains",
+        "protein",
+        "protein-domains",
+        "UCSC",
+        "bed",
+        "bed-file"
+      ],
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "reference_package": "noarch/grch37-pfam-domains-ucsc-v1-1-1.tar.bz2",
+      "run_exports": {},
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Pfam domain annotation in bed12 format. (From UCSC) Remapped from hg19 to GRCh37 (unmapped regions removed)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "16-Apr-2017",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "version": "1"
+    },
     "grch37-phase3-vcf-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,

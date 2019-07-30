@@ -1,1 +1,1 @@
-{"Danio_rerio": ["danRer10", "GRCz11", "GRCz10", "danRer11"], "Drosophila_melanogaster": ["dm6", "dm3"], "Canis_familiaris": ["canFam3"], "Homo_sapiens": ["hg38", "GRCh38", "hg19", "GRCh37"], "Mus_musculus": ["mm9", "mm10"]}
+{"Mus_musculus": ["mm10", "mm9"], "Canis_familiaris": ["canFam3"], "Drosophila_melanogaster": ["dm6", "dm3"], "Homo_sapiens": ["hg19", "GRCh37", "hg38", "GRCh38"], "Danio_rerio": ["danRer10", "danRer11", "GRCz11", "GRCz10"]}

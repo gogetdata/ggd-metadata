@@ -5,6 +5,13 @@
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "danRer10",
         "species": "Danio_rerio"
@@ -14,11 +21,14 @@
         "gtf-file",
         "ensembl"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/danrer10-gtf-ensembl-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -31,12 +41,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1560975616,
       "version": "1"
     },
     "danrer10-gtf-refseq-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "danRer10",
         "species": "Danio_rerio"
@@ -49,11 +67,14 @@
         "refGene",
         "UCSC"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/danrer10-gtf-refseq-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -66,12 +87,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1560975639,
       "version": "1"
     },
     "danrer10-reference-genome-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "danRer10",
         "species": "Danio_rerio"
@@ -84,11 +113,14 @@
         "UCSC",
         "fasta-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/danrer10-reference-genome-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -101,12 +133,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1559101827,
       "version": "1"
     },
     "danrer11-reference-genome-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "danRer11",
         "species": "Danio_rerio"
@@ -119,11 +159,14 @@
         "UCSC",
         "fasta-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/danrer11-reference-genome-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -136,12 +179,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1559191575,
       "version": "1"
     },
     "grch37-1000g-omni-snps-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -153,11 +204,14 @@
         "broad-institute",
         "vcf-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-1000g-omni-snps-broad-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -170,12 +224,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558210174,
       "version": "1"
     },
     "grch37-1000g-snps-phase1-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -187,11 +249,14 @@
         "broad-insitute",
         "vcf-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-1000g-snps-phase1-broad-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -204,12 +269,376 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558210153,
+      "version": "1"
+    },
+    "grch37-autosomal-dominant-genes-berg-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Berg_et_al",
+        "Blekhman_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "pathoscore"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Genomic coordinates, along with the compliment coordinance, for combined set of OMIM disease genes deemed to follow autosomal dominant inheritance. Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg-blekhman",
+        "data-version": "1-15-2013_6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-autosomal-dominant-genes-berg-blekhman-v1.bed.gz",
+          "grch37-autosomal-dominant-genes-berg-blekhman-v1.bed.gz.tbi",
+          "grch37-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz",
+          "grch37-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571433375,
+      "version": "1"
+    },
+    "grch37-autosomal-dominant-genes-berg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Berg_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "pathoscore"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Genomic coordinates, along with the compliment coordinance, from OMIM disease genes (as of June 2011) deemed to follow autosomal dominant inheritance according Berg et al, 2013 (https://www.ncbi.nlm.nih.gov/pubmed/22995991).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg",
+        "data-version": "1-15-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-autosomal-dominant-genes-berg-v1.bed.gz",
+          "grch37-autosomal-dominant-genes-berg-v1.bed.gz.tbi",
+          "grch37-autosomal-dominant-genes-berg-v1.compliment.bed.gz",
+          "grch37-autosomal-dominant-genes-berg-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571433351,
+      "version": "1"
+    },
+    "grch37-autosomal-dominant-genes-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Blekhman_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "pathoscore"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Genomic coordinates, along with the compliment coordinance, OMIM disease genes deemed to follow autosomal dominant inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "blekhman",
+        "data-version": "6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-autosomal-dominant-genes-blekhman-v1.bed.gz",
+          "grch37-autosomal-dominant-genes-blekhman-v1.bed.gz.tbi",
+          "grch37-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz",
+          "grch37-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571433302,
+      "version": "1"
+    },
+    "grch37-autosomal-recessive-genes-berg-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Berg_et_al",
+        "Blekhman_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "pathoscore"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Genomic coordinates, along with the compliment coordinance, for combined set of OMIM disease genes deemed to follow autosomal recessive inheritance. Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg-blekhman",
+        "data-version": "1-15-2013_6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-autosomal-recessive-genes-berg-blekhman-v1.bed.gz",
+          "grch37-autosomal-recessive-genes-berg-blekhman-v1.bed.gz.tbi",
+          "grch37-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz",
+          "grch37-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571433326,
+      "version": "1"
+    },
+    "grch37-autosomal-recessive-genes-berg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Berg_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "pathoscore"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Genomic coordinates, along with the compliment coordinance, from OMIM disease genes (as of June 2011) deemed to follow autosomal recessive inheritance according Berg et al, 2013. (https://www.ncbi.nlm.nih.gov/pubmed/22995991)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg",
+        "data-version": "1-15-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-autosomal-recessive-genes-berg-v1.bed.gz",
+          "grch37-autosomal-recessive-genes-berg-v1.bed.gz.tbi",
+          "grch37-autosomal-recessive-genes-berg-v1.compliment.bed.gz",
+          "grch37-autosomal-recessive-genes-berg-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571433278,
+      "version": "1"
+    },
+    "grch37-autosomal-recessive-genes-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Blekhman_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "pathoscore"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Genomic coordinates, along with the compliment coordinance, OMIM disease genes deemed to follow autosomal recessive inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "blekhman",
+        "data-version": "6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-autosomal-recessive-genes-blekhman-v1.bed.gz",
+          "grch37-autosomal-recessive-genes-blekhman-v1.bed.gz.tbi",
+          "grch37-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz",
+          "grch37-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571433400,
       "version": "1"
     },
     "grch37-dbsnp-138-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -219,11 +648,14 @@
         "broad-institute",
         "vcf-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-dbsnp-138-broad-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -236,12 +668,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558210111,
       "version": "1"
     },
     "grch37-esp-variants-uw-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -250,11 +690,14 @@
         "ESP",
         "vcf-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-esp-variants-uw-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -267,12 +710,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557759452,
       "version": "1"
     },
     "grch37-evofold-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -285,11 +736,14 @@
         "UCSC",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-evofold-ucsc-v1-1-3.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -302,12 +756,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1560880058,
       "version": "1"
     },
     "grch37-gtf-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -317,11 +779,14 @@
         "gtf-file",
         "ensembl"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-gtf-ensembl-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -334,12 +799,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558210194,
       "version": "1"
     },
     "grch37-hapmap-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -349,11 +822,14 @@
         "broad-institute",
         "vcf-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-hapmap-broad-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -366,12 +842,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558210132,
       "version": "1"
     },
     "grch37-pfam-domains-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -385,11 +869,14 @@
         "bed",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-pfam-domains-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -403,12 +890,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1561416836,
       "version": "1"
     },
     "grch37-phase3-vcf-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -420,11 +915,14 @@
         "sites",
         "vcf-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-phase3-vcf-1000g-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -437,12 +935,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558803286,
       "version": "1"
     },
     "grch37-reference-genome-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -452,11 +958,14 @@
         "reference",
         "fasta-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-reference-genome-1000g-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -469,12 +978,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754488,
       "version": "1"
     },
     "grch37-reference-genome-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -486,11 +1003,14 @@
         "fasta-file",
         "Release75"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-reference-genome-ensembl-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -503,12 +1023,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754465,
       "version": "1"
     },
     "grch37-sequence-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -518,11 +1046,14 @@
         "1000g",
         "fasta-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-sequence-1000g-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -535,12 +1066,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558210089,
       "version": "1"
     },
     "grch37-sv-gnomad-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -551,11 +1090,14 @@
         "structural-variants",
         "vcf-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-sv-gnomad-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -568,12 +1110,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1559191619,
       "version": "1"
     },
     "grch37-vcf-2.1-exome-gnomad-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh37",
         "species": "Homo_sapiens"
@@ -584,11 +1134,14 @@
         "Exome",
         "vcf-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch37-vcf-2.1-exome-gnomad-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -601,12 +1154,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1559348201,
       "version": "1"
     },
     "grch38-gtf-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh38",
         "species": "Homo_sapiens"
@@ -616,11 +1177,14 @@
         "gtf-file",
         "ensembl"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch38-gtf-ensembl-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -633,12 +1197,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558392518,
       "version": "1"
     },
     "grch38-reference-genome-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCh38",
         "species": "Homo_sapiens"
@@ -650,11 +1222,14 @@
         "Ensembl",
         "fasta-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grch38-reference-genome-ensembl-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -667,12 +1242,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754399,
       "version": "1"
     },
     "grcz10-reference-genome-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCz10",
         "species": "Danio_rerio"
@@ -685,11 +1268,14 @@
         "Ensembl",
         "fasta-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grcz10-reference-genome-ensembl-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -702,12 +1288,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1559101806,
       "version": "1"
     },
     "grcz11-reference-genome-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "GRCz11",
         "species": "Danio_rerio"
@@ -720,11 +1314,14 @@
         "Ensembl",
         "fasta-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/grcz11-reference-genome-ensembl-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -737,12 +1334,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1559191641,
       "version": "1"
     },
     "hg19-1000g-omni-snps-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -754,11 +1359,14 @@
         "broad-institute",
         "vcf-fil"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-1000g-omni-snps-broad-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -771,12 +1379,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558392540,
       "version": "1"
     },
     "hg19-1000g-snps-phase1-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -788,11 +1404,14 @@
         "broad-institute",
         "vcf-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-1000g-snps-phase1-broad-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -805,12 +1424,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558392496,
       "version": "1"
     },
     "hg19-cpg-islands-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -820,11 +1447,14 @@
         "region",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-cpg-islands-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -837,12 +1467,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754355,
       "version": "1"
     },
     "hg19-dbsnp-138-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -852,11 +1490,14 @@
         "broad-institute",
         "vcf-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-dbsnp-138-broad-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -869,12 +1510,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558392629,
       "version": "1"
     },
     "hg19-evofold-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -887,11 +1536,14 @@
         "conserved",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-evofold-ucsc-v1-1-3.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -904,12 +1556,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1560880080,
       "version": "1"
     },
     "hg19-gaps-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -919,11 +1579,14 @@
         "region",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-gaps-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -936,12 +1599,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557750197,
       "version": "1"
     },
     "hg19-gtf-refseq-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -954,11 +1625,14 @@
         "refGene",
         "UCSC"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-gtf-refseq-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -971,12 +1645,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558756502,
       "version": "1"
     },
     "hg19-hapmap-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -986,11 +1668,14 @@
         "broad-institute",
         "vcf-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-hapmap-broad-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1003,12 +1688,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558392562,
       "version": "1"
     },
     "hg19-ncbi-refseq-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -1020,11 +1713,14 @@
         "NCBI-RNA-reference-seqeunce-collection",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-ncbi-refseq-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1037,12 +1733,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558756544,
       "version": "1"
     },
     "hg19-pfam-domains-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -1053,13 +1757,17 @@
         "protein",
         "protein-domains",
         "UCSC",
+        "bed",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-pfam-domains-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1068,16 +1776,25 @@
         "cached": [
           "uploaded_to_aws"
         ],
+        "data-provider": "UCSC",
         "data-version": "16-Apr-2017",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1563903955,
       "version": "1"
     },
     "hg19-phastcons-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -1087,11 +1804,14 @@
         "conservation",
         "bigWig-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-phastcons-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1104,12 +1824,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754509,
       "version": "1"
     },
     "hg19-reference-genome-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -1121,11 +1849,14 @@
         "UCSC",
         "fasta-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-reference-genome-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1138,12 +1869,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754332,
       "version": "1"
     },
     "hg19-repeatmasker-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -1153,11 +1892,14 @@
         "region",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-repeatmasker-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1170,12 +1912,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754443,
       "version": "1"
     },
     "hg19-segmental-dups-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -1189,11 +1939,14 @@
         "UCSC",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-segmental-dups-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1206,12 +1959,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558756439,
       "version": "1"
     },
     "hg19-simplerepeats-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg19",
         "species": "Homo_sapiens"
@@ -1221,11 +1982,14 @@
         "regions",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg19-simplerepeats-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1238,12 +2002,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754311,
       "version": "1"
     },
     "hg38-bwa-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1254,11 +2026,14 @@
         "1000g",
         "alignment-index"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-bwa-1000g-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1271,12 +2046,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558392652,
       "version": "1"
     },
     "hg38-cpg-islands-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1286,11 +2069,14 @@
         "region",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-cpg-islands-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1303,12 +2089,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754554,
       "version": "1"
     },
     "hg38-gaps-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1318,11 +2112,14 @@
         "region",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-gaps-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1335,12 +2132,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754532,
       "version": "1"
     },
     "hg38-gtf-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1350,11 +2155,14 @@
         "gtf-file",
         "ensembl"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-gtf-ensembl-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1367,12 +2175,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558392607,
       "version": "1"
     },
     "hg38-gtf-refseq-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1385,11 +2201,14 @@
         "refGene",
         "UCSC"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-gtf-refseq-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1402,12 +2221,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558756481,
       "version": "1"
     },
     "hg38-ncbi-refseq-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1419,11 +2246,14 @@
         "NCBI-RNA-reference-seqeunce-collection",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-ncbi-refseq-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1436,12 +2266,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558756460,
       "version": "1"
     },
     "hg38-pfam-domains-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1454,11 +2292,14 @@
         "bed-file",
         "UCSC"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-pfam-domains-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1471,12 +2312,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754377,
       "version": "1"
     },
     "hg38-reference-genome-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1488,11 +2337,14 @@
         "UCSC",
         "fasta-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-reference-genome-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1505,12 +2357,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754576,
       "version": "1"
     },
     "hg38-repeatmasker-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1520,11 +2380,14 @@
         "region",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-repeatmasker-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1537,12 +2400,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754421,
       "version": "1"
     },
     "hg38-segmental-dups-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1556,11 +2427,14 @@
         "UCSC",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-segmental-dups-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1573,12 +2447,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558756523,
       "version": "1"
     },
     "hg38-sequence-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1588,11 +2470,14 @@
         "1000g",
         "fasta-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-sequence-1000g-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1605,12 +2490,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1558392584,
       "version": "1"
     },
     "hg38-simplerepeats-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "hg38",
         "species": "Homo_sapiens"
@@ -1620,11 +2513,14 @@
         "regions",
         "bed-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/hg38-simplerepeats-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1637,12 +2533,20 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1557754289,
       "version": "1"
     },
     "mm10-reference-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
       "identifiers": {
         "genome-build": "mm10",
         "species": "Mus_musculus"
@@ -1655,11 +2559,14 @@
         "reference-genome",
         "fasta-file"
       ],
+      "license": null,
       "post_link": true,
       "pre_link": false,
       "pre_unlink": false,
-      "reference_package": "noarch/mm10-reference-ucsc-v1-1-1.tar.bz2",
+      "recipe_origin": null,
       "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
       "subdirs": [
         "noarch"
       ],
@@ -1672,6 +2579,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
+      "timestamp": 1559191597,
       "version": "1"
     }
   },

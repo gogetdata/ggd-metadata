@@ -329,7 +329,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571433375,
+      "timestamp": 1571436689,
       "version": "1"
     },
     "grch37-autosomal-dominant-genes-berg-v1": {
@@ -388,7 +388,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571433351,
+      "timestamp": 1571436664,
       "version": "1"
     },
     "grch37-autosomal-dominant-genes-blekhman-v1": {
@@ -447,7 +447,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571433302,
+      "timestamp": 1571436615,
       "version": "1"
     },
     "grch37-autosomal-recessive-genes-berg-blekhman-v1": {
@@ -507,7 +507,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571433326,
+      "timestamp": 1571436639,
       "version": "1"
     },
     "grch37-autosomal-recessive-genes-berg-v1": {
@@ -566,7 +566,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571433278,
+      "timestamp": 1571436590,
       "version": "1"
     },
     "grch37-autosomal-recessive-genes-blekhman-v1": {
@@ -625,7 +625,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571433400,
+      "timestamp": 1571436714,
       "version": "1"
     },
     "grch37-dbsnp-138-broad-v1": {

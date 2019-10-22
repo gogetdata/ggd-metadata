@@ -628,6 +628,60 @@
       "timestamp": 1571438888,
       "version": "1"
     },
+    "grch37-cytobands-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "cytobands",
+        "ideogram",
+        "staining",
+        "chromosome",
+        "bands"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Cytobands from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "14-Jun-2009",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-cytobands-ucsc-v1.bed.gz",
+          "grch37-cytobands-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571714793,
+      "version": "1"
+    },
     "grch37-dbsnp-138-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -843,6 +897,59 @@
       },
       "text_prefix": false,
       "timestamp": 1558210132,
+      "version": "1"
+    },
+    "grch37-microsatellites-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "microsatellites",
+        "microsats",
+        "STR",
+        "STRs"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Microsatellites from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "28-Nov-2010",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-microsatellites-ucsc-v1.bed.gz",
+          "grch37-microsatellites-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571714843,
       "version": "1"
     },
     "grch37-pfam-domains-ucsc-v1": {
@@ -1470,6 +1577,60 @@
       "timestamp": 1557754355,
       "version": "1"
     },
+    "hg19-cytobands-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "cytobands",
+        "ideogram",
+        "staining",
+        "chromosome",
+        "bands"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Cytobands from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "14-Jun-2009",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "hg19-cytobands-ucsc-v1.bed.gz",
+          "hg19-cytobands-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571714743,
+      "version": "1"
+    },
     "hg19-dbsnp-138-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -1689,6 +1850,59 @@
       },
       "text_prefix": false,
       "timestamp": 1558392562,
+      "version": "1"
+    },
+    "hg19-microsatellites-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "microsatellites",
+        "microsats",
+        "STR",
+        "STRs"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Microsatellites from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "28-Nov-2010",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "hg19-microsatellites-ucsc-v1.bed.gz",
+          "hg19-microsatellites-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571714818,
       "version": "1"
     },
     "hg19-ncbi-refseq-ucsc-v1": {
@@ -2092,6 +2306,60 @@
       "timestamp": 1557754554,
       "version": "1"
     },
+    "hg38-cytobands-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "cytobands",
+        "ideogram",
+        "staining",
+        "chromosome",
+        "bands"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Cytobands from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "11-Mar-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "hg38-cytobands-ucsc-v1.bed.gz",
+          "hg38-cytobands-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571714868,
+      "version": "1"
+    },
     "hg38-gaps-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -2222,6 +2490,59 @@
       },
       "text_prefix": false,
       "timestamp": 1558756481,
+      "version": "1"
+    },
+    "hg38-microsatellites-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "microsatellites",
+        "microsats",
+        "STR",
+        "STRs"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Microsatellites from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "3-Aug-2015",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "hg38-microsatellites-ucsc-v1.bed.gz",
+          "hg38-microsatellites-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571714768,
       "version": "1"
     },
     "hg38-ncbi-refseq-ucsc-v1": {

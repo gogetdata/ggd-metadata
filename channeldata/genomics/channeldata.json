@@ -725,6 +725,66 @@
       "timestamp": 1558210111,
       "version": "1"
     },
+    "grch37-eiee-genes-ostrander-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "eiee",
+        "early-infantile",
+        "epileptic",
+        "epilepsy",
+        "encephalopathy",
+        "ostrander",
+        "bed-file",
+        "genes",
+        "pathoscore"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "This is a set of genes from a recent paper on EIEE (Early Infantile Epileptic Encephalopathy) a severe, fatal epileptic syndrome that occurs within the first few months of life. The gene set is a compilation of gene sets from a few different companies' gene panels, as well as one from the U of Chicago. Paper at: https://www.nature.com/articles/s41525-018-0061-8",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ostrander",
+        "data-version": "13-Aug-2018",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-eiee-genes-ostrander-v1.complement.bed.gz",
+          "grch37-eiee-genes-ostrander-v1.complement.bed.gz.tbi",
+          "grch37-eiee-genes-ostrander-v1.bed.gz",
+          "grch37-eiee-genes-ostrander-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571801269,
+      "version": "1"
+    },
     "grch37-esp-variants-uw-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -856,6 +916,120 @@
       "timestamp": 1558210194,
       "version": "1"
     },
+    "grch37-haploinsufficient-genes-clingen-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "haploinsufficient",
+        "haploinsufficiency",
+        "clingen",
+        "bed-file",
+        "genes",
+        "pathoscore"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The 'clingen_hi_gene' haploinsufficient gene set comes from ClinGen's Dosage Sensitivity Map and is curated by Daniel MacArthur's lab. The genes used are those that are haplosensitive and not triplosensitive, and are level 3 (the maximum level) dosage sensitive. Original work on this is part of the Cytogenomic Arrays Consortium. Paper at: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008023/",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ClinGen",
+        "data-version": "01-Sept-2016",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-haploinsufficient-genes-clingen-v1.bed.gz",
+          "grch37-haploinsufficient-genes-clingen-v1.bed.gz.tbi",
+          "grch37-haploinsufficient-genes-clingen-v1.complement.bed.gz",
+          "grch37-haploinsufficient-genes-clingen-v1.complement.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571801293,
+      "version": "1"
+    },
+    "grch37-haploinsufficient-genes-dang-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "haploinsufficient",
+        "haploinsufficiency",
+        "dang",
+        "bed-file",
+        "genes",
+        "pathoscore"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The haploinsufficient gene set comes from Dang et al. (2008): https://www.nature.com/articles/ejhg2008111. They used text-searching and database-mining on Pubmed and OMIM to extract an annotated list of human haploinsufficient genes, their associated diseases, and functions. In total there are 299 genes.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Dang",
+        "data-version": "04-June-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-haploinsufficient-genes-dang-v1.bed.gz",
+          "grch37-haploinsufficient-genes-dang-v1.bed.gz.tbi",
+          "grch37-haploinsufficient-genes-dang-v1.complement.bed.gz",
+          "grch37-haploinsufficient-genes-dang-v1.complement.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571801245,
+      "version": "1"
+    },
     "grch37-hapmap-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -897,6 +1071,63 @@
       },
       "text_prefix": false,
       "timestamp": 1558210132,
+      "version": "1"
+    },
+    "grch37-heart-genes-sifrim-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "heart",
+        "heart-disease",
+        "genes",
+        "sifrim",
+        "bed-file",
+        "pathoscore"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Manually curated list of congenital heart disease (CHD) genes from Sifrim et al.: www.nature.com/articles/ng.3627. Used Supplemental Table 20 here: https://media.nature.com/original/nature-assets/ng/journal/v48/n9/extref/ng.3627-S13.xlsx",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "sifrim",
+        "data-version": "01-Aug-2016",
+        "file-type": [
+          "bed"
+        ],
+        "final-files": [
+          "grch37-heart-genes-sifrim-v1.bed.gz",
+          "grch37-heart-genes-sifrim-v1.bed.gz.tbi",
+          "grch37-heart-genes-sifrim-v1.complement.bed.gz",
+          "grch37-heart-genes-sifrim-v1.complement.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571801318,
       "version": "1"
     },
     "grch37-microsatellites-ucsc-v1": {

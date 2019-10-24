@@ -1364,6 +1364,56 @@
       "timestamp": 1557754465,
       "version": "1"
     },
+    "grch37-scores-by-amino-acid-change-ggd-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "amino-acid",
+        "constraint"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "missense badnass, blosum, grantham scores foreach amino acid change",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ggd",
+        "data-version": "1",
+        "file-type": [
+          "txt"
+        ],
+        "final-files": [
+          "grch37-scores-by-amino-acid-change-ggd-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1571887093,
+      "version": "1"
+    },
     "grch37-sequence-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,

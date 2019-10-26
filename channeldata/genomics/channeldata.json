@@ -628,6 +628,58 @@
       "timestamp": 1571438888,
       "version": "1"
     },
+    "grch37-chromsizes-ggd-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genome",
+        "chromosome",
+        "lengths",
+        "sizes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Chromosome lengths for GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GGD",
+        "data-version": "11-Oct-2019",
+        "file-type": [
+          "txt"
+        ],
+        "final-files": [
+          "grch37-chromsizes-ggd-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1572060134,
+      "version": "1"
+    },
     "grch37-cytobands-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -1545,6 +1597,58 @@
       "timestamp": 1559348201,
       "version": "1"
     },
+    "grch38-chromsizes-ggd-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genome",
+        "chromosome",
+        "lengths",
+        "sizes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Chromosome lengths for GRCh38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GGD",
+        "data-version": "11-Oct-2019",
+        "file-type": [
+          "chromsizes"
+        ],
+        "final-files": [
+          "grch38-chromsizes-ggd-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1572060161,
+      "version": "1"
+    },
     "grch38-gtf-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -1813,6 +1917,58 @@
       },
       "text_prefix": false,
       "timestamp": 1558392496,
+      "version": "1"
+    },
+    "hg19-chromsizes-ggd-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genome",
+        "chromosome",
+        "lengths",
+        "sizes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Chromosome lengths for hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GGD",
+        "data-version": "11-Oct-2019",
+        "file-type": [
+          "chromsizes"
+        ],
+        "final-files": [
+          "hg19-chromsizes-ggd-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1572060080,
       "version": "1"
     },
     "hg19-cpg-islands-ucsc-v1": {
@@ -2542,6 +2698,58 @@
       },
       "text_prefix": false,
       "timestamp": 1558392652,
+      "version": "1"
+    },
+    "hg38-chromsizes-ggd-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genome",
+        "chromosome",
+        "lengths",
+        "sizes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Chromosome lengths for hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GGD",
+        "data-version": "11-Oct-2019",
+        "file-type": [
+          "chromsizes"
+        ],
+        "final-files": [
+          "hg38-chromsizes-ggd-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1572060108,
       "version": "1"
     },
     "hg38-cpg-islands-ucsc-v1": {

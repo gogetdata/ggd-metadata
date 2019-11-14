@@ -1182,6 +1182,177 @@
       "timestamp": 1571801318,
       "version": "1"
     },
+    "grch37-hg002-pb-chr22-giab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "ashkenazi",
+        "hg002",
+        "pacbio",
+        "pb",
+        "giab",
+        "chr22",
+        "trio"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "GiaB PacBio 70x sequencing for chromosome 22 in ashkenazi sample HG002",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "giab",
+        "data-version": "11-18-15",
+        "file-type": [
+          "fastq"
+        ],
+        "final-files": [
+          "grch37-hg002-pb-chr22-giab-v1.fastq.gz",
+          "grch37-hg002-pb-chr22-giab-v1.fastq.gz.fai",
+          "grch37-hg002-pb-chr22-giab-v1.fastq.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1573702170,
+      "version": "1"
+    },
+    "grch37-hg003-pb-chr22-giab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "ashkenazi",
+        "hg003",
+        "pacbio",
+        "pb",
+        "giab",
+        "chr22",
+        "trio"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "GiaB PacBio 30x sequencing for chromosome 22 in ashkenazi sample HG003",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "giab",
+        "data-version": "11-18-15",
+        "file-type": [
+          "fastq"
+        ],
+        "final-files": [
+          "grch37-hg003-pb-chr22-giab-v1.fastq.gz",
+          "grch37-hg003-pb-chr22-giab-v1.fastq.gz.fai",
+          "grch37-hg003-pb-chr22-giab-v1.fastq.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1573702143,
+      "version": "1"
+    },
+    "grch37-hg004-pb-chr22-giab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "ashkenazi",
+        "hg004",
+        "pacbio",
+        "pb",
+        "giab",
+        "chr22",
+        "trio"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "GiaB PacBio 30x sequencing for chromosome 22 in ashkenazi sample HG004",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "giab",
+        "data-version": "11-18-15",
+        "file-type": [
+          "fastq"
+        ],
+        "final-files": [
+          "grch37-hg004-pb-chr22-giab-v1.fastq.gz",
+          "grch37-hg004-pb-chr22-giab-v1.fastq.gz.fai",
+          "grch37-hg004-pb-chr22-giab-v1.fastq.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1573702197,
+      "version": "1"
+    },
     "grch37-microsatellites-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,

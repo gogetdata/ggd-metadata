@@ -1863,6 +1863,174 @@
       "timestamp": 1558392518,
       "version": "1"
     },
+    "grch38-hg002-chr22-illumina-giab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "giab",
+        "hg002",
+        "ashkenazi",
+        "trio",
+        "illumina",
+        "chr22",
+        "examples"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Illumina paired-end sequencing alignments from HG002, downloaded from GIAB, and subset to 30X for chr22. Usable as an example dataset",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GIAB",
+        "data-version": "7_25_15",
+        "file-type": [
+          "bam"
+        ],
+        "final-files": [
+          "grch38-hg002-chr22-illumina-giab-v1.chr22.bam",
+          "grch38-hg002-chr22-illumina-giab-v1.chr22.bam.bai"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1573795958,
+      "version": "1"
+    },
+    "grch38-hg003-chr22-illumina-giab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "giab",
+        "hg003",
+        "ashkenazi",
+        "trio",
+        "illumina",
+        "chr22",
+        "examples"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Illumina paired-end sequencing alignments from HG003, downloaded from GIAB, and subset to 30X for chr22. Usable as an example dataset",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GIAB",
+        "data-version": "7_26_15",
+        "file-type": [
+          "bam"
+        ],
+        "final-files": [
+          "grch38-hg003-chr22-illumina-giab-v1.chr22.bam",
+          "grch38-hg003-chr22-illumina-giab-v1.chr22.bam.bai"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1573795908,
+      "version": "1"
+    },
+    "grch38-hg004-chr22-illumina-giab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "giab",
+        "hg004",
+        "ashkenazi",
+        "trio",
+        "illumina",
+        "chr22",
+        "examples"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Illumina paired-end sequencing alignments from HG004, downloaded from GIAB, and subset to 30X for chr22. Usable as an example dataset",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GIAB",
+        "data-version": "7_27_15",
+        "file-type": [
+          "bam"
+        ],
+        "final-files": [
+          "grch38-hg004-chr22-illumina-giab-v1.chr22.bam",
+          "grch38-hg004-chr22-illumina-giab-v1.chr22.bam.bai"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1573795933,
+      "version": "1"
+    },
     "grch38-reference-genome-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,

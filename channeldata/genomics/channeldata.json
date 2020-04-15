@@ -838,6 +838,10 @@
         "file-type": [
           "bed"
         ],
+        "final-file-sizes": {
+          "grch37-cpg-islands-ucsc-v1.bed.gz": "614.42K",
+          "grch37-cpg-islands-ucsc-v1.bed.gz.tbi": "185.26K"
+        },
         "final-files": [
           "grch37-cpg-islands-ucsc-v1.bed.gz",
           "grch37-cpg-islands-ucsc-v1.bed.gz.tbi"
@@ -846,7 +850,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1586300809,
+      "timestamp": 1586986183,
       "version": "1"
     },
     "grch37-cytobands-ucsc-v1": {
@@ -2206,6 +2210,10 @@
         "file-type": [
           "bed"
         ],
+        "final-file-sizes": {
+          "grch38-cpg-islands-ucsc-v1.bed.gz": "663.42K",
+          "grch38-cpg-islands-ucsc-v1.bed.gz.tbi": "201.53K"
+        },
         "final-files": [
           "grch38-cpg-islands-ucsc-v1.bed.gz",
           "grch38-cpg-islands-ucsc-v1.bed.gz.tbi"
@@ -2214,7 +2222,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1586300734,
+      "timestamp": 1586986099,
       "version": "1"
     },
     "grch38-gaps-ucsc-v1": {
@@ -2924,6 +2932,10 @@
         "file-type": [
           "bed"
         ],
+        "final-file-sizes": {
+          "hg19-cpg-islands-ucsc-v1.bed.gz": "621.35K",
+          "hg19-cpg-islands-ucsc-v1.bed.gz.tbi": "186.06K"
+        },
         "final-files": [
           "hg19-cpg-islands-ucsc-v1.bed.gz",
           "hg19-cpg-islands-ucsc-v1.bed.gz.tbi"
@@ -2932,7 +2944,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1586300784,
+      "timestamp": 1586986155,
       "version": "1"
     },
     "hg19-cytobands-ucsc-v1": {
@@ -3847,6 +3859,10 @@
         "file-type": [
           "bed"
         ],
+        "final-file-sizes": {
+          "hg38-cpg-islands-ucsc-v1.bed.gz": "672.51K",
+          "hg38-cpg-islands-ucsc-v1.bed.gz.tbi": "202.68K"
+        },
         "final-files": [
           "hg38-cpg-islands-ucsc-v1.bed.gz",
           "hg38-cpg-islands-ucsc-v1.bed.gz.tbi"
@@ -3855,7 +3871,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1586300759,
+      "timestamp": 1586986127,
       "version": "1"
     },
     "hg38-cytobands-ucsc-v1": {

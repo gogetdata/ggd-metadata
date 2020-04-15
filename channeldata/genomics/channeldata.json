@@ -670,10 +670,13 @@
           "uploaded_to_aws"
         ],
         "data-provider": "NCBI",
-        "data-version": "13-October-2016-(patch13)",
+        "data-version": "12-October-2016-(patch13)",
         "file-type": [
           "txt"
         ],
+        "final-file-sizes": {
+          "grch37-chrom-mapping-ucsc2ensembl-ncbi-v1.txt": "2.12K"
+        },
         "final-files": [
           "grch37-chrom-mapping-ucsc2ensembl-ncbi-v1.txt"
         ],
@@ -681,7 +684,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1586279130,
+      "timestamp": 1586974532,
       "version": "1"
     },
     "grch37-chromsizes-ggd-v1": {
@@ -734,6 +737,62 @@
       },
       "text_prefix": false,
       "timestamp": 1572060134,
+      "version": "1"
+    },
+    "grch37-chromsizes-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genome",
+        "chromosome",
+        "lengths",
+        "sizes",
+        "chrom-lengths"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Chromosome lengths for the GRCh37 genome build from NCBI. (Used to create the Go Get Data (GGD) GRCh37.genome file)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "12-October-2016-(patch13)",
+        "file-type": [
+          "genome"
+        ],
+        "final-file-sizes": {
+          "grch37-chromsizes-ncbi-v1.genome": "5.17K"
+        },
+        "final-files": [
+          "grch37-chromsizes-ncbi-v1.genome"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1586974637,
       "version": "1"
     },
     "grch37-cpg-islands-ucsc-v1": {
@@ -1979,10 +2038,13 @@
           "uploaded_to_aws"
         ],
         "data-provider": "NCBI",
-        "data-version": "14-March-2019-(patch13)",
+        "data-version": "14-April-2020-(patch13)",
         "file-type": [
           "txt"
         ],
+        "final-file-sizes": {
+          "grch38-chrom-mapping-ucsc2ensembl-ncbi-v1.txt": "17.88K"
+        },
         "final-files": [
           "grch38-chrom-mapping-ucsc2ensembl-ncbi-v1.txt"
         ],
@@ -1990,7 +2052,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1586279104,
+      "timestamp": 1586974481,
       "version": "1"
     },
     "grch38-chromsizes-ggd-v1": {
@@ -2043,6 +2105,62 @@
       },
       "text_prefix": false,
       "timestamp": 1572060161,
+      "version": "1"
+    },
+    "grch38-chromsizes-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genome",
+        "chromosome",
+        "lengths",
+        "sizes",
+        "chrom-lengths"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Chromosome lengths for the GRCh38 genome build from NCBI. (Used to create the Go Get Data (GGD) GRCh38.genome file)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "14-April-2020-(patch13)",
+        "file-type": [
+          "genome"
+        ],
+        "final-file-sizes": {
+          "grch38-chromsizes-ncbi-v1.genome": "11.14K"
+        },
+        "final-files": [
+          "grch38-chromsizes-ncbi-v1.genome"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1586974506,
       "version": "1"
     },
     "grch38-cpg-islands-ucsc-v1": {
@@ -2638,10 +2756,13 @@
           "uploaded_to_aws"
         ],
         "data-provider": "NCBI",
-        "data-version": "13-October-2016-(patch13)",
+        "data-version": "12-October-2016-(patch13)",
         "file-type": [
           "txt"
         ],
+        "final-file-sizes": {
+          "hg19-chrom-mapping-ensembl2ucsc-ncbi-v1.txt": "4.56K"
+        },
         "final-files": [
           "hg19-chrom-mapping-ensembl2ucsc-ncbi-v1.txt"
         ],
@@ -2649,7 +2770,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1586279157,
+      "timestamp": 1586974611,
       "version": "1"
     },
     "hg19-chromsizes-ggd-v1": {
@@ -2702,6 +2823,62 @@
       },
       "text_prefix": false,
       "timestamp": 1572060080,
+      "version": "1"
+    },
+    "hg19-chromsizes-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genome",
+        "chromosome",
+        "lengths",
+        "sizes",
+        "chrom-lengths"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Chromosome lengths for the hg19 genome build from NCBI. (Used to create the Go Get Data (GGD) hg19.genome file)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "12-October-2016-(patch13)",
+        "file-type": [
+          "genome"
+        ],
+        "final-file-sizes": {
+          "hg19-chromsizes-ncbi-v1.genome": "1.99K"
+        },
+        "final-files": [
+          "hg19-chromsizes-ncbi-v1.genome"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1586974585,
       "version": "1"
     },
     "hg19-cpg-islands-ucsc-v1": {
@@ -3502,10 +3679,13 @@
           "uploaded_to_aws"
         ],
         "data-provider": "NCBI",
-        "data-version": "14-March-2019-(patch13)",
+        "data-version": "14-April-2020-(patch13)",
         "file-type": [
           "txt"
         ],
+        "final-file-sizes": {
+          "hg38-chrom-mapping-ensembl2ucsc-ncbi-v1.txt": "18.42K"
+        },
         "final-files": [
           "hg38-chrom-mapping-ensembl2ucsc-ncbi-v1.txt"
         ],
@@ -3513,7 +3693,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1586279077,
+      "timestamp": 1586974454,
       "version": "1"
     },
     "hg38-chromsizes-ggd-v1": {
@@ -3566,6 +3746,62 @@
       },
       "text_prefix": false,
       "timestamp": 1572060108,
+      "version": "1"
+    },
+    "hg38-chromsizes-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genome",
+        "chromosome",
+        "lengths",
+        "sizes",
+        "chrom-lengths"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Chromosome lengths for the hg38 genome build from NCBI. (Used to create the Go Get Data (GGD) hg38.genome file)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "14-April-2020-(patch13)",
+        "file-type": [
+          "genome"
+        ],
+        "final-file-sizes": {
+          "hg38-chromsizes-ncbi-v1.genome": "15.53K"
+        },
+        "final-files": [
+          "hg38-chromsizes-ncbi-v1.genome"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1586974558,
       "version": "1"
     },
     "hg38-cpg-islands-ucsc-v1": {

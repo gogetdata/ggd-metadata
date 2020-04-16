@@ -1662,9 +1662,7 @@
         "domains",
         "protein",
         "protein-domains",
-        "UCSC",
-        "bed",
-        "bed-file"
+        "UCSC"
       ],
       "license": null,
       "post_link": true,
@@ -1677,17 +1675,29 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "Pfam domain annotation in bed12 format. (From UCSC) Remapped from hg19 to GRCh37 (unmapped regions removed)",
+      "summary": "High quality, manually curated Pfam domain annotation in bed12 format from UCSC. Remapped from UCSC hg19 to Ensembl GRCh37. Any scaffoldings that are not in the GRCh37.genome file or that cannot be remapped are removed",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
         "data-provider": "UCSC",
         "data-version": "16-Apr-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-pfam-domains-ucsc-v1.bed12.bed.gz": "1.40M",
+          "grch37-pfam-domains-ucsc-v1.bed12.bed.gz.tbi": "142.89K"
+        },
+        "final-files": [
+          "grch37-pfam-domains-ucsc-v1.bed12.bed.gz",
+          "grch37-pfam-domains-ucsc-v1.bed12.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1561416836,
+      "timestamp": 1586995389,
       "version": "1"
     },
     "grch37-phase3-vcf-1000g-v1": {
@@ -2501,6 +2511,64 @@
       },
       "text_prefix": false,
       "timestamp": 1573795933,
+      "version": "1"
+    },
+    "grch38-pfam-domains-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "pfam",
+        "domains",
+        "protein",
+        "protein-domains",
+        "UCSC"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "High quality, manually curated Pfam domain annotation in bed12 format from UCSC. Remapped from UCSC hg38 to Ensembl GRCh38. Scaffoldings that cannot remap are removed",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "13-Oct-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-pfam-domains-ucsc-v1.bed12.bed.gz": "1.48M",
+          "grch38-pfam-domains-ucsc-v1.bed12.bed.gz.tbi": "155.90K"
+        },
+        "final-files": [
+          "grch38-pfam-domains-ucsc-v1.bed12.bed.gz",
+          "grch38-pfam-domains-ucsc-v1.bed12.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1586995363,
       "version": "1"
     },
     "grch38-reference-genome-ensembl-v1": {
@@ -3368,9 +3436,7 @@
         "domains",
         "protein",
         "protein-domains",
-        "UCSC",
-        "bed",
-        "bed-file"
+        "UCSC"
       ],
       "license": null,
       "post_link": true,
@@ -3383,17 +3449,29 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "Pfam domain annotation in bed12 format. (From UCSC)",
+      "summary": "High quality, manually curated Pfam domain annotation in bed12 format from UCSC",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
         "data-provider": "UCSC",
         "data-version": "16-Apr-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-pfam-domains-ucsc-v1.bed12.bed.gz": "1.41M",
+          "hg19-pfam-domains-ucsc-v1.bed12.bed.gz.tbi": "143.50K"
+        },
+        "final-files": [
+          "hg19-pfam-domains-ucsc-v1.bed12.bed.gz",
+          "hg19-pfam-domains-ucsc-v1.bed12.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1563903955,
+      "timestamp": 1586995337,
       "version": "1"
     },
     "hg19-phastcons-ucsc-v1": {
@@ -4210,7 +4288,6 @@
         "domains",
         "protein",
         "protein-domains",
-        "bed-file",
         "UCSC"
       ],
       "license": null,
@@ -4224,16 +4301,29 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "Pfam domain annotation in bed12 format. (From UCSC)",
+      "summary": "High quality, manually curated Pfam domain annotation in bed12 format from UCSC",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
-        "data-version": "18-Nov-2018",
+        "data-provider": "UCSC",
+        "data-version": "13-Oct-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-pfam-domains-ucsc-v1.bed12.bed.gz": "1.49M",
+          "hg38-pfam-domains-ucsc-v1.bed12.bed.gz.tbi": "156.80K"
+        },
+        "final-files": [
+          "hg38-pfam-domains-ucsc-v1.bed12.bed.gz",
+          "hg38-pfam-domains-ucsc-v1.bed12.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1557754377,
+      "timestamp": 1586995415,
       "version": "1"
     },
     "hg38-reference-genome-ucsc-v1": {

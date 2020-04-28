@@ -1847,6 +1847,69 @@
       "timestamp": 1557754465,
       "version": "1"
     },
+    "grch37-repeatmasker-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "rmsk",
+        "region",
+        "low-complexity-repeats",
+        "SINE",
+        "ALUs",
+        "LINE",
+        "LTR",
+        "DNA-repeat-elements",
+        "simple-repeats",
+        "RNA-repeats"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "RepeatMasker track from UCSC in bed format. Interspersed repeats and low complexity sequences identified using the RepeatMasker program. Scaffoldings missing from the GGD hg19.genome file are removed. Remapped from UCSC hg19 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "22-Mar-2020",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-repeatmasker-ucsc-v1.bed.gz": "113.57M",
+          "grch37-repeatmasker-ucsc-v1.bed.gz.tbi": "525.84K"
+        },
+        "final-files": [
+          "grch37-repeatmasker-ucsc-v1.bed.gz",
+          "grch37-repeatmasker-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588044012,
+      "version": "1"
+    },
     "grch37-scores-by-amino-acid-change-ggd-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -2749,6 +2812,69 @@
       },
       "text_prefix": false,
       "timestamp": 1557754399,
+      "version": "1"
+    },
+    "grch38-repeatmasker-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "rmsk",
+        "region",
+        "low-complexity-repeats",
+        "SINE",
+        "ALUs",
+        "LINE",
+        "LTR",
+        "DNA-repeat-elements",
+        "simple-repeats",
+        "RNA-repeats"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "RepeatMasker track from UCSC in bed format. Interspersed repeats and low complexity sequences identified using the RepeatMasker program. Remapped from UCSC hg38 to Ensembl GRCh38.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "11-Mar-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-repeatmasker-ucsc-v1.bed.gz": "123.29M",
+          "grch38-repeatmasker-ucsc-v1.bed.gz.tbi": "560.21K"
+        },
+        "final-files": [
+          "grch38-repeatmasker-ucsc-v1.bed.gz",
+          "grch38-repeatmasker-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588044037,
       "version": "1"
     },
     "grcz10-reference-genome-ensembl-v1": {
@@ -3729,7 +3855,14 @@
       "keywords": [
         "rmsk",
         "region",
-        "bed-file"
+        "low-complexity-repeats",
+        "SINE",
+        "ALUs",
+        "LINE",
+        "LTR",
+        "DNA-repeat-elements",
+        "simple-repeats",
+        "RNA-repeats"
       ],
       "license": null,
       "post_link": true,
@@ -3742,16 +3875,29 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "RepeatMasker track from UCSC in bed format",
+      "summary": "RepeatMasker track from UCSC in bed format. Interspersed repeats and low complexity sequences identified using the RepeatMasker program. Scaffoldings missing from the GGD hg19.genome file are removed.",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
-        "data-version": "27-Apr-2009",
+        "data-provider": "UCSC",
+        "data-version": "22-Mar-2020",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-repeatmasker-ucsc-v1.bed.gz": "114.62M",
+          "hg19-repeatmasker-ucsc-v1.bed.gz.tbi": "526.98K"
+        },
+        "final-files": [
+          "hg19-repeatmasker-ucsc-v1.bed.gz",
+          "hg19-repeatmasker-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1557754443,
+      "timestamp": 1588043951,
       "version": "1"
     },
     "hg19-segmental-dups-ucsc-v1": {
@@ -4552,7 +4698,14 @@
       "keywords": [
         "rmsk",
         "region",
-        "bed-file"
+        "low-complexity-repeats",
+        "SINE",
+        "ALUs",
+        "LINE",
+        "LTR",
+        "DNA-repeat-elements",
+        "simple-repeats",
+        "RNA-repeats"
       ],
       "license": null,
       "post_link": true,
@@ -4565,16 +4718,29 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "RepeatMasker track from UCSC in bed format",
+      "summary": "RepeatMasker track from UCSC in bed format. Interspersed repeats and low complexity sequences identified using the RepeatMasker program.",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
-        "data-version": "06-Mar-2014",
+        "data-provider": "UCSC",
+        "data-version": "11-Mar-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-repeatmasker-ucsc-v1.bed.gz": "124.47M",
+          "hg38-repeatmasker-ucsc-v1.bed.gz.tbi": "561.26K"
+        },
+        "final-files": [
+          "hg38-repeatmasker-ucsc-v1.bed.gz",
+          "hg38-repeatmasker-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1557754421,
+      "timestamp": 1588043987,
       "version": "1"
     },
     "hg38-segmental-dups-ucsc-v1": {

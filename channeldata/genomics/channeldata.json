@@ -798,6 +798,67 @@
       "timestamp": 1586974637,
       "version": "1"
     },
+    "grch37-constrained-coding-regions-quinlan-lab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "constraint",
+        "coding-constraint",
+        "constrained-coding-regions",
+        "ccr"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Constrained Coding Regions (CCRs): https://www.nature.com/articles/s41588-018-0294-6. Regions of human specific coding constraint presumably under strong purifying selection. Constraint is based on the lack of variation within the gnomAD dataset calibrated by the size and CpG content of the region. Regional Constraint is broken up into Autosomes and the X-Chromosome.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "quinlan-lab",
+        "data-version": "v2.2018-04-20",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-constrained-coding-regions-quinlan-lab-v1.X.bed.gz": "3.72M",
+          "grch37-constrained-coding-regions-quinlan-lab-v1.X.bed.gz.csi": "14.87K",
+          "grch37-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz": "154.44M",
+          "grch37-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz.csi": "412.79K"
+        },
+        "final-files": [
+          "grch37-constrained-coding-regions-quinlan-lab-v1.X.bed.gz",
+          "grch37-constrained-coding-regions-quinlan-lab-v1.X.bed.gz.csi",
+          "grch37-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz",
+          "grch37-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz.csi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588268408,
+      "version": "1"
+    },
     "grch37-cpg-islands-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -3465,6 +3526,67 @@
       "timestamp": 1586974585,
       "version": "1"
     },
+    "hg19-constrained-coding-regions-quinlan-lab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "constraint",
+        "coding-constraint",
+        "constrained-coding-regions",
+        "ccr"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Constrained Coding Regions (CCRs): https://www.nature.com/articles/s41588-018-0294-6. Regions of human specific coding constraint presumably under strong purifying selection. Constraint is based on the lack of variation within the gnomAD dataset calibrated by the size and CpG content of the region. Regional Constraint is broken up into Autosomes and the X-Chromosome. Chromosomes have been remapped from Ensembl GRCh37 to UCSC hg19.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "quinlan-lab",
+        "data-version": "v2.2018-04-20",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-constrained-coding-regions-quinlan-lab-v1.X.bed.gz": "3.73M",
+          "hg19-constrained-coding-regions-quinlan-lab-v1.X.bed.gz.csi": "14.88K",
+          "hg19-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz": "155.06M",
+          "hg19-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz.csi": "413.52K"
+        },
+        "final-files": [
+          "hg19-constrained-coding-regions-quinlan-lab-v1.X.bed.gz",
+          "hg19-constrained-coding-regions-quinlan-lab-v1.X.bed.gz.csi",
+          "hg19-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz",
+          "hg19-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz.csi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588268434,
+      "version": "1"
+    },
     "hg19-cpg-islands-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4252,49 +4374,6 @@
       },
       "text_prefix": false,
       "timestamp": 1588101166,
-      "version": "1"
-    },
-    "hg19-simplerepeats-ucsc-v1": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "description": null,
-      "dev_url": null,
-      "doc_source_url": null,
-      "doc_url": null,
-      "home": null,
-      "icon_hash": null,
-      "icon_url": null,
-      "identifiers": {
-        "genome-build": "hg19",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "simrep",
-        "regions",
-        "bed-file"
-      ],
-      "license": null,
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "recipe_origin": null,
-      "run_exports": {},
-      "source_git_url": null,
-      "source_url": null,
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "Simple repeats track from UCSC | name=sequence | score=alignment score | col 7 = period | col 8 = copy_num",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "27-Apr-2009",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "timestamp": 1557754311,
       "version": "1"
     },
     "hg38-bwa-1000g-v1": {
@@ -5209,49 +5288,6 @@
       },
       "text_prefix": false,
       "timestamp": 1588101194,
-      "version": "1"
-    },
-    "hg38-simplerepeats-ucsc-v1": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "description": null,
-      "dev_url": null,
-      "doc_source_url": null,
-      "doc_url": null,
-      "home": null,
-      "icon_hash": null,
-      "icon_url": null,
-      "identifiers": {
-        "genome-build": "hg38",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "simrep",
-        "regions",
-        "bed-file"
-      ],
-      "license": null,
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "recipe_origin": null,
-      "run_exports": {},
-      "source_git_url": null,
-      "source_url": null,
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "Simple repeats track from UCSC | name=sequence | score=alignment score | col 7 = period | col 8 = copy_num",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-version": "06-Mar-2014",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "timestamp": 1557754289,
       "version": "1"
     },
     "mm10-reference-ucsc-v1": {

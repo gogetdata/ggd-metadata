@@ -1670,6 +1670,64 @@
       "timestamp": 1573702197,
       "version": "1"
     },
+    "grch37-known-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "KnownGenes",
+        "gene-features",
+        "UCSC-Genes",
+        "protein-coding-genes",
+        "non-coding-RNA-genes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The 'KnownGene' track from UCSC. Comprsied of gene predictions based on data from Refseq, GenBank, CCDS, RFam, and tRNA genes tracks. Includes protein-coding genes and non-coding RNA genes. Gene symbols and gene descriptions have been added to the dataset. Remapped from UCSC hg19 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "30-Jun-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-known-genes-ucsc-v1.bed.gz": "5.22M",
+          "grch37-known-genes-ucsc-v1.bed.gz.tbi": "129.95K"
+        },
+        "final-files": [
+          "grch37-known-genes-ucsc-v1.bed.gz",
+          "grch37-known-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588975380,
+      "version": "1"
+    },
     "grch37-microsatellites-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -3027,6 +3085,69 @@
       "timestamp": 1573795933,
       "version": "1"
     },
+    "grch38-known-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "KnownGenes",
+        "gene-features",
+        "UCSC-Genes",
+        "protein-coding-genes",
+        "non-coding-RNA-genes",
+        "long-non-coding-RNA",
+        "small-non-coding-RNA",
+        "pseduogenes",
+        "immunoglobulin",
+        "GENCODE-v32-genes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The 'KnownGene' track from UCSC. Comprised of all gene models from GENCODE v32. Includes protein-coding genes, non-coding RNA genes, and pseudo-genes. Gene symbols and gene descriptions have been added to the dataset. Remapped from UCSC hg38 to Ensembl GRCh38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "13-Oct-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-known-genes-ucsc-v1.bed.gz": "13.64M",
+          "grch38-known-genes-ucsc-v1.bed.gz.tbi": "217.99K"
+        },
+        "final-files": [
+          "grch38-known-genes-ucsc-v1.bed.gz",
+          "grch38-known-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588975300,
+      "version": "1"
+    },
     "grch38-microsatellites-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4218,6 +4339,64 @@
       "timestamp": 1558392562,
       "version": "1"
     },
+    "hg19-known-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "KnownGenes",
+        "gene-features",
+        "UCSC-Genes",
+        "protein-coding-genes",
+        "non-coding-RNA-genes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The 'KnownGene' track from UCSC. Comprsied of gene predictions based on data from Refseq, GenBank, CCDS, RFam, and tRNA genes tracks. Includes protein-coding genes and non-coding RNA genes. Gene symbols and gene descriptions have been added to the dataset.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "30-Jun-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-known-genes-ucsc-v1.bed.gz": "5.22M",
+          "hg19-known-genes-ucsc-v1.bed.gz.tbi": "130.19K"
+        },
+        "final-files": [
+          "hg19-known-genes-ucsc-v1.bed.gz",
+          "hg19-known-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588975327,
+      "version": "1"
+    },
     "hg19-microsatellites-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -5271,6 +5450,69 @@
       },
       "text_prefix": false,
       "timestamp": 1558756481,
+      "version": "1"
+    },
+    "hg38-known-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "KnownGenes",
+        "gene-features",
+        "UCSC-Genes",
+        "protein-coding-genes",
+        "non-coding-RNA-genes",
+        "long-non-coding-RNA",
+        "small-non-coding-RNA",
+        "pseduogenes",
+        "immunoglobulin",
+        "GENCODE-v32-genes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The 'KnownGene' track from UCSC. Comprised of all gene models from GENCODE v32. Includes protein-coding genes, non-coding RNA genes, and pseudo-genes. Gene symbols and gene descriptions have been added to the dataset.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "13-Oct-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-known-genes-ucsc-v1.bed.gz": "13.66M",
+          "hg38-known-genes-ucsc-v1.bed.gz.tbi": "218.81K"
+        },
+        "final-files": [
+          "hg38-known-genes-ucsc-v1.bed.gz",
+          "hg38-known-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588975353,
       "version": "1"
     },
     "hg38-microsatellites-ucsc-v1": {

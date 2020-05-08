@@ -1138,9 +1138,9 @@
       "keywords": [
         "mRNA",
         "secondary-structure",
-        "conserved",
         "evofold",
         "UCSC",
+        "conserved",
         "bed-file"
       ],
       "license": null,
@@ -1154,16 +1154,29 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "The evolutionary conserved mRNA secondary structure predictions hosted on UCSC (Evofold). In bed format. (This file has been remapped from hg19 to GRCh37 with any unmappable contigs removed)",
+      "summary": "The evolutionary conserved mRNA secondary structure predictions hosted on UCSC. In bed format. Remapped from UCSC hg19 to Ensembl GRCh37",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
+        "data-provider": "UCSC",
         "data-version": "26-Dec-2010",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-evofold-ucsc-v1.bed.gz": "3.20M",
+          "grch37-evofold-ucsc-v1.bed.gz.tbi": "279.01K"
+        },
+        "final-files": [
+          "grch37-evofold-ucsc-v1.bed.gz",
+          "grch37-evofold-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1560880058,
+      "timestamp": 1588950914,
       "version": "1"
     },
     "grch37-gaps-ucsc-v1": {
@@ -1820,6 +1833,70 @@
       "timestamp": 1558803286,
       "version": "1"
     },
+    "grch37-phastcons-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "phastCons",
+        "conservation",
+        "phastCons-Hmm",
+        "conservation-scores",
+        "genome-conservation",
+        "bigwig",
+        "bedgraph"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Conservation scores based on the phastcons HMM algorithm against multi-aligned sequences of 100 different species. Remapped from UCSC hg19 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "09-Feb-2014",
+        "file-type": [
+          "bedGraph.gz",
+          "bedGraph.gz.tbi",
+          "bw"
+        ],
+        "final-file-sizes": {
+          "grch37-phastcons-ucsc-v1.bedGraph.bw": "13.41G",
+          "grch37-phastcons-ucsc-v1.bedGraph.gz": "11.65G",
+          "grch37-phastcons-ucsc-v1.bedGraph.gz.tbi": "1.93K"
+        },
+        "final-files": [
+          "grch37-phastcons-ucsc-v1.bedGraph.bw",
+          "grch37-phastcons-ucsc-v1.bedGraph.gz",
+          "grch37-phastcons-ucsc-v1.bedGraph.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588617279,
+      "version": "1"
+    },
     "grch37-reference-genome-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -2440,6 +2517,67 @@
       "timestamp": 1586974506,
       "version": "1"
     },
+    "grch38-constrained-coding-regions-quinlan-lab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "constraint",
+        "coding-constraint",
+        "constrained-coding-regions",
+        "ccr"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "*LiftOver* Constrained Coding Regions (CCRs): https://www.nature.com/articles/s41588-018-0294-6. Regions of human specific coding constraint presumably under strong purifying selection. Constraint is based on the lack of variation within the gnomAD dataset calibrated by the size and CpG content of the region. Regional Constraint is broken up into Autosomes and the X-Chromosome. Chromosome coordinates and CCR regions are lifted over from GRCh37 to GRCh38 using the Crossmap algorithm. Any unmapped regions are removed. Any region split into multiple regions are combined. (NOTE: The genomic coordinates have been remapped, but there has been no QC on the CCR percentiles preservation. It is yet to be determined if the CCR percentiles have been completely preserved during the liftover, but it can be assumed they should be similar based on the little to no change in region sizes.)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "quinlan-lab",
+        "data-version": "v2.2018-04-20",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-constrained-coding-regions-quinlan-lab-v1.X.bed.gz": "3.76M",
+          "grch38-constrained-coding-regions-quinlan-lab-v1.X.bed.gz.csi": "15.32K",
+          "grch38-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz": "155.68M",
+          "grch38-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz.csi": "413.13K"
+        },
+        "final-files": [
+          "grch38-constrained-coding-regions-quinlan-lab-v1.X.bed.gz",
+          "grch38-constrained-coding-regions-quinlan-lab-v1.X.bed.gz.csi",
+          "grch38-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz",
+          "grch38-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz.csi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588622138,
+      "version": "1"
+    },
     "grch38-cpg-islands-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -2554,6 +2692,65 @@
       },
       "text_prefix": false,
       "timestamp": 1587057227,
+      "version": "1"
+    },
+    "grch38-evofold-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "mRNA",
+        "secondary-structure",
+        "evofold",
+        "UCSC",
+        "conserved",
+        "bed-file"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "*Liftover* The evolutionary conserved mRNA secondary structure predictions hosted on UCSC. In bed format. Lifted over from UCSC hg19 to UCSC hg38. Remapped from UCSC hg38 to Ensembl GRCh38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "26-Dec-2010",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-evofold-ucsc-v1.bed.gz": "3.21M",
+          "grch38-evofold-ucsc-v1.bed.gz.tbi": "277.56K"
+        },
+        "final-files": [
+          "grch38-evofold-ucsc-v1.bed.gz",
+          "grch38-evofold-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588950941,
       "version": "1"
     },
     "grch38-gaps-ucsc-v1": {
@@ -2946,6 +3143,70 @@
       },
       "text_prefix": false,
       "timestamp": 1586995363,
+      "version": "1"
+    },
+    "grch38-phastcons-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "phastCons",
+        "conservation",
+        "phastCons-Hmm",
+        "conservation-scores",
+        "genome-conservation",
+        "bigwig",
+        "bedgraph"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Conservation scores based on the phastcons HMM algorithm against multi-aligned sequences of 100 different species. Remapped from UCSC hg38 to Ensembl GRCh38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "08-May-2015",
+        "file-type": [
+          "bedGraph.gz",
+          "bedGraph.gz.tbi",
+          "bw"
+        ],
+        "final-file-sizes": {
+          "grch38-phastcons-ucsc-v1.bedGraph.bw": "13.67G",
+          "grch38-phastcons-ucsc-v1.bedGraph.gz": "11.86G",
+          "grch38-phastcons-ucsc-v1.bedGraph.gz.tbi": "7.11K"
+        },
+        "final-files": [
+          "grch38-phastcons-ucsc-v1.bedGraph.bw",
+          "grch38-phastcons-ucsc-v1.bedGraph.gz",
+          "grch38-phastcons-ucsc-v1.bedGraph.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588623438,
       "version": "1"
     },
     "grch38-reference-genome-ensembl-v1": {
@@ -3785,11 +4046,24 @@
         "cached": [
           "uploaded_to_aws"
         ],
+        "data-provider": "UCSC",
         "data-version": "26-Dec-2010",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-evofold-ucsc-v1.bed.gz": "3.21M",
+          "hg19-evofold-ucsc-v1.bed.gz.tbi": "279.12K"
+        },
+        "final-files": [
+          "hg19-evofold-ucsc-v1.bed.gz",
+          "hg19-evofold-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1560880080,
+      "timestamp": 1588950888,
       "version": "1"
     },
     "hg19-gaps-ucsc-v1": {
@@ -4125,7 +4399,11 @@
       "keywords": [
         "phastCons",
         "conservation",
-        "bigWig-file"
+        "phastCons-Hmm",
+        "conservation-scores",
+        "genome-conservation",
+        "bigwig",
+        "bedgraph"
       ],
       "license": null,
       "post_link": true,
@@ -4138,16 +4416,33 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "phastCons scores for MSA of 99 genomes to hg19",
+      "summary": "Conservation scores based on the phastcons HMM algorithm against multi-aligned sequences of 100 different species",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
+        "data-provider": "UCSC",
         "data-version": "09-Feb-2014",
+        "file-type": [
+          "bedGraph.gz",
+          "bedGraph.gz.tbi",
+          "bw"
+        ],
+        "final-file-sizes": {
+          "hg19-phastcons-ucsc-v1.bedGraph.gz": "11.75G",
+          "hg19-phastcons-ucsc-v1.bedGraph.gz.tbi": "2.08K",
+          "hg19-phastcons-ucsc-v1.bw": "5.78G"
+        },
+        "final-files": [
+          "hg19-phastcons-ucsc-v1.bedGraph.gz",
+          "hg19-phastcons-ucsc-v1.bedGraph.gz.tbi",
+          "hg19-phastcons-ucsc-v1.bw"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1557754509,
+      "timestamp": 1588626592,
       "version": "1"
     },
     "hg19-reference-genome-ucsc-v1": {
@@ -4590,6 +4885,67 @@
       "timestamp": 1586974558,
       "version": "1"
     },
+    "hg38-constrained-coding-regions-quinlan-lab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "constraint",
+        "coding-constraint",
+        "constrained-coding-regions",
+        "ccr"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "*LiftOver* Constrained Coding Regions (CCRs): https://www.nature.com/articles/s41588-018-0294-6. Regions of human specific coding constraint presumably under strong purifying selection. Constraint is based on the lack of variation within the gnomAD dataset calibrated by the size and CpG content of the region. Regional Constraint is broken up into Autosomes and the X-Chromosome. Chromosome coordinates and CCR regions are lifted over from GRCh37 to GRCh38 using the Crossmap algorithm. Additionaly, the chromsomes have been remapped from Ensembl GRCh38 to UCSC hg38. Any unmapped regions are removed. Any region split into multiple regions are combined. (NOTE: The genomic coordinates have been remapped, but there has been no QC on the CCR percentiles preservation. It is yet to be determined if the CCR percentiles have been completely preserved during the liftover, but it can be assumed they should be similar based on the little to no change in region sizes.)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "quinlan-lab",
+        "data-version": "v2.2018-04-20",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-constrained-coding-regions-quinlan-lab-v1.X.bed.gz": "3.78M",
+          "hg38-constrained-coding-regions-quinlan-lab-v1.X.bed.gz.csi": "15.33K",
+          "hg38-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz": "156.19M",
+          "hg38-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz.csi": "413.39K"
+        },
+        "final-files": [
+          "hg38-constrained-coding-regions-quinlan-lab-v1.X.bed.gz",
+          "hg38-constrained-coding-regions-quinlan-lab-v1.X.bed.gz.csi",
+          "hg38-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz",
+          "hg38-constrained-coding-regions-quinlan-lab-v1.autosomes.bed.gz.csi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588633956,
+      "version": "1"
+    },
     "hg38-cpg-islands-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4704,6 +5060,65 @@
       },
       "text_prefix": false,
       "timestamp": 1587057305,
+      "version": "1"
+    },
+    "hg38-evofold-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "mRNA",
+        "secondary-structure",
+        "evofold",
+        "UCSC",
+        "conserved",
+        "bed-file"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "*Liftover* The evolutionary conserved mRNA secondary structure predictions hosted on UCSC. In bed format. Lifted over from UCSC hg19 to UCSC hg38.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "26-Dec-2010",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-evofold-ucsc-v1.bed.gz": "3.21M",
+          "hg38-evofold-ucsc-v1.bed.gz.tbi": "277.97K"
+        },
+        "final-files": [
+          "hg38-evofold-ucsc-v1.bed.gz",
+          "hg38-evofold-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588950981,
       "version": "1"
     },
     "hg38-gaps-ucsc-v1": {
@@ -5019,6 +5434,70 @@
       },
       "text_prefix": false,
       "timestamp": 1586995415,
+      "version": "1"
+    },
+    "hg38-phastcons-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "phastCons",
+        "conservation",
+        "phastCons-Hmm",
+        "conservation-scores",
+        "genome-conservation",
+        "bigwig",
+        "bedgraph"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Conservation scores based on the phastcons HMM algorithm against multi-aligned sequences of 100 different species",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "08-May-2015",
+        "file-type": [
+          "bedGraph.gz",
+          "bedGraph.gz.tbi",
+          "bw"
+        ],
+        "final-file-sizes": {
+          "hg38-phastcons-ucsc-v1.bedGraph.gz": "11.97G",
+          "hg38-phastcons-ucsc-v1.bedGraph.gz.tbi": "7.28K",
+          "hg38-phastcons-ucsc-v1.bw": "5.89G"
+        },
+        "final-files": [
+          "hg38-phastcons-ucsc-v1.bedGraph.gz",
+          "hg38-phastcons-ucsc-v1.bedGraph.gz.tbi",
+          "hg38-phastcons-ucsc-v1.bw"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588630175,
       "version": "1"
     },
     "hg38-reference-genome-ucsc-v1": {

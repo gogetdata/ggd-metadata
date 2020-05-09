@@ -1728,6 +1728,72 @@
       "timestamp": 1588975380,
       "version": "1"
     },
+    "grch37-knowngene-gene-features-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "KnownGenes",
+        "gene-features",
+        "UCSC-Genes",
+        "feature-file",
+        "gene-feature-file",
+        "5UTR",
+        "3UTR",
+        "CDS",
+        "exon",
+        "start_codon",
+        "stop_codon",
+        "transcript",
+        "GTF"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features from the 'KnownGene' track from UCSC. (GTF). Features include 5UTR, 3UTR, CDS, exon, start_codon, stop_codon, transcript. Features are comprised of gene predictions based on data from Refseq, GenBank, CCDS, RFam, and tRNA genes tracks. IDs correspond to the UCSC knowGene IDs. Remapped from UCSC hg19 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "10-Jan-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-knowngene-gene-features-ucsc-v1.gtf.gz": "17.33M",
+          "grch37-knowngene-gene-features-ucsc-v1.gtf.gz.tbi": "281.64K"
+        },
+        "final-files": [
+          "grch37-knowngene-gene-features-ucsc-v1.gtf.gz",
+          "grch37-knowngene-gene-features-ucsc-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588982691,
+      "version": "1"
+    },
     "grch37-microsatellites-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -3148,6 +3214,73 @@
       "timestamp": 1588975300,
       "version": "1"
     },
+    "grch38-knowngene-gene-features-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "KnownGenes",
+        "gene-features",
+        "UCSC-Genes",
+        "feature-file",
+        "gene-feature-file",
+        "5UTR",
+        "3UTR",
+        "CDS",
+        "exon",
+        "start_codon",
+        "stop_codon",
+        "transcript",
+        "GTF",
+        "GENCODE-v32-genes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features from the 'KnownGene' track from UCSC. (GTF). Features include 5UTR, 3UTR, CDS, exon, start_codon, stop_codon, transcript. Features are comprised of all gene models from GENCODE v32. IDs correspond to the UCSC knowGene IDs. Remapped from UCSC hg38 to Ensembl GRCh38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "10-Jan-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-knowngene-gene-features-ucsc-v1.gtf.gz": "35.26M",
+          "grch38-knowngene-gene-features-ucsc-v1.gtf.gz.tbi": "339.14K"
+        },
+        "final-files": [
+          "grch38-knowngene-gene-features-ucsc-v1.gtf.gz",
+          "grch38-knowngene-gene-features-ucsc-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588982627,
+      "version": "1"
+    },
     "grch38-microsatellites-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4397,6 +4530,72 @@
       "timestamp": 1588975327,
       "version": "1"
     },
+    "hg19-knowngene-gene-features-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "KnownGenes",
+        "gene-features",
+        "UCSC-Genes",
+        "feature-file",
+        "gene-feature-file",
+        "5UTR",
+        "3UTR",
+        "CDS",
+        "exon",
+        "start_codon",
+        "stop_codon",
+        "transcript",
+        "GTF"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features from the 'KnownGene' track from UCSC. (GTF). Features include 5UTR, 3UTR, CDS, exon, start_codon, stop_codon, transcript. Features are comprised of gene predictions based on data from Refseq, GenBank, CCDS, RFam, and tRNA genes tracks. IDs correspond to the UCSC knowGene IDs",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "10-Jan-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-knowngene-gene-features-ucsc-v1.gtf.gz": "17.42M",
+          "hg19-knowngene-gene-features-ucsc-v1.gtf.gz.tbi": "282.43K"
+        },
+        "final-files": [
+          "hg19-knowngene-gene-features-ucsc-v1.gtf.gz",
+          "hg19-knowngene-gene-features-ucsc-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588982654,
+      "version": "1"
+    },
     "hg19-microsatellites-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -5513,6 +5712,73 @@
       },
       "text_prefix": false,
       "timestamp": 1588975353,
+      "version": "1"
+    },
+    "hg38-knowngene-gene-features-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "KnownGenes",
+        "gene-features",
+        "UCSC-Genes",
+        "feature-file",
+        "gene-feature-file",
+        "5UTR",
+        "3UTR",
+        "CDS",
+        "exon",
+        "start_codon",
+        "stop_codon",
+        "transcript",
+        "GTF",
+        "GENCODE-v32-genes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features from the 'KnownGene' track from UCSC. (GTF). Features include 5UTR, 3UTR, CDS, exon, start_codon, stop_codon, transcript. Features are comprised of all gene models from GENCODE v32. IDs correspond to the UCSC knowGene IDs.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "10-Jan-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-knowngene-gene-features-ucsc-v1.gtf.gz": "35.47M",
+          "hg38-knowngene-gene-features-ucsc-v1.gtf.gz.tbi": "339.94K"
+        },
+        "final-files": [
+          "hg38-knowngene-gene-features-ucsc-v1.gtf.gz",
+          "hg38-knowngene-gene-features-ucsc-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588982717,
       "version": "1"
     },
     "hg38-microsatellites-ucsc-v1": {

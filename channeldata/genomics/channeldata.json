@@ -1854,6 +1854,126 @@
       "timestamp": 1587755766,
       "version": "1"
     },
+    "grch37-ncbi-refseq-gene-features-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "GTF",
+        "gene-feature-file",
+        "NCBI-Refseq",
+        "Refseq-All"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features for all curated and predicted annotations from the NCBI Refseq track from UCSC. (GTF). Refseq ALL. Human protein-coding and non-protein-coding genes from NCBI RNA reference seqeunce collection. Scaffoldings that are not contained in the hg19.genome file are removed. Remapped from UCSC hg19 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "10-Jan-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-ncbi-refseq-gene-features-ucsc-v1.gtf.gz": "14.87M",
+          "grch37-ncbi-refseq-gene-features-ucsc-v1.gtf.gz.tbi": "293.90K"
+        },
+        "final-files": [
+          "grch37-ncbi-refseq-gene-features-ucsc-v1.gtf.gz",
+          "grch37-ncbi-refseq-gene-features-ucsc-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590106704,
+      "version": "1"
+    },
+    "grch37-ncbi-refseq-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Genes",
+        "Refseq",
+        "NCBI-Refeq",
+        "gene-info",
+        "transcript-coordinates",
+        "exon-coordinates",
+        "cds-coordinates",
+        "exon-count",
+        "refseq-gene-id",
+        "refseq-transcript-id"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "NCBI Refseq Genes track from UCSC. Curated and predicated genes from Refseq. Data include protein-coding and non-protein-coding genes. Gene info includes chromosome, transcript coordinates, CDS coordinates, exon coordinates, exon count, strand, gene and transcript ids, etc. Scaffoldings that are not contained in the hg19.genome file are removed. Remapped from UCSC hg19 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "22-Mar-2020",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-ncbi-refseq-genes-ucsc-v1.bed.gz": "3.94M",
+          "grch37-ncbi-refseq-genes-ucsc-v1.bed.gz.tbi": "116.32K"
+        },
+        "final-files": [
+          "grch37-ncbi-refseq-genes-ucsc-v1.bed.gz",
+          "grch37-ncbi-refseq-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590106880,
+      "version": "1"
+    },
     "grch37-pfam-domains-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -3341,6 +3461,126 @@
       "timestamp": 1587755690,
       "version": "1"
     },
+    "grch38-ncbi-refseq-gene-features-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "GTF",
+        "gene-feature-file",
+        "NCBI-Refseq",
+        "Refseq-All"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features for all curated and predicted annotations from the NCBI Refseq track from UCSC. (GTF). Refseq ALL. Human protein-coding and non-protein-coding genes from NCBI RNA reference seqeunce collection. Remapped from UCSC hg38 to Ensembl GRCh38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "10-Jan-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-ncbi-refseq-gene-features-ucsc-v1.gtf.gz": "34.53M",
+          "grch38-ncbi-refseq-gene-features-ucsc-v1.gtf.gz.tbi": "356.51K"
+        },
+        "final-files": [
+          "grch38-ncbi-refseq-gene-features-ucsc-v1.gtf.gz",
+          "grch38-ncbi-refseq-gene-features-ucsc-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590106763,
+      "version": "1"
+    },
+    "grch38-ncbi-refseq-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Genes",
+        "Refseq",
+        "NCBI-Refeq",
+        "gene-info",
+        "transcript-coordinates",
+        "exon-coordinates",
+        "cds-coordinates",
+        "exon-count",
+        "refseq-gene-id",
+        "refseq-transcript-id"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "NCBI Refseq Genes track from UCSC. Curated and predicated genes from Refseq. Data include protein-coding and non-protein-coding genes. Gene info includes chromosome, transcript coordinates, CDS coordinates, exon coordinates, exon count, strand, gene and transcript ids, etc. Remapped from UCSC hg38 to Ensembl GRCh38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "09-Feb-2020",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-ncbi-refseq-genes-ucsc-v1.bed.gz": "6.96M",
+          "grch38-ncbi-refseq-genes-ucsc-v1.bed.gz.tbi": "163.48K"
+        },
+        "final-files": [
+          "grch38-ncbi-refseq-genes-ucsc-v1.bed.gz",
+          "grch38-ncbi-refseq-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590106821,
+      "version": "1"
+    },
     "grch38-pfam-domains-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4656,6 +4896,126 @@
       "timestamp": 1587755741,
       "version": "1"
     },
+    "hg19-ncbi-refseq-gene-features-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "GTF",
+        "gene-feature-file",
+        "NCBI-Refseq",
+        "Refseq-All"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features for all curated and predicted annotations from the NCBI Refseq track from UCSC. (GTF). Refseq ALL. Human protein-coding and non-protein-coding genes from NCBI RNA reference seqeunce collection. Scaffoldings that are not contained in the hg19.genome file are removed",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "10-Jan-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-ncbi-refseq-gene-features-ucsc-v1.gtf.gz": "14.92M",
+          "hg19-ncbi-refseq-gene-features-ucsc-v1.gtf.gz.tbi": "294.49K"
+        },
+        "final-files": [
+          "hg19-ncbi-refseq-gene-features-ucsc-v1.gtf.gz",
+          "hg19-ncbi-refseq-gene-features-ucsc-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590106733,
+      "version": "1"
+    },
+    "hg19-ncbi-refseq-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Genes",
+        "Refseq",
+        "NCBI-Refeq",
+        "gene-info",
+        "transcript-coordinates",
+        "exon-coordinates",
+        "cds-coordinates",
+        "exon-count",
+        "refseq-gene-id",
+        "refseq-transcript-id"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "NCBI Refseq Genes track from UCSC. Curated and predicated genes from Refseq. Data include protein-coding and non-protein-coding genes. Gene info includes chromosome, transcript coordinates, CDS coordinates, exon coordinates, exon count, strand, gene and transcript ids, etc. Scaffoldings that are not contained in the hg19.genome file are removed",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "22-Mar-2020",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-ncbi-refseq-genes-ucsc-v1.bed.gz": "3.94M",
+          "hg19-ncbi-refseq-genes-ucsc-v1.bed.gz.tbi": "116.45K"
+        },
+        "final-files": [
+          "hg19-ncbi-refseq-genes-ucsc-v1.bed.gz",
+          "hg19-ncbi-refseq-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590106851,
+      "version": "1"
+    },
     "hg19-ncbi-refseq-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -5839,6 +6199,126 @@
       },
       "text_prefix": false,
       "timestamp": 1587755715,
+      "version": "1"
+    },
+    "hg38-ncbi-refseq-gene-features-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "GTF",
+        "gene-feature-file",
+        "NCBI-Refseq",
+        "Refseq-All"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features for all curated and predicted annotations from the NCBI Refseq track from UCSC. (GTF). Refseq ALL. Human protein-coding and non-protein-coding genes from NCBI RNA reference seqeunce collection.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "10-Jan-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-ncbi-refseq-gene-features-ucsc-v1.gtf.gz": "34.69M",
+          "hg38-ncbi-refseq-gene-features-ucsc-v1.gtf.gz.tbi": "356.76K"
+        },
+        "final-files": [
+          "hg38-ncbi-refseq-gene-features-ucsc-v1.gtf.gz",
+          "hg38-ncbi-refseq-gene-features-ucsc-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590106792,
+      "version": "1"
+    },
+    "hg38-ncbi-refseq-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Genes",
+        "Refseq",
+        "NCBI-Refeq",
+        "gene-info",
+        "transcript-coordinates",
+        "exon-coordinates",
+        "cds-coordinates",
+        "exon-count",
+        "refseq-gene-id",
+        "refseq-transcript-id"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "NCBI Refseq Genes track from UCSC. Curated and predicated genes from Refseq. Data include protein-coding and non-protein-coding genes. Gene info includes chromosome, transcript coordinates, CDS coordinates, exon coordinates, exon count, strand, gene and transcript ids, etc.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "09-Feb-2020",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-ncbi-refseq-genes-ucsc-v1.bed.gz": "6.97M",
+          "hg38-ncbi-refseq-genes-ucsc-v1.bed.gz.tbi": "163.81K"
+        },
+        "final-files": [
+          "hg38-ncbi-refseq-genes-ucsc-v1.bed.gz",
+          "hg38-ncbi-refseq-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590106910,
       "version": "1"
     },
     "hg38-ncbi-refseq-ucsc-v1": {

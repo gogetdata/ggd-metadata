@@ -628,6 +628,68 @@
       "timestamp": 1571438888,
       "version": "1"
     },
+    "grch37-ccds-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Consensus-Coding-Sequence",
+        "CCDS",
+        "high-confident",
+        "gene-annotations",
+        "protein-coding",
+        "CDS",
+        "Genes",
+        "CCDS-Project",
+        "protein-coding-genes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Consensus Coding Seqeunce (CCDS) high confidence gene annotation from UCSC. The annotation here are  high quality manually curated protein-coding regions from the Consensus CDS project. Remapped from UCSC hg19 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "20-Oct-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-ccds-genes-ucsc-v1.bed.gz": "2.24M",
+          "grch37-ccds-genes-ucsc-v1.bed.gz.tbi": "89.74K"
+        },
+        "final-files": [
+          "grch37-ccds-genes-ucsc-v1.bed.gz",
+          "grch37-ccds-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590278653,
+      "version": "1"
+    },
     "grch37-chrom-mapping-ucsc2ensembl-ncbi-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -2591,6 +2653,68 @@
       "timestamp": 1559348201,
       "version": "1"
     },
+    "grch38-ccds-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Consensus-Coding-Sequence",
+        "CCDS",
+        "high-confident",
+        "gene-annotations",
+        "protein-coding",
+        "CDS",
+        "Genes",
+        "CCDS-Project",
+        "protein-coding-genes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Consensus Coding Seqeunce (CCDS) high confidence gene annotation from UCSC. The annotation here are  high quality manually curated protein-coding regions from the Consensus CDS project. Remapped from UCSC hg38 to Ensembl GRCh38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "20-Oct-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-ccds-genes-ucsc-v1.bed.gz": "2.37M",
+          "grch38-ccds-genes-ucsc-v1.bed.gz.tbi": "92.19K"
+        },
+        "final-files": [
+          "grch38-ccds-genes-ucsc-v1.bed.gz",
+          "grch38-ccds-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590278595,
+      "version": "1"
+    },
     "grch38-chrom-mapping-ucsc2ensembl-ncbi-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4111,6 +4235,68 @@
       "timestamp": 1558392496,
       "version": "1"
     },
+    "hg19-ccds-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Consensus-Coding-Sequence",
+        "CCDS",
+        "high-confident",
+        "gene-annotations",
+        "protein-coding",
+        "CDS",
+        "Genes",
+        "CCDS-Project",
+        "protein-coding-genes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Consensus Coding Seqeunce (CCDS) high confidence gene annotation from UCSC. The annotation here are  high quality manually curated protein-coding regions from the Consensus CDS project.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "20-Oct-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-ccds-genes-ucsc-v1.bed.gz": "2.25M",
+          "hg19-ccds-genes-ucsc-v1.bed.gz.tbi": "90.02K"
+        },
+        "final-files": [
+          "hg19-ccds-genes-ucsc-v1.bed.gz",
+          "hg19-ccds-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590278624,
+      "version": "1"
+    },
     "hg19-chrom-mapping-ensembl2ucsc-ncbi-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -5451,6 +5637,68 @@
       },
       "text_prefix": false,
       "timestamp": 1558392652,
+      "version": "1"
+    },
+    "hg38-ccds-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Consensus-Coding-Sequence",
+        "CCDS",
+        "high-confident",
+        "gene-annotations",
+        "protein-coding",
+        "CDS",
+        "Genes",
+        "CCDS-Project",
+        "protein-coding-genes"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Consensus Coding Seqeunce (CCDS) high confidence gene annotation from UCSC. The annotation here are  high quality manually curated protein-coding regions from the Consensus CDS project.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "20-Oct-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-ccds-genes-ucsc-v1.bed.gz": "2.37M",
+          "hg38-ccds-genes-ucsc-v1.bed.gz.tbi": "92.25K"
+        },
+        "final-files": [
+          "hg38-ccds-genes-ucsc-v1.bed.gz",
+          "hg38-ccds-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590278693,
       "version": "1"
     },
     "hg38-chrom-mapping-ensembl2ucsc-ncbi-v1": {

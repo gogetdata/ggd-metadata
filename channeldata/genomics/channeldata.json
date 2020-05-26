@@ -628,6 +628,63 @@
       "timestamp": 1571438888,
       "version": "1"
     },
+    "grch37-canonical-isoforms-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Isofrom",
+        "Canonical-Isoform",
+        "KnownCanonical"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "UCSC defined Canonical Isoform for each gene (or cluster). This tends to be the longest isoform. Remapped from UCSC hg19 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "30-Jun-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-canonical-isoforms-ucsc-v1.bed.gz": "899.54K",
+          "grch37-canonical-isoforms-ucsc-v1.bed.gz.tbi": "104.85K"
+        },
+        "final-files": [
+          "grch37-canonical-isoforms-ucsc-v1.bed.gz",
+          "grch37-canonical-isoforms-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-exclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590451422,
+      "version": "1"
+    },
     "grch37-ccds-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -2653,6 +2710,67 @@
       "timestamp": 1559348201,
       "version": "1"
     },
+    "grch38-canonical-isoforms-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Isofrom",
+        "Canonical-Isoform",
+        "KnownCanonical",
+        "APPRIS",
+        "APPRIS-Principal-Transcript",
+        "Canonical-Transcript",
+        "Transcript"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The Canonical Isofrom for each gene (or cluster) from UCSC. The APPRIS principal transcripts are used to define the canonical transcripts. If APPRIS filtering results in no transcripts, the longest isofrom is selected. Remapped from UCSC hg38 to Ensembl GRCh38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "13-Oct-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-canonical-isoforms-ucsc-v1.bed.gz": "1.53M",
+          "grch38-canonical-isoforms-ucsc-v1.bed.gz.tbi": "199.98K"
+        },
+        "final-files": [
+          "grch38-canonical-isoforms-ucsc-v1.bed.gz",
+          "grch38-canonical-isoforms-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-exclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590451499,
+      "version": "1"
+    },
     "grch38-ccds-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4235,6 +4353,63 @@
       "timestamp": 1558392496,
       "version": "1"
     },
+    "hg19-canonical-isoforms-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Isofrom",
+        "Canonical-Isoform",
+        "KnownCanonical"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "UCSC defined Canonical Isoform for each gene (or cluster). This tends to be the longest isoform.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "30-Jun-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-canonical-isoforms-ucsc-v1.bed.gz": "899.68K",
+          "hg19-canonical-isoforms-ucsc-v1.bed.gz.tbi": "105.74K"
+        },
+        "final-files": [
+          "hg19-canonical-isoforms-ucsc-v1.bed.gz",
+          "hg19-canonical-isoforms-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-exclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590451531,
+      "version": "1"
+    },
     "hg19-ccds-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -5637,6 +5812,67 @@
       },
       "text_prefix": false,
       "timestamp": 1558392652,
+      "version": "1"
+    },
+    "hg38-canonical-isoforms-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Isofrom",
+        "Canonical-Isoform",
+        "KnownCanonical",
+        "APPRIS",
+        "APPRIS-Principal-Transcript",
+        "Canonical-Transcript",
+        "Transcript"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The Canonical Isofrom for each gene (or cluster) from UCSC. The APPRIS principal transcripts are used to define the canonical transcripts. If APPRIS filtering results in no transcripts, the longest isofrom is selected.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "13-Oct-2019",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-canonical-isoforms-ucsc-v1.bed.gz": "1.55M",
+          "hg38-canonical-isoforms-ucsc-v1.bed.gz.tbi": "201.44K"
+        },
+        "final-files": [
+          "hg38-canonical-isoforms-ucsc-v1.bed.gz",
+          "hg38-canonical-isoforms-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-exclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590451453,
       "version": "1"
     },
     "hg38-ccds-genes-ucsc-v1": {

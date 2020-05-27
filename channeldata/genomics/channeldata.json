@@ -2666,6 +2666,65 @@
       "timestamp": 1559191619,
       "version": "1"
     },
+    "grch37-trna-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "tRNA",
+        "tRNA-predictions",
+        "tRNA-Gene-Predictions",
+        "tRNA-Genes",
+        "tRNAscan-SE",
+        "GtRNAdb"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "tRNA gene predictions from tRNAscan-SE v1.23 hosted on UCSC. Remapped from UCSC hg19 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "21-Dec-2015",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-trna-genes-ucsc-v1.bed.gz": "14.79K",
+          "grch37-trna-genes-ucsc-v1.bed.gz.tbi": "8.39K"
+        },
+        "final-files": [
+          "grch37-trna-genes-ucsc-v1.bed.gz",
+          "grch37-trna-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590537799,
+      "version": "1"
+    },
     "grch37-vcf-2.1-exome-gnomad-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4169,6 +4228,65 @@
       },
       "text_prefix": false,
       "timestamp": 1588101138,
+      "version": "1"
+    },
+    "grch38-trna-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "tRNA",
+        "tRNA-predictions",
+        "tRNA-Gene-Predictions",
+        "tRNA-Genes",
+        "tRNAscan-SE",
+        "GtRNAdb"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "tRNA gene predictions from tRNAscan-SE v1.23 hosted on UCSC. Remapped from UCSC hg38 to Ensembl GRCh38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "01-Oct-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-trna-genes-ucsc-v1.bed.gz": "15.46K",
+          "grch38-trna-genes-ucsc-v1.bed.gz.tbi": "8.64K"
+        },
+        "final-files": [
+          "grch38-trna-genes-ucsc-v1.bed.gz",
+          "grch38-trna-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590537856,
       "version": "1"
     },
     "grcz10-reference-genome-ensembl-v1": {
@@ -5770,6 +5888,65 @@
       "timestamp": 1588101166,
       "version": "1"
     },
+    "hg19-trna-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "tRNA",
+        "tRNA-predictions",
+        "tRNA-Gene-Predictions",
+        "tRNA-Genes",
+        "tRNAscan-SE",
+        "GtRNAdb"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "tRNA gene predictions from tRNAscan-SE v1.23 hosted on UCSC.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "21-Dec-2015",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-trna-genes-ucsc-v1.bed.gz": "14.88K",
+          "hg19-trna-genes-ucsc-v1.bed.gz.tbi": "8.42K"
+        },
+        "final-files": [
+          "hg19-trna-genes-ucsc-v1.bed.gz",
+          "hg19-trna-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590537827,
+      "version": "1"
+    },
     "hg38-bwa-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -7239,6 +7416,65 @@
       },
       "text_prefix": false,
       "timestamp": 1588101194,
+      "version": "1"
+    },
+    "hg38-trna-genes-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "tRNA",
+        "tRNA-predictions",
+        "tRNA-Gene-Predictions",
+        "tRNA-Genes",
+        "tRNAscan-SE",
+        "GtRNAdb"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "tRNA gene predictions from tRNAscan-SE v1.23 hosted on UCSC.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "01-Oct-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-trna-genes-ucsc-v1.bed.gz": "15.49K",
+          "hg38-trna-genes-ucsc-v1.bed.gz.tbi": "8.68K"
+        },
+        "final-files": [
+          "hg38-trna-genes-ucsc-v1.bed.gz",
+          "hg38-trna-genes-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590537888,
       "version": "1"
     },
     "mm10-reference-ucsc-v1": {

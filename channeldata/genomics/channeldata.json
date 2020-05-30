@@ -2318,6 +2318,67 @@
       "timestamp": 1588617279,
       "version": "1"
     },
+    "grch37-radar-li-lab-stanford-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "RNA-Editing",
+        "A-to-I",
+        "Adenosine-to-Inosine",
+        "ADAR",
+        "Guanosine",
+        "RNA-Modification",
+        "post-transcriptional-modification",
+        "RADAR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Rigorously Annotated Database of A-to-I RNA Editing (RADAR). A comprehensive collection of Adenosine (A) to Inosine (I) editing sites in human transcripts, otherwise known as RNA editing sites. Paper: http://nar.oxfordjournals.org/content/42/D1/D109. Remapped from UCSC hg19 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Li-Lab-Stanford",
+        "data-version": "v2_02-Feb-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-radar-li-lab-stanford-v1.bed.gz": "15.21M",
+          "grch37-radar-li-lab-stanford-v1.bed.gz.tbi": "793.76K"
+        },
+        "final-files": [
+          "grch37-radar-li-lab-stanford-v1.bed.gz",
+          "grch37-radar-li-lab-stanford-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590812907,
+      "version": "1"
+    },
     "grch37-reference-genome-1000g-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4180,6 +4241,67 @@
       "timestamp": 1588623438,
       "version": "1"
     },
+    "grch38-radar-li-lab-stanford-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "RNA-Editing",
+        "A-to-I",
+        "Adenosine-to-Inosine",
+        "ADAR",
+        "Guanosine",
+        "RNA-Modification",
+        "post-transcriptional-modification",
+        "RADAR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "**Liftover** Rigorously Annotated Database of A-to-I RNA Editing (RADAR). A comprehensive collection of Adenosine (A) to Inosine (I) editing sites in human transcripts, otherwise known as RNA editing sites. Paper: http://nar.oxfordjournals.org/content/42/D1/D109. Liftover from hg19 to hg38. Remapped from UCSC hg38 to Ensembl GRCh38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Li-Lab-Stanford",
+        "data-version": "v2_02-Feb-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-radar-li-lab-stanford-v1.bed.gz": "15.21M",
+          "grch38-radar-li-lab-stanford-v1.bed.gz.tbi": "794.56K"
+        },
+        "final-files": [
+          "grch38-radar-li-lab-stanford-v1.bed.gz",
+          "grch38-radar-li-lab-stanford-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590812937,
+      "version": "1"
+    },
     "grch38-reference-genome-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -5956,6 +6078,67 @@
       "timestamp": 1588626592,
       "version": "1"
     },
+    "hg19-radar-li-lab-stanford-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "RNA-Editing",
+        "A-to-I",
+        "Adenosine-to-Inosine",
+        "ADAR",
+        "Guanosine",
+        "RNA-Modification",
+        "post-transcriptional-modification",
+        "RADAR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Rigorously Annotated Database of A-to-I RNA Editing (RADAR). A comprehensive collection of Adenosine (A) to Inosine (I) editing sites in human transcripts, otherwise known as RNA editing sites. Paper: http://nar.oxfordjournals.org/content/42/D1/D109",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Li-Lab-Stanford",
+        "data-version": "v2_02-Feb-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-radar-li-lab-stanford-v1.bed.gz": "15.28M",
+          "hg19-radar-li-lab-stanford-v1.bed.gz.tbi": "795.62K"
+        },
+        "final-files": [
+          "hg19-radar-li-lab-stanford-v1.bed.gz",
+          "hg19-radar-li-lab-stanford-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590812876,
+      "version": "1"
+    },
     "hg19-reference-genome-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -7559,6 +7742,67 @@
       },
       "text_prefix": false,
       "timestamp": 1588630175,
+      "version": "1"
+    },
+    "hg38-radar-li-lab-stanford-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "RNA-Editing",
+        "A-to-I",
+        "Adenosine-to-Inosine",
+        "ADAR",
+        "Guanosine",
+        "RNA-Modification",
+        "post-transcriptional-modification",
+        "RADAR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "**Liftover** Rigorously Annotated Database of A-to-I RNA Editing (RADAR). A comprehensive collection of Adenosine (A) to Inosine (I) editing sites in human transcripts, otherwise known as RNA editing sites. Paper: http://nar.oxfordjournals.org/content/42/D1/D109. Liftover from hg19 to hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Li-Lab-Stanford",
+        "data-version": "v2_02-Feb-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-radar-li-lab-stanford-v1.bed.gz": "15.28M",
+          "hg38-radar-li-lab-stanford-v1.bed.gz.tbi": "795.72K"
+        },
+        "final-files": [
+          "hg38-radar-li-lab-stanford-v1.bed.gz",
+          "hg38-radar-li-lab-stanford-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1590812968,
       "version": "1"
     },
     "hg38-reference-genome-ucsc-v1": {

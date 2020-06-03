@@ -2801,6 +2801,66 @@
       "timestamp": 1588101110,
       "version": "1"
     },
+    "grch37-somatic-variants-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genetic-varaition",
+        "Somatic",
+        "Somatic-Mutations",
+        "somatic-variants",
+        "VCF",
+        "varaint-info",
+        "Ensembl-variantion"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "All known somatic mutations at the time of Ensembl release 75. Conseqeunces for each variant are included in the annotation. Decomposed and Normalized. Ensembl variant info page can be found at: https://uswest.ensembl.org/info/genome/variation/index.html",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-18-14",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "grch37-somatic-variants-ensembl-v1.vcf.gz": "76.71M",
+          "grch37-somatic-variants-ensembl-v1.vcf.gz.tbi": "543.36K"
+        },
+        "final-files": [
+          "grch37-somatic-variants-ensembl-v1.vcf.gz",
+          "grch37-somatic-variants-ensembl-v1.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591214549,
+      "version": "1"
+    },
     "grch37-sv-gnomad-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4586,6 +4646,66 @@
       },
       "text_prefix": false,
       "timestamp": 1588101138,
+      "version": "1"
+    },
+    "grch38-somatic-variants-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genetic-varaition",
+        "Somatic",
+        "Somatic-Mutations",
+        "somatic-variants",
+        "VCF",
+        "varaint-info",
+        "Ensembl-variantion"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "All known somatic mutations at the time of Ensembl release 99. Conseqeunces for each variant are included in the annotation. Decomposed and Normalized. Ensembl variant info page can be found at: https://uswest.ensembl.org/info/genome/variation/index.html",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-99_11-7-19",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "grch38-somatic-variants-ensembl-v1.vcf.gz": "285.04M",
+          "grch38-somatic-variants-ensembl-v1.vcf.gz.tbi": "1.06M"
+        },
+        "final-files": [
+          "grch38-somatic-variants-ensembl-v1.vcf.gz",
+          "grch38-somatic-variants-ensembl-v1.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591214608,
       "version": "1"
     },
     "grch38-trna-genes-ucsc-v1": {
@@ -6425,6 +6545,66 @@
       "timestamp": 1588101166,
       "version": "1"
     },
+    "hg19-somatic-variants-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genetic-varaition",
+        "Somatic",
+        "Somatic-Mutations",
+        "somatic-variants",
+        "VCF",
+        "varaint-info",
+        "Ensembl-variantion"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "All known somatic mutations at the time of Ensembl release 75. Conseqeunces for each variant are included in the annotation. Decomposed and Normalized. Remapped from Ensembl GRCh37 to UCSC hg19. Ensembl variant info page can be found at: https://uswest.ensembl.org/info/genome/variation/index.html",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-18-14",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "hg19-somatic-variants-ensembl-v1.vcf.gz": "76.82M",
+          "hg19-somatic-variants-ensembl-v1.vcf.gz.tbi": "543.74K"
+        },
+        "final-files": [
+          "hg19-somatic-variants-ensembl-v1.vcf.gz",
+          "hg19-somatic-variants-ensembl-v1.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591214520,
+      "version": "1"
+    },
     "hg19-trna-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -8132,6 +8312,66 @@
       },
       "text_prefix": false,
       "timestamp": 1588101194,
+      "version": "1"
+    },
+    "hg38-somatic-variants-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genetic-varaition",
+        "Somatic",
+        "Somatic-Mutations",
+        "somatic-variants",
+        "VCF",
+        "varaint-info",
+        "Ensembl-variantion"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "All known somatic mutations at the time of Ensembl release 99. Conseqeunces for each variant are included in the annotation. Decomposed and Normalized. Remapped from Ensembl GRCh38 to UCSC hg38. Ensembl variant info page can be found at: https://uswest.ensembl.org/info/genome/variation/index.html",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-99_11-7-19",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "hg38-somatic-variants-ensembl-v1.vcf.gz": "285.83M",
+          "hg38-somatic-variants-ensembl-v1.vcf.gz.tbi": "1.06M"
+        },
+        "final-files": [
+          "hg38-somatic-variants-ensembl-v1.vcf.gz",
+          "hg38-somatic-variants-ensembl-v1.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591214578,
       "version": "1"
     },
     "hg38-trna-genes-ucsc-v1": {

@@ -4301,6 +4301,66 @@
       "timestamp": 1588623438,
       "version": "1"
     },
+    "grch38-phenotype-associated-variants-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genetic-varaition",
+        "pheontype-associated",
+        "Known-Phenotype",
+        "Phenotype-Associated-Variants",
+        "VCF",
+        "varaint-info",
+        "Ensembl-variantion"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "All variants at the time of Ensembl release 99 that have a known phenotype association. Decomposed and Normalized. Ensembl variant info page can be found at: https://uswest.ensembl.org/info/genome/variation/index.html",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-99_11-7-19",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "grch38-phenotype-associated-variants-ensembl-v1.vcf.gz": "10.49M",
+          "grch38-phenotype-associated-variants-ensembl-v1.vcf.gz.tbi": "195.40K"
+        },
+        "final-files": [
+          "grch38-phenotype-associated-variants-ensembl-v1.vcf.gz",
+          "grch38-phenotype-associated-variants-ensembl-v1.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591229701,
+      "version": "1"
+    },
     "grch38-radar-li-lab-stanford-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -7922,6 +7982,66 @@
       },
       "text_prefix": false,
       "timestamp": 1588630175,
+      "version": "1"
+    },
+    "hg38-phenotype-associated-variants-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genetic-varaition",
+        "pheontype-associated",
+        "Known-Phenotype",
+        "Phenotype-Associated-Variants",
+        "VCF",
+        "varaint-info",
+        "Ensembl-variantion"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "All variants at the time of Ensembl release 99 that have a known phenotype association. Decomposed and Normalized. Remapped from Ensembl GRCh37 to UCSC hg19. Ensembl variant info page can be found at: https://uswest.ensembl.org/info/genome/variation/index.html",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-99_11-7-19",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "hg38-phenotype-associated-variants-ensembl-v1.vcf.gz": "10.54M",
+          "hg38-phenotype-associated-variants-ensembl-v1.vcf.gz.tbi": "195.48K"
+        },
+        "final-files": [
+          "hg38-phenotype-associated-variants-ensembl-v1.vcf.gz",
+          "hg38-phenotype-associated-variants-ensembl-v1.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591229661,
       "version": "1"
     },
     "hg38-radar-li-lab-stanford-v1": {

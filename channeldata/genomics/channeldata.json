@@ -2087,7 +2087,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1591289734,
+      "timestamp": 1591297523,
       "version": "1"
     },
     "grch37-ncbi-refseq-gene-features-ucsc-v1": {
@@ -6319,8 +6319,8 @@
           "bed"
         ],
         "final-file-sizes": {
-          "hg19-missense-z-score-exac-v1.bed.gz": "584.21K",
-          "hg19-missense-z-score-exac-v1.bed.gz.tbi": "72.52K"
+          "hg19-missense-z-score-exac-v1.bed.gz": "584.24K",
+          "hg19-missense-z-score-exac-v1.bed.gz.tbi": "72.48K"
         },
         "final-files": [
           "hg19-missense-z-score-exac-v1.bed.gz",
@@ -6330,7 +6330,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1591289675,
+      "timestamp": 1591297491,
       "version": "1"
     },
     "hg19-ncbi-refseq-gene-features-ucsc-v1": {

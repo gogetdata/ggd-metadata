@@ -2031,6 +2031,65 @@
       "timestamp": 1587755766,
       "version": "1"
     },
+    "grch37-missense-z-score-exac-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Constraint",
+        "Missense-Z",
+        "ExAC",
+        "Z-score",
+        "missense-variation",
+        "gene-constraint"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Missense Z Score by gene. A constraint score based on missense variation, from Samocha et al., Nature Genetics 2014. The score is derived by calculating a null expectation of missense variation for each gene, and comparing it to what is observed in ExAC, then stratifying each gene using a Z score distribution. That paper is at: https://www.nature.com/articles/ng.3050",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ExAC",
+        "data-version": "Aug-31-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-missense-z-score-exac-v1.bed.gz": "577.64K",
+          "grch37-missense-z-score-exac-v1.bed.gz.tbi": "72.19K"
+        },
+        "final-files": [
+          "grch37-missense-z-score-exac-v1.bed.gz",
+          "grch37-missense-z-score-exac-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591289734,
+      "version": "1"
+    },
     "grch37-ncbi-refseq-gene-features-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4184,6 +4243,65 @@
       "timestamp": 1587755690,
       "version": "1"
     },
+    "grch38-missense-z-score-exac-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Constraint",
+        "Missense-Z",
+        "ExAC",
+        "Z-score",
+        "missense-variation",
+        "gene-constraint"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Missense Z Score by gene. A constraint score based on missense variation, from Samocha et al., Nature Genetics 2014. The score is derived by calculating a null expectation of missense variation for each gene, and comparing it to what is observed in ExAC, then stratifying each gene using a Z score distribution. That paper is at: https://www.nature.com/articles/ng.3050. Pseudo-liftover: Updated coordinates based on transcript ids that map between GRCh37 and GRCh38. If unable to map transcript id, the gene symbol is mapped between GRCh37 and GRCh38. If neither the transcript id or gene symbol map between the two builds the record is removed.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ExAC",
+        "data-version": "Aug-31-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-missense-z-score-exac-v1.bed.gz": "525.51K",
+          "grch38-missense-z-score-exac-v1.bed.gz.tbi": "64.33K"
+        },
+        "final-files": [
+          "grch38-missense-z-score-exac-v1.bed.gz",
+          "grch38-missense-z-score-exac-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591289646,
+      "version": "1"
+    },
     "grch38-ncbi-refseq-gene-features-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -6156,6 +6274,65 @@
       "timestamp": 1587755741,
       "version": "1"
     },
+    "hg19-missense-z-score-exac-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Constraint",
+        "Missense-Z",
+        "ExAC",
+        "Z-score",
+        "missense-variation",
+        "gene-constraint"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Missense Z Score by gene. A constraint score based on missense variation, from Samocha et al., Nature Genetics 2014. The score is derived by calculating a null expectation of missense variation for each gene, and comparing it to what is observed in ExAC, then stratifying each gene using a Z score distribution. That paper is at: https://www.nature.com/articles/ng.3050. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ExAC",
+        "data-version": "Aug-31-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-missense-z-score-exac-v1.bed.gz": "584.21K",
+          "hg19-missense-z-score-exac-v1.bed.gz.tbi": "72.52K"
+        },
+        "final-files": [
+          "hg19-missense-z-score-exac-v1.bed.gz",
+          "hg19-missense-z-score-exac-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591289675,
+      "version": "1"
+    },
     "hg19-ncbi-refseq-gene-features-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -8005,6 +8182,65 @@
       },
       "text_prefix": false,
       "timestamp": 1587755715,
+      "version": "1"
+    },
+    "hg38-missense-z-score-exac-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Constraint",
+        "Missense-Z",
+        "ExAC",
+        "Z-score",
+        "missense-variation",
+        "gene-constraint"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Missense Z Score by gene. A constraint score based on missense variation, from Samocha et al., Nature Genetics 2014. The score is derived by calculating a null expectation of missense variation for each gene, and comparing it to what is observed in ExAC, then stratifying each gene using a Z score distribution. That paper is at: https://www.nature.com/articles/ng.3050. Pseudo-liftover: Updated coordinates based on transcript ids that map between GRCh37 and GRCh38. If unable to map transcript id, the gene symbol is mapped between GRCh37 and GRCh38. If neither the transcript id or gene symbol map between the two builds the record is removed. Remapped from Ensembl GRCh38 to UCSC hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ExAC",
+        "data-version": "Aug-31-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-missense-z-score-exac-v1.bed.gz": "530.52K",
+          "hg38-missense-z-score-exac-v1.bed.gz.tbi": "64.77K"
+        },
+        "final-files": [
+          "hg38-missense-z-score-exac-v1.bed.gz",
+          "hg38-missense-z-score-exac-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591289704,
       "version": "1"
     },
     "hg38-ncbi-refseq-gene-features-ucsc-v1": {

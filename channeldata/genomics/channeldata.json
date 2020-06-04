@@ -2436,6 +2436,65 @@
       "timestamp": 1588617279,
       "version": "1"
     },
+    "grch37-pli-scores-exac-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "pLI",
+        "Probability-of-being-loss-of-function-intolerant",
+        "Constraint",
+        "LoF-Intolerance",
+        "ExAC",
+        "gene-constraint"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The probability of being loss-of-function intolerant (pLI) by gene scores from ExAC. See paper at: https://www.nature.com/articles/nature19057.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ExAC",
+        "data-version": "Aug-31-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-pli-scores-exac-v1.bed.gz": "585.71K",
+          "grch37-pli-scores-exac-v1.bed.gz.tbi": "72.39K"
+        },
+        "final-files": [
+          "grch37-pli-scores-exac-v1.bed.gz",
+          "grch37-pli-scores-exac-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591310322,
+      "version": "1"
+    },
     "grch37-radar-li-lab-stanford-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4663,6 +4722,65 @@
       "timestamp": 1591229701,
       "version": "1"
     },
+    "grch38-pli-scores-exac-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "pLI",
+        "Probability-of-being-loss-of-function-intolerant",
+        "Constraint",
+        "LoF-Intolerance",
+        "ExAC",
+        "gene-constraint"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The probability of being loss-of-function intolerant (pLI) by gene scores from ExAC. See paper at: https://www.nature.com/articles/nature19057. Pseudo-liftover: Updated coordinates based on transcript ids that map between GRCh37 and GRCh38. If unable to map transcript id, the gene symbol is mapped between GRCh37 and GRCh38. If neither the transcript id or gene symbol map between the two builds the record is removed.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ExAC",
+        "data-version": "Aug-31-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-pli-scores-exac-v1.bed.gz": "532.16K",
+          "grch38-pli-scores-exac-v1.bed.gz.tbi": "64.42K"
+        },
+        "final-files": [
+          "grch38-pli-scores-exac-v1.bed.gz",
+          "grch38-pli-scores-exac-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591310264,
+      "version": "1"
+    },
     "grch38-radar-li-lab-stanford-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -6738,6 +6856,65 @@
       "timestamp": 1588626592,
       "version": "1"
     },
+    "hg19-pli-scores-exac-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "pLI",
+        "Probability-of-being-loss-of-function-intolerant",
+        "Constraint",
+        "LoF-Intolerance",
+        "ExAC",
+        "gene-constraint"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The probability of being loss-of-function intolerant (pLI) by gene scores from ExAC. See paper at: https://www.nature.com/articles/nature19057. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ExAC",
+        "data-version": "Aug-31-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-pli-scores-exac-v1.bed.gz": "590.69K",
+          "hg19-pli-scores-exac-v1.bed.gz.tbi": "72.76K"
+        },
+        "final-files": [
+          "hg19-pli-scores-exac-v1.bed.gz",
+          "hg19-pli-scores-exac-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591310293,
+      "version": "1"
+    },
     "hg19-radar-li-lab-stanford-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -8706,6 +8883,65 @@
       },
       "text_prefix": false,
       "timestamp": 1591229661,
+      "version": "1"
+    },
+    "hg38-pli-scores-exac-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "pLI",
+        "Probability-of-being-loss-of-function-intolerant",
+        "Constraint",
+        "LoF-Intolerance",
+        "ExAC",
+        "gene-constraint"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The probability of being loss-of-function intolerant (pLI) by gene scores from ExAC. See paper at: https://www.nature.com/articles/nature19057. Pseudo-liftover: Updated coordinates based on transcript ids that map between GRCh37 and GRCh38. If unable to map transcript id, the gene symbol is mapped between GRCh37 and GRCh38. If neither the transcript id or gene symbol map between the two builds the record is removed. Remapped from Ensembl GRCh38 to UCSC hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ExAC",
+        "data-version": "Aug-31-2017",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-pli-scores-exac-v1.bed.gz": "536.09K",
+          "hg38-pli-scores-exac-v1.bed.gz.tbi": "64.83K"
+        },
+        "final-files": [
+          "hg38-pli-scores-exac-v1.bed.gz",
+          "hg38-pli-scores-exac-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1591310235,
       "version": "1"
     },
     "hg38-radar-li-lab-stanford-v1": {

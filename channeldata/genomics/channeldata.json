@@ -7401,10 +7401,9 @@
       },
       "keywords": [
         "ref",
-        "reference",
-        "genome",
-        "UCSC",
-        "fasta-file"
+        "reference-genome",
+        "fasta-file",
+        "soft-masked"
       ],
       "license": null,
       "post_link": true,
@@ -7417,16 +7416,31 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "The hg19 reference genome from UCSC. (http://hgdownload.cse.ucsc.edu/goldenPath/hg19/bigZips/)",
+      "summary": "The hg19 soft masked genomic DNA seqeunce reference genome from UCSC (patch 13). Repeats found by 'RepeatMasker' and 'Tandem Repeat Finder' are shown as lower case. Non repeating seqeunce are shown as upper case.",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
-        "data-version": "21-Aug-2018",
+        "data-provider": "UCSC",
+        "data-version": "17-Jan-2020",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "hg19-reference-genome-ucsc-v1.fa.gz": "997.23M",
+          "hg19-reference-genome-ucsc-v1.fa.gz.fai": "12.23K",
+          "hg19-reference-genome-ucsc-v1.fa.gz.gzi": "808.71K"
+        },
+        "final-files": [
+          "hg19-reference-genome-ucsc-v1.fa.gz",
+          "hg19-reference-genome-ucsc-v1.fa.gz.fai",
+          "hg19-reference-genome-ucsc-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1557754332,
+      "timestamp": 1592068271,
       "version": "1"
     },
     "hg19-refseq-gene-features-ucsc-v1": {
@@ -9430,10 +9444,9 @@
       },
       "keywords": [
         "ref",
-        "reference",
-        "genome",
-        "UCSC",
-        "fasta-file"
+        "reference-genome",
+        "fasta-file",
+        "soft-masked"
       ],
       "license": null,
       "post_link": true,
@@ -9446,16 +9459,31 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "The hg38 reference genome from UCSC. This version includes the latest patch, patch 12. (url:http://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/p12/)",
+      "summary": "The hg38 soft masked genomic DNA seqeunce reference genome from UCSC (patch 12). Repeats found by 'RepeatMasker' and 'Tandem Repeat Finder' are shown as lower case. Non repeating seqeunce are shown as upper case.",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
+        "data-provider": "UCSC",
         "data-version": "10-Aug-2018",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "hg38-reference-genome-ucsc-v1.fa.gz": "1.02G",
+          "hg38-reference-genome-ucsc-v1.fa.gz.fai": "25.61K",
+          "hg38-reference-genome-ucsc-v1.fa.gz.gzi": "814.34K"
+        },
+        "final-files": [
+          "hg38-reference-genome-ucsc-v1.fa.gz",
+          "hg38-reference-genome-ucsc-v1.fa.gz.fai",
+          "hg38-reference-genome-ucsc-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1557754576,
+      "timestamp": 1592068242,
       "version": "1"
     },
     "hg38-refseq-gene-features-ucsc-v1": {

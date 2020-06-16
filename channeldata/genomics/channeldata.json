@@ -296,7 +296,7 @@
         "AD",
         "OMIM",
         "gene_coordinates",
-        "pathoscore"
+        "CDS-regions"
       ],
       "license": null,
       "post_link": true,
@@ -309,7 +309,7 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "Genomic coordinates, along with the compliment coordinance, for combined set of OMIM disease genes deemed to follow autosomal dominant inheritance. Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for combined set of OMIM disease genes deemed to follow autosomal dominant inheritance. (Assembled by Macarthur Lab). Gene sets from:  Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -319,6 +319,12 @@
         "file-type": [
           "bed"
         ],
+        "final-file-sizes": {
+          "grch37-autosomal-dominant-genes-berg-blekhman-v1.bed.gz": "135.22K",
+          "grch37-autosomal-dominant-genes-berg-blekhman-v1.bed.gz.tbi": "29.55K",
+          "grch37-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz": "83.03K",
+          "grch37-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz.tbi": "21.44K"
+        },
         "final-files": [
           "grch37-autosomal-dominant-genes-berg-blekhman-v1.bed.gz",
           "grch37-autosomal-dominant-genes-berg-blekhman-v1.bed.gz.tbi",
@@ -329,7 +335,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571438864,
+      "timestamp": 1592277858,
       "version": "1"
     },
     "grch37-autosomal-dominant-genes-berg-v1": {
@@ -355,7 +361,7 @@
         "AD",
         "OMIM",
         "gene_coordinates",
-        "pathoscore"
+        "CDS-regions"
       ],
       "license": null,
       "post_link": true,
@@ -368,7 +374,7 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "Genomic coordinates, along with the compliment coordinance, from OMIM disease genes (as of June 2011) deemed to follow autosomal dominant inheritance according Berg et al, 2013 (https://www.ncbi.nlm.nih.gov/pubmed/22995991).",
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes (as of June 2011) deemed to follow autosomal dominant inheritance. (Assembled by Macarthur Lab). Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991).",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -378,6 +384,12 @@
         "file-type": [
           "bed"
         ],
+        "final-file-sizes": {
+          "grch37-autosomal-dominant-genes-berg-v1.bed.gz": "119.97K",
+          "grch37-autosomal-dominant-genes-berg-v1.bed.gz.tbi": "27.12K",
+          "grch37-autosomal-dominant-genes-berg-v1.compliment.bed.gz": "73.13K",
+          "grch37-autosomal-dominant-genes-berg-v1.compliment.bed.gz.tbi": "20.39K"
+        },
         "final-files": [
           "grch37-autosomal-dominant-genes-berg-v1.bed.gz",
           "grch37-autosomal-dominant-genes-berg-v1.bed.gz.tbi",
@@ -388,7 +400,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571438839,
+      "timestamp": 1592277829,
       "version": "1"
     },
     "grch37-autosomal-dominant-genes-blekhman-v1": {
@@ -414,7 +426,7 @@
         "AD",
         "OMIM",
         "gene_coordinates",
-        "pathoscore"
+        "CDS-regions"
       ],
       "license": null,
       "post_link": true,
@@ -427,7 +439,7 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "Genomic coordinates, along with the compliment coordinance, OMIM disease genes deemed to follow autosomal dominant inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes deemed  to follow autosomal dominant inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414).",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -437,6 +449,12 @@
         "file-type": [
           "bed"
         ],
+        "final-file-sizes": {
+          "grch37-autosomal-dominant-genes-blekhman-v1.bed.gz": "59.94K",
+          "grch37-autosomal-dominant-genes-blekhman-v1.bed.gz.tbi": "15.15K",
+          "grch37-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz": "38.45K",
+          "grch37-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz.tbi": "15.37K"
+        },
         "final-files": [
           "grch37-autosomal-dominant-genes-blekhman-v1.bed.gz",
           "grch37-autosomal-dominant-genes-blekhman-v1.bed.gz.tbi",
@@ -447,7 +465,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571438791,
+      "timestamp": 1592277627,
       "version": "1"
     },
     "grch37-autosomal-recessive-genes-berg-blekhman-v1": {
@@ -3449,6 +3467,202 @@
       "timestamp": 1559348201,
       "version": "1"
     },
+    "grch38-autosomal-dominant-genes-berg-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Berg_et_al",
+        "Blekhman_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for combined set of OMIM disease genes deemed to follow autosomal dominant inheritance. (Assembled by Macarthur Lab). Gene sets from:  Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg-blekhman",
+        "data-version": "1-15-2013_6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-autosomal-dominant-genes-berg-blekhman-v1.bed.gz": "147.51K",
+          "grch38-autosomal-dominant-genes-berg-blekhman-v1.bed.gz.tbi": "29.22K",
+          "grch38-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz": "86.03K",
+          "grch38-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz.tbi": "26.95K"
+        },
+        "final-files": [
+          "grch38-autosomal-dominant-genes-berg-blekhman-v1.bed.gz",
+          "grch38-autosomal-dominant-genes-berg-blekhman-v1.bed.gz.tbi",
+          "grch38-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz",
+          "grch38-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592277656,
+      "version": "1"
+    },
+    "grch38-autosomal-dominant-genes-berg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Berg_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes (as of June 2011) deemed to follow autosomal dominant inheritance. (Assembled by Macarthur Lab). Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg",
+        "data-version": "1-15-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-autosomal-dominant-genes-berg-v1.bed.gz": "131.92K",
+          "grch38-autosomal-dominant-genes-berg-v1.bed.gz.tbi": "26.80K",
+          "grch38-autosomal-dominant-genes-berg-v1.compliment.bed.gz": "76.15K",
+          "grch38-autosomal-dominant-genes-berg-v1.compliment.bed.gz.tbi": "25.90K"
+        },
+        "final-files": [
+          "grch38-autosomal-dominant-genes-berg-v1.bed.gz",
+          "grch38-autosomal-dominant-genes-berg-v1.bed.gz.tbi",
+          "grch38-autosomal-dominant-genes-berg-v1.compliment.bed.gz",
+          "grch38-autosomal-dominant-genes-berg-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592277540,
+      "version": "1"
+    },
+    "grch38-autosomal-dominant-genes-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Blekhman_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes deemed  to follow autosomal dominant inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "blekhman",
+        "data-version": "6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-autosomal-dominant-genes-blekhman-v1.bed.gz": "64.42K",
+          "grch38-autosomal-dominant-genes-blekhman-v1.bed.gz.tbi": "14.98K",
+          "grch38-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz": "41.05K",
+          "grch38-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz.tbi": "20.92K"
+        },
+        "final-files": [
+          "grch38-autosomal-dominant-genes-blekhman-v1.bed.gz",
+          "grch38-autosomal-dominant-genes-blekhman-v1.bed.gz.tbi",
+          "grch38-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz",
+          "grch38-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592277771,
+      "version": "1"
+    },
     "grch38-canonical-isoforms-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -5772,6 +5986,202 @@
       "timestamp": 1558392496,
       "version": "1"
     },
+    "hg19-autosomal-dominant-genes-berg-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Berg_et_al",
+        "Blekhman_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for combined set of OMIM disease genes deemed to follow autosomal dominant inheritance. (Assembled by Macarthur Lab). Gene sets from:  Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg-blekhman",
+        "data-version": "1-15-2013_6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-autosomal-dominant-genes-berg-blekhman-v1.bed.gz": "135.49K",
+          "hg19-autosomal-dominant-genes-berg-blekhman-v1.bed.gz.tbi": "29.60K",
+          "hg19-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz": "85.39K",
+          "hg19-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz.tbi": "17.92K"
+        },
+        "final-files": [
+          "hg19-autosomal-dominant-genes-berg-blekhman-v1.bed.gz",
+          "hg19-autosomal-dominant-genes-berg-blekhman-v1.bed.gz.tbi",
+          "hg19-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz",
+          "hg19-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592277743,
+      "version": "1"
+    },
+    "hg19-autosomal-dominant-genes-berg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Berg_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes (as of June 2011) deemed to follow autosomal dominant inheritance. (Assembled by Macarthur Lab). Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg",
+        "data-version": "1-15-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-autosomal-dominant-genes-berg-v1.bed.gz": "120.38K",
+          "hg19-autosomal-dominant-genes-berg-v1.bed.gz.tbi": "27.11K",
+          "hg19-autosomal-dominant-genes-berg-v1.compliment.bed.gz": "75.11K",
+          "hg19-autosomal-dominant-genes-berg-v1.compliment.bed.gz.tbi": "16.81K"
+        },
+        "final-files": [
+          "hg19-autosomal-dominant-genes-berg-v1.bed.gz",
+          "hg19-autosomal-dominant-genes-berg-v1.bed.gz.tbi",
+          "hg19-autosomal-dominant-genes-berg-v1.compliment.bed.gz",
+          "hg19-autosomal-dominant-genes-berg-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592277598,
+      "version": "1"
+    },
+    "hg19-autosomal-dominant-genes-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Blekhman_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes deemed to follow autosomal dominant inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "blekhman",
+        "data-version": "6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-autosomal-dominant-genes-blekhman-v1.bed.gz": "60.11K",
+          "hg19-autosomal-dominant-genes-blekhman-v1.bed.gz.tbi": "15.19K",
+          "hg19-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz": "39.01K",
+          "hg19-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz.tbi": "11.78K"
+        },
+        "final-files": [
+          "hg19-autosomal-dominant-genes-blekhman-v1.bed.gz",
+          "hg19-autosomal-dominant-genes-blekhman-v1.bed.gz.tbi",
+          "hg19-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz",
+          "hg19-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592277569,
+      "version": "1"
+    },
     "hg19-canonical-isoforms-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -7861,6 +8271,202 @@
       },
       "text_prefix": false,
       "timestamp": 1590537827,
+      "version": "1"
+    },
+    "hg38-autosomal-dominant-genes-berg-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Berg_et_al",
+        "Blekhman_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for combined set of OMIM disease genes deemed to follow autosomal dominant inheritance. (Assembled by Macarthur Lab). Gene sets from:  Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg-blekhman",
+        "data-version": "1-15-2013_6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-autosomal-dominant-genes-berg-blekhman-v1.bed.gz": "147.82K",
+          "hg38-autosomal-dominant-genes-berg-blekhman-v1.bed.gz.tbi": "29.25K",
+          "hg38-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz": "90.17K",
+          "hg38-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz.tbi": "26.30K"
+        },
+        "final-files": [
+          "hg38-autosomal-dominant-genes-berg-blekhman-v1.bed.gz",
+          "hg38-autosomal-dominant-genes-berg-blekhman-v1.bed.gz.tbi",
+          "hg38-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz",
+          "hg38-autosomal-dominant-genes-berg-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592277685,
+      "version": "1"
+    },
+    "hg38-autosomal-dominant-genes-berg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Berg_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes (as of June 2011) deemed to follow autosomal dominant inheritance. (Assembled by Macarthur Lab). Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg",
+        "data-version": "1-15-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-autosomal-dominant-genes-berg-v1.bed.gz": "132.42K",
+          "hg38-autosomal-dominant-genes-berg-v1.bed.gz.tbi": "26.78K",
+          "hg38-autosomal-dominant-genes-berg-v1.compliment.bed.gz": "79.83K",
+          "hg38-autosomal-dominant-genes-berg-v1.compliment.bed.gz.tbi": "25.45K"
+        },
+        "final-files": [
+          "hg38-autosomal-dominant-genes-berg-v1.bed.gz",
+          "hg38-autosomal-dominant-genes-berg-v1.bed.gz.tbi",
+          "hg38-autosomal-dominant-genes-berg-v1.compliment.bed.gz",
+          "hg38-autosomal-dominant-genes-berg-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592277800,
+      "version": "1"
+    },
+    "hg38-autosomal-dominant-genes-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-dominant",
+        "disease",
+        "Blekhman_et_al",
+        "AD",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes deemed to follow autosomal dominant inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "blekhman",
+        "data-version": "6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-autosomal-dominant-genes-blekhman-v1.bed.gz": "64.75K",
+          "hg38-autosomal-dominant-genes-blekhman-v1.bed.gz.tbi": "15.01K",
+          "hg38-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz": "43.18K",
+          "hg38-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz.tbi": "20.42K"
+        },
+        "final-files": [
+          "hg38-autosomal-dominant-genes-blekhman-v1.bed.gz",
+          "hg38-autosomal-dominant-genes-blekhman-v1.bed.gz.tbi",
+          "hg38-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz",
+          "hg38-autosomal-dominant-genes-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592277713,
       "version": "1"
     },
     "hg38-bwa-1000g-v1": {

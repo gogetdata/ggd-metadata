@@ -182,6 +182,36 @@
       "timestamp": 1559191575,
       "version": "1"
     },
+    "ggd": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": "https://github.com/gogetdata/ggd-cli",
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": null,
+      "keywords": null,
+      "license": "MIT",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": "https://github.com/gogetdata/ggd-cli/archive/v0.1.2.tar.gz",
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "GoGetData (GGD) is a genomic data managment system. It provide simple and reproducible access to a repository of genomic data. Simply put, it is 'Conda' for genomic data",
+      "tags": null,
+      "text_prefix": false,
+      "timestamp": 1592322214,
+      "version": "2"
+    },
     "grch37-1000g-omni-snps-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -489,10 +519,10 @@
         "disease",
         "Berg_et_al",
         "Blekhman_et_al",
-        "AD",
+        "AR",
         "OMIM",
         "gene_coordinates",
-        "pathoscore"
+        "CDS-regions"
       ],
       "license": null,
       "post_link": true,
@@ -505,7 +535,7 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "Genomic coordinates, along with the compliment coordinance, for combined set of OMIM disease genes deemed to follow autosomal recessive inheritance. Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for combined set of OMIM disease genes deemed to follow autosomal recessive inheritance. (Assembled by Macarthur Lab). Gene sets from:  Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -515,6 +545,12 @@
         "file-type": [
           "bed"
         ],
+        "final-file-sizes": {
+          "grch37-autosomal-recessive-genes-berg-blekhman-v1.bed.gz": "223.87K",
+          "grch37-autosomal-recessive-genes-berg-blekhman-v1.bed.gz.tbi": "46.82K",
+          "grch37-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz": "137.09K",
+          "grch37-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz.tbi": "27.92K"
+        },
         "final-files": [
           "grch37-autosomal-recessive-genes-berg-blekhman-v1.bed.gz",
           "grch37-autosomal-recessive-genes-berg-blekhman-v1.bed.gz.tbi",
@@ -525,7 +561,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571438815,
+      "timestamp": 1592455956,
       "version": "1"
     },
     "grch37-autosomal-recessive-genes-berg-v1": {
@@ -548,10 +584,10 @@
         "autosomal-recessive",
         "disease",
         "Berg_et_al",
-        "AD",
+        "AR",
         "OMIM",
         "gene_coordinates",
-        "pathoscore"
+        "CDS-regions"
       ],
       "license": null,
       "post_link": true,
@@ -564,7 +600,7 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "Genomic coordinates, along with the compliment coordinance, from OMIM disease genes (as of June 2011) deemed to follow autosomal recessive inheritance according Berg et al, 2013. (https://www.ncbi.nlm.nih.gov/pubmed/22995991)",
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes (as of June 2011) deemed to follow autosomal recessive inheritance. (Assembled by Macarthur Lab). Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991).",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -574,6 +610,12 @@
         "file-type": [
           "bed"
         ],
+        "final-file-sizes": {
+          "grch37-autosomal-recessive-genes-berg-v1.bed.gz": "198.95K",
+          "grch37-autosomal-recessive-genes-berg-v1.bed.gz.tbi": "43.81K",
+          "grch37-autosomal-recessive-genes-berg-v1.compliment.bed.gz": "121.42K",
+          "grch37-autosomal-recessive-genes-berg-v1.compliment.bed.gz.tbi": "26.61K"
+        },
         "final-files": [
           "grch37-autosomal-recessive-genes-berg-v1.bed.gz",
           "grch37-autosomal-recessive-genes-berg-v1.bed.gz.tbi",
@@ -584,7 +626,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571438766,
+      "timestamp": 1592455811,
       "version": "1"
     },
     "grch37-autosomal-recessive-genes-blekhman-v1": {
@@ -607,10 +649,10 @@
         "autosomal-recessive",
         "disease",
         "Blekhman_et_al",
-        "AD",
+        "AR",
         "OMIM",
         "gene_coordinates",
-        "pathoscore"
+        "CDS-regions"
       ],
       "license": null,
       "post_link": true,
@@ -623,7 +665,7 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "Genomic coordinates, along with the compliment coordinance, OMIM disease genes deemed to follow autosomal recessive inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes deemed  to follow autosomal recessive inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414).",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -633,6 +675,12 @@
         "file-type": [
           "bed"
         ],
+        "final-file-sizes": {
+          "grch37-autosomal-recessive-genes-blekhman-v1.bed.gz": "105.97K",
+          "grch37-autosomal-recessive-genes-blekhman-v1.bed.gz.tbi": "22.94K",
+          "grch37-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz": "67.13K",
+          "grch37-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz.tbi": "18.90K"
+        },
         "final-files": [
           "grch37-autosomal-recessive-genes-blekhman-v1.bed.gz",
           "grch37-autosomal-recessive-genes-blekhman-v1.bed.gz.tbi",
@@ -643,7 +691,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571438888,
+      "timestamp": 1592456073,
       "version": "1"
     },
     "grch37-canonical-isoforms-ucsc-v1": {
@@ -3663,6 +3711,202 @@
       "timestamp": 1592277771,
       "version": "1"
     },
+    "grch38-autosomal-recessive-genes-berg-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Berg_et_al",
+        "Blekhman_et_al",
+        "AR",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for combined set of OMIM disease genes deemed to follow autosomal recessive inheritance. (Assembled by Macarthur Lab). Gene sets from:  Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg-blekhman",
+        "data-version": "1-15-2013_6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-autosomal-recessive-genes-berg-blekhman-v1.bed.gz": "234.48K",
+          "grch38-autosomal-recessive-genes-berg-blekhman-v1.bed.gz.tbi": "46.12K",
+          "grch38-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz": "139.43K",
+          "grch38-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz.tbi": "33.34K"
+        },
+        "final-files": [
+          "grch38-autosomal-recessive-genes-berg-blekhman-v1.bed.gz",
+          "grch38-autosomal-recessive-genes-berg-blekhman-v1.bed.gz.tbi",
+          "grch38-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz",
+          "grch38-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592455898,
+      "version": "1"
+    },
+    "grch38-autosomal-recessive-genes-berg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Berg_et_al",
+        "AR",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes (as of June 2011) deemed to follow autosomal recessive inheritance. (Assembled by Macarthur Lab). Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg",
+        "data-version": "1-15-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-autosomal-recessive-genes-berg-v1.bed.gz": "207.94K",
+          "grch38-autosomal-recessive-genes-berg-v1.bed.gz.tbi": "42.99K",
+          "grch38-autosomal-recessive-genes-berg-v1.compliment.bed.gz": "123.06K",
+          "grch38-autosomal-recessive-genes-berg-v1.compliment.bed.gz.tbi": "32.11K"
+        },
+        "final-files": [
+          "grch38-autosomal-recessive-genes-berg-v1.bed.gz",
+          "grch38-autosomal-recessive-genes-berg-v1.bed.gz.tbi",
+          "grch38-autosomal-recessive-genes-berg-v1.compliment.bed.gz",
+          "grch38-autosomal-recessive-genes-berg-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592455869,
+      "version": "1"
+    },
+    "grch38-autosomal-recessive-genes-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Blekhman_et_al",
+        "AR",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes deemed  to follow autosomal recessive inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "blekhman",
+        "data-version": "6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-autosomal-recessive-genes-blekhman-v1.bed.gz": "112.75K",
+          "grch38-autosomal-recessive-genes-blekhman-v1.bed.gz.tbi": "23.68K",
+          "grch38-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz": "70.91K",
+          "grch38-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz.tbi": "24.70K"
+        },
+        "final-files": [
+          "grch38-autosomal-recessive-genes-blekhman-v1.bed.gz",
+          "grch38-autosomal-recessive-genes-blekhman-v1.bed.gz.tbi",
+          "grch38-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz",
+          "grch38-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592456015,
+      "version": "1"
+    },
     "grch38-canonical-isoforms-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -6182,6 +6426,202 @@
       "timestamp": 1592277569,
       "version": "1"
     },
+    "hg19-autosomal-recessive-genes-berg-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Berg_et_al",
+        "Blekhman_et_al",
+        "AR",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for combined set of OMIM disease genes deemed to follow autosomal recessive inheritance. (Assembled by Macarthur Lab). Gene sets from:  Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg-blekhman",
+        "data-version": "1-15-2013_6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-autosomal-recessive-genes-berg-blekhman-v1.bed.gz": "224.53K",
+          "hg19-autosomal-recessive-genes-berg-blekhman-v1.bed.gz.tbi": "46.88K",
+          "hg19-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz": "141.47K",
+          "hg19-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz.tbi": "24.36K"
+        },
+        "final-files": [
+          "hg19-autosomal-recessive-genes-berg-blekhman-v1.bed.gz",
+          "hg19-autosomal-recessive-genes-berg-blekhman-v1.bed.gz.tbi",
+          "hg19-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz",
+          "hg19-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592455840,
+      "version": "1"
+    },
+    "hg19-autosomal-recessive-genes-berg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Berg_et_al",
+        "AR",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes (as of June 2011) deemed to follow autosomal recessive inheritance. (Assembled by Macarthur Lab). Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg",
+        "data-version": "1-15-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-autosomal-recessive-genes-berg-v1.bed.gz": "199.64K",
+          "hg19-autosomal-recessive-genes-berg-v1.bed.gz.tbi": "43.90K",
+          "hg19-autosomal-recessive-genes-berg-v1.compliment.bed.gz": "124.94K",
+          "hg19-autosomal-recessive-genes-berg-v1.compliment.bed.gz.tbi": "23.17K"
+        },
+        "final-files": [
+          "hg19-autosomal-recessive-genes-berg-v1.bed.gz",
+          "hg19-autosomal-recessive-genes-berg-v1.bed.gz.tbi",
+          "hg19-autosomal-recessive-genes-berg-v1.compliment.bed.gz",
+          "hg19-autosomal-recessive-genes-berg-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592455927,
+      "version": "1"
+    },
+    "hg19-autosomal-recessive-genes-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Blekhman_et_al",
+        "AR",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes deemed  to follow autosomal recessive inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "blekhman",
+        "data-version": "6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-autosomal-recessive-genes-blekhman-v1.bed.gz": "106.21K",
+          "hg19-autosomal-recessive-genes-blekhman-v1.bed.gz.tbi": "22.97K",
+          "hg19-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz": "68.76K",
+          "hg19-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz.tbi": "15.38K"
+        },
+        "final-files": [
+          "hg19-autosomal-recessive-genes-blekhman-v1.bed.gz",
+          "hg19-autosomal-recessive-genes-blekhman-v1.bed.gz.tbi",
+          "hg19-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz",
+          "hg19-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592455985,
+      "version": "1"
+    },
     "hg19-canonical-isoforms-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -8467,6 +8907,202 @@
       },
       "text_prefix": false,
       "timestamp": 1592277713,
+      "version": "1"
+    },
+    "hg38-autosomal-recessive-genes-berg-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Berg_et_al",
+        "Blekhman_et_al",
+        "AR",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for combined set of OMIM disease genes deemed to follow autosomal recessive inheritance. (Assembled by Macarthur Lab). Gene sets from:  Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991). Blekham et al, 2008: (https://www.ncbi.nlm.nih.gov/pubmed/18571414)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg-blekhman",
+        "data-version": "1-15-2013_6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-autosomal-recessive-genes-berg-blekhman-v1.bed.gz": "235.33K",
+          "hg38-autosomal-recessive-genes-berg-blekhman-v1.bed.gz.tbi": "46.19K",
+          "hg38-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz": "145.00K",
+          "hg38-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz.tbi": "32.74K"
+        },
+        "final-files": [
+          "hg38-autosomal-recessive-genes-berg-blekhman-v1.bed.gz",
+          "hg38-autosomal-recessive-genes-berg-blekhman-v1.bed.gz.tbi",
+          "hg38-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz",
+          "hg38-autosomal-recessive-genes-berg-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592456102,
+      "version": "1"
+    },
+    "hg38-autosomal-recessive-genes-berg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Berg_et_al",
+        "AR",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes (as of June 2011) deemed to follow autosomal recessive inheritance. (Assembled by Macarthur Lab). Berg et al, 2013:  (https://www.ncbi.nlm.nih.gov/pubmed/22995991).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "berg",
+        "data-version": "1-15-2013",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-autosomal-recessive-genes-berg-v1.bed.gz": "208.09K",
+          "hg38-autosomal-recessive-genes-berg-v1.bed.gz.tbi": "43.13K",
+          "hg38-autosomal-recessive-genes-berg-v1.compliment.bed.gz": "128.53K",
+          "hg38-autosomal-recessive-genes-berg-v1.compliment.bed.gz.tbi": "31.51K"
+        },
+        "final-files": [
+          "hg38-autosomal-recessive-genes-berg-v1.bed.gz",
+          "hg38-autosomal-recessive-genes-berg-v1.bed.gz.tbi",
+          "hg38-autosomal-recessive-genes-berg-v1.compliment.bed.gz",
+          "hg38-autosomal-recessive-genes-berg-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592456131,
+      "version": "1"
+    },
+    "hg38-autosomal-recessive-genes-blekhman-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "genes",
+        "autosomal-recessive",
+        "disease",
+        "Blekhman_et_al",
+        "AR",
+        "OMIM",
+        "gene_coordinates",
+        "CDS-regions"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with the compliment coordinates, for OMIM disease genes deemed  to follow autosomal recessive inheritance according to extensive manual curation by Molly Przeworski's group.(https://www.ncbi.nlm.nih.gov/pubmed/18571414).",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "blekhman",
+        "data-version": "6-24-2008",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-autosomal-recessive-genes-blekhman-v1.bed.gz": "112.99K",
+          "hg38-autosomal-recessive-genes-blekhman-v1.bed.gz.tbi": "23.68K",
+          "hg38-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz": "73.92K",
+          "hg38-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz.tbi": "24.23K"
+        },
+        "final-files": [
+          "hg38-autosomal-recessive-genes-blekhman-v1.bed.gz",
+          "hg38-autosomal-recessive-genes-blekhman-v1.bed.gz.tbi",
+          "hg38-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz",
+          "hg38-autosomal-recessive-genes-blekhman-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592456044,
       "version": "1"
     },
     "hg38-bwa-1000g-v1": {

@@ -813,6 +813,123 @@
       "timestamp": 1590278653,
       "version": "1"
     },
+    "grch37-chrom-mapping-ensembl2refseq-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Chromosome-mapping",
+        "mapping",
+        "chrommapping",
+        "Ensembl2RefSeq",
+        "scaffolding-ids",
+        "txt",
+        "patch-13"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "A tab delimited file containing scaffolding ids that maps GRCh37 Ensembl(GenBank) scaffoldings to GRCh37 RefSeq scaffoldings. This is specific to patch 13 of the GRCh37 Human genome build. (1st column = Ensembl ids, 2nd column = RefSeq ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "12-October-2016-(patch13)",
+        "file-type": [
+          "txt"
+        ],
+        "final-file-sizes": {
+          "grch37-chrom-mapping-ensembl2refseq-ncbi-v1.txt": "7.27K"
+        },
+        "final-files": [
+          "grch37-chrom-mapping-ensembl2refseq-ncbi-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592867433,
+      "version": "1"
+    },
+    "grch37-chrom-mapping-refseq2ensembl-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Chromosome-mapping",
+        "mapping",
+        "chrommapping",
+        "RefSeq2Ensembl",
+        "scaffolding-ids",
+        "txt",
+        "patch-13",
+        "hg19-to-GRCh37"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "A tab delimited file containing scaffolding ids that maps GRCh37 RefSeq scaffoldings to GRCh37 Ensembl(GenBank) scaffoldings. This is specific to patch 13 of the GRCh37 Human genome build. (1st column = RefSeq ids, 2nd column = Ensembl ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "12-October-2016-(patch13)",
+        "file-type": [
+          "txt"
+        ],
+        "final-file-sizes": {
+          "grch37-chrom-mapping-refseq2ensembl-ncbi-v1.txt": "7.27K"
+        },
+        "final-files": [
+          "grch37-chrom-mapping-refseq2ensembl-ncbi-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592867290,
+      "version": "1"
+    },
     "grch37-chrom-mapping-ucsc2ensembl-ncbi-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -870,6 +987,65 @@
       },
       "text_prefix": false,
       "timestamp": 1586974532,
+      "version": "1"
+    },
+    "grch37-chrom-mapping-ucsc2refseq-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Chromosome-mapping",
+        "mapping",
+        "chrommapping",
+        "UCSC2RefSeq",
+        "scaffolding-ids",
+        "txt",
+        "patch-13",
+        "hg19-to-GRCh37"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "A tab delimited file containing scaffolding ids that maps hg19 UCSC scaffoldings to GRCh37 RefSeq scaffoldings. This is specific to patch 13 of the GRCh37 Human genome build. (1st column = UCSC ids, 2nd column = RefSeq ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "12-October-2016-(patch13)",
+        "file-type": [
+          "txt"
+        ],
+        "final-file-sizes": {
+          "grch37-chrom-mapping-ucsc2refseq-ncbi-v1.txt": "2.43K"
+        },
+        "final-files": [
+          "grch37-chrom-mapping-ucsc2refseq-ncbi-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592867347,
       "version": "1"
     },
     "grch37-chromsizes-ggd-v1": {
@@ -4030,6 +4206,122 @@
       "timestamp": 1590278595,
       "version": "1"
     },
+    "grch38-chrom-mapping-ensembl2refseq-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Chromosome-mapping",
+        "mapping",
+        "chrommapping",
+        "Ensembl2RefSeq",
+        "scaffolding-ids",
+        "txt",
+        "patch-13"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "A tab delimited file containing scaffolding ids that map GRCh38 Ensembl(GenBank) to GRCh38 RefSeq scaffoldings. This is specific to patch 13 of the GRCh38 Human genome build. (1st column = Ensembl ids, 2nd Column = RefSeq ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "14-April-2020-(patch13)",
+        "file-type": [
+          "txt"
+        ],
+        "final-file-sizes": {
+          "grch38-chrom-mapping-ensembl2refseq-ncbi-v1.txt": "15.30K"
+        },
+        "final-files": [
+          "grch38-chrom-mapping-ensembl2refseq-ncbi-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592867404,
+      "version": "1"
+    },
+    "grch38-chrom-mapping-refseq2ensembl-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Chromosome-mapping",
+        "mapping",
+        "chrommapping",
+        "RefSeq2Ensembl",
+        "scaffolding-ids",
+        "txt",
+        "patch-13"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "A tab delimited file containing scaffolding ids that map GRCh38 RefSeq scaffoldings to GRCh38 Ensembl(GenBank) scaffoldings. This is specific to patch 13 of the GRCh38 Human genome build. (1st column = RefSeq ids, 2nd column = Ensembl ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "14-April-2020-(patch13)",
+        "file-type": [
+          "txt"
+        ],
+        "final-file-sizes": {
+          "grch38-chrom-mapping-refseq2ensembl-ncbi-v1.txt": "15.30K"
+        },
+        "final-files": [
+          "grch38-chrom-mapping-refseq2ensembl-ncbi-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592851762,
+      "version": "1"
+    },
     "grch38-chrom-mapping-ucsc2ensembl-ncbi-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4087,6 +4379,64 @@
       },
       "text_prefix": false,
       "timestamp": 1586974481,
+      "version": "1"
+    },
+    "grch38-chrom-mapping-ucsc2refseq-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Chromosome-mapping",
+        "mapping",
+        "chrommapping",
+        "UCSC2RefSeq",
+        "scaffolding-ids",
+        "txt",
+        "patch-13"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "A tab delimited file containing scaffolding ids that map hg38 UCSC to GRCh38 RefSeq scaffoldings. This is specific to patch 13 of the GRCh38 Human genome build. (1st column = UCSC ids, 2nd Column = RefSeq ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "14-April-2020-(patch13)",
+        "file-type": [
+          "txt"
+        ],
+        "final-file-sizes": {
+          "grch38-chrom-mapping-ucsc2refseq-ncbi-v1.txt": "19.31K"
+        },
+        "final-files": [
+          "grch38-chrom-mapping-ucsc2refseq-ncbi-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592867375,
       "version": "1"
     },
     "grch38-chromsizes-ggd-v1": {
@@ -6800,6 +7150,65 @@
       "timestamp": 1586974611,
       "version": "1"
     },
+    "hg19-chrom-mapping-refseq2ucsc-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Chromosome-mapping",
+        "mapping",
+        "chrommapping",
+        "RefSeq2UCSC",
+        "scaffolding-ids",
+        "txt",
+        "patch-13",
+        "GRCh37-to-hg19"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "A tab delimited file containing scaffolding ids that maps GRCh37 RefSeq scaffoldings to hg19 UCSC scaffoldings. This is specific to patch 13 of the GRCh37 Human genome build. (1st column = RefSeq ids, 2nd column = UCSC ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "12-October-2016-(patch13)",
+        "file-type": [
+          "txt"
+        ],
+        "final-file-sizes": {
+          "hg19-chrom-mapping-refseq2ucsc-ncbi-v1.txt": "2.63K"
+        },
+        "final-files": [
+          "hg19-chrom-mapping-refseq2ucsc-ncbi-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592867319,
+      "version": "1"
+    },
     "hg19-chromsizes-ggd-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -9329,6 +9738,64 @@
       },
       "text_prefix": false,
       "timestamp": 1586974454,
+      "version": "1"
+    },
+    "hg38-chrom-mapping-refseq2ucsc-ncbi-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Chromosome-mapping",
+        "mapping",
+        "chrommapping",
+        "RefSeq2UCSC",
+        "scaffolding-ids",
+        "txt",
+        "patch-13"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "A tab delimited file containing scaffolding ids that map GRCh38 RefSeq to hg38 UCSC scaffoldings. This is specific to patch 13 of the GRCh38 Human genome build. (1st Column = RefSeq ids, 2nd Column = UCSC ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "NCBI",
+        "data-version": "14-April-2020-(patch13)",
+        "file-type": [
+          "txt"
+        ],
+        "final-file-sizes": {
+          "hg38-chrom-mapping-refseq2ucsc-ncbi-v1.txt": "19.51K"
+        },
+        "final-files": [
+          "hg38-chrom-mapping-refseq2ucsc-ncbi-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1592867461,
       "version": "1"
     },
     "hg38-chromsizes-ggd-v1": {

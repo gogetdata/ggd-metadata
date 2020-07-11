@@ -6155,6 +6155,63 @@
       "timestamp": 1588051189,
       "version": "1"
     },
+    "grch38-self-chain-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Self-Chain",
+        "Self-Alignment",
+        "Repeats",
+        "low-copy-repeats"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Self chain alignemnts of the human genome with an improved gap scoring system. Alignemtns point out areas of duplication wihtin the human genome, with the exception of the pseudoautosomal regions on X and Y. From the Human Chained Self Alignemnts track on UCSC. Remapped from UCSC hg38 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "06-Mar-2014",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-self-chain-ucsc-v1.bed.gz": "790.34M",
+          "grch38-self-chain-ucsc-v1.bed.gz.tbi": "700.77K"
+        },
+        "final-files": [
+          "grch38-self-chain-ucsc-v1.bed.gz",
+          "grch38-self-chain-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594428672,
+      "version": "1"
+    },
     "grch38-simple-repeats-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,

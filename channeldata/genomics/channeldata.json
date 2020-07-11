@@ -751,6 +751,70 @@
       "timestamp": 1590451422,
       "version": "1"
     },
+    "grch37-canonical-transcript-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Canonical-Transcripts",
+        "Canonical-Isoforms",
+        "Gene-Features",
+        "GTF",
+        "Gene-Features",
+        "Gene-Annotations",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Canonical Transcript Features for each protein coding gene id from GENCODE's v34 (Ensembl 100) comprehensive set of gene anntotations. Originally created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Canonical Transcripts are determined using the APPRIS annotation dataset. In short, for all protein coding transcripts, transcripts are filtered based on APPRIS isoform flags. If multiple transcripts of the same gene have equal flags, the isoform with the most exons is chosen. If all transcritps for a gene are not annotated by APPRIS, the transcript with the most exons is chosen as the canonical transcript. APPRIS flag information can be found here: http://appris-tools.org/#/downloads or here: https://uswest.ensembl.org/info/genome/genebuild/transcript_quality_tags.html. Features include: gene, transcript, exon, CDS, UTR, start_codon, stop_codon, and Selenocysteine.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-canonical-transcript-features-gencode-v1.gtf.gz": "15.54M",
+          "grch37-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "266.50K"
+        },
+        "final-files": [
+          "grch37-canonical-transcript-features-gencode-v1.gtf.gz",
+          "grch37-canonical-transcript-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594490718,
+      "version": "1"
+    },
     "grch37-ccds-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -1724,6 +1788,66 @@
       },
       "text_prefix": false,
       "timestamp": 1590710852,
+      "version": "1"
+    },
+    "grch37-gene-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "Gene-Annotations",
+        "All-Regions",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Comprehensive set of gene anntotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Features include: gene, transcript, exon, CDS, UTR, start_codon, stop_codon, and Selenocysteine.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-gene-features-gencode-v1.gtf.gz": "72.23M",
+          "grch37-gene-features-gencode-v1.gtf.gz.tbi": "347.23K"
+        },
+        "final-files": [
+          "grch37-gene-features-gencode-v1.gtf.gz",
+          "grch37-gene-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594490565,
       "version": "1"
     },
     "grch37-germline-variants-ensembl-v1": {
@@ -4201,6 +4325,70 @@
       "timestamp": 1590451499,
       "version": "1"
     },
+    "grch38-canonical-transcript-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Canonical-Transcripts",
+        "Canonical-Isoforms",
+        "Gene-Features",
+        "GTF",
+        "Gene-Features",
+        "Gene-Annotations",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Canonical Transcript Features for each protein coding gene id from GENCODE's v34 (Ensembl 100) comprehensive set of gene anntotations. Canonical Transcripts are determined using the APPRIS annotation dataset. In short, for all protein coding transcripts, transcripts are filtered based on APPRIS isoform flags. If multiple transcripts of the same gene have equal flags, the isoform with the most exons is chosen. If all transcritps for a gene are not annotated by APPRIS, the transcript with the most exons is chosen as the canonical transcript. APPRIS flag information can be found here: http://appris-tools.org/#/downloads or here: https://uswest.ensembl.org/info/genome/genebuild/transcript_quality_tags.html. Features include: gene, transcript, exon, CDS, UTR, start_codon, stop_codon, and Selenocysteine.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-canonical-transcript-features-gencode-v1.gtf.gz": "12.25M",
+          "grch38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "286.97K"
+        },
+        "final-files": [
+          "grch38-canonical-transcript-features-gencode-v1.gtf.gz",
+          "grch38-canonical-transcript-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594490657,
+      "version": "1"
+    },
     "grch38-ccds-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -5027,6 +5215,66 @@
       },
       "text_prefix": false,
       "timestamp": 1590710821,
+      "version": "1"
+    },
+    "grch38-gene-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "Gene-Annotations",
+        "All-Regions",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Comprehensive set of gene anntotations including reference chromosomes, scaffoldings, assebly patches, and alternative loci. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: gene, transcript, exon, CDS, UTR, start_codon, stop_codon, and Selenocysteine.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-gene-features-gencode-v1.gtf.gz": "60.52M",
+          "grch38-gene-features-gencode-v1.gtf.gz.tbi": "367.33K"
+        },
+        "final-files": [
+          "grch38-gene-features-gencode-v1.gtf.gz",
+          "grch38-gene-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594490779,
       "version": "1"
     },
     "grch38-gtf-ensembl-v1": {
@@ -7143,6 +7391,70 @@
       "timestamp": 1590451531,
       "version": "1"
     },
+    "hg19-canonical-transcript-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Canonical-Transcripts",
+        "Canonical-Isoforms",
+        "Gene-Features",
+        "GTF",
+        "Gene-Features",
+        "Gene-Annotations",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Canonical Transcript Features for each protein coding gene id from GENCODE's v34 (Ensembl 100) comprehensive set of gene anntotations. Originally created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Canonical Transcripts are determined using the APPRIS annotation dataset. In short, for all protein coding transcripts, transcripts are filtered based on APPRIS isoform flags. If multiple transcripts of the same gene have equal flags, the isoform with the most exons is chosen. If all transcritps for a gene are not annotated by APPRIS, the transcript with the most exons is chosen as the canonical transcript. APPRIS flag information can be found here: http://appris-tools.org/#/downloads or here: https://uswest.ensembl.org/info/genome/genebuild/transcript_quality_tags.html. Features include: gene, transcript, exon, CDS, UTR, start_codon, stop_codon, and Selenocysteine. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-canonical-transcript-features-gencode-v1.gtf.gz": "15.56M",
+          "hg19-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "266.51K"
+        },
+        "final-files": [
+          "hg19-canonical-transcript-features-gencode-v1.gtf.gz",
+          "hg19-canonical-transcript-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594490748,
+      "version": "1"
+    },
     "hg19-ccds-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -7897,6 +8209,66 @@
       },
       "text_prefix": false,
       "timestamp": 1590710791,
+      "version": "1"
+    },
+    "hg19-gene-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "Gene-Annotations",
+        "All-Regions",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Comprehensive set of gene anntotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Features include: gene, transcript, exon, CDS, UTR, start_codon, stop_codon, and Selenocysteine. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-gene-features-gencode-v1.gtf.gz": "72.41M",
+          "hg19-gene-features-gencode-v1.gtf.gz.tbi": "347.12K"
+        },
+        "final-files": [
+          "hg19-gene-features-gencode-v1.gtf.gz",
+          "hg19-gene-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594490626,
       "version": "1"
     },
     "hg19-germline-variants-ensembl-v1": {
@@ -9790,6 +10162,70 @@
       "timestamp": 1590451453,
       "version": "1"
     },
+    "hg38-canonical-transcript-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Canonical-Transcripts",
+        "Canonical-Isoforms",
+        "Gene-Features",
+        "GTF",
+        "Gene-Features",
+        "Gene-Annotations",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Canonical Transcript Features for each protein coding gene id from GENCODE's v34 (Ensembl 100) comprehensive set of gene anntotations. Canonical Transcripts are determined using the APPRIS annotation dataset. In short, for all protein coding transcripts, transcripts are filtered based on APPRIS isoform flags. If multiple transcripts of the same gene have equal flags, the isoform with the most exons is chosen. If all transcritps for a gene are not annotated by APPRIS, the transcript with the most exons is chosen as the canonical transcript. APPRIS flag information can be found here: http://appris-tools.org/#/downloads or here: https://uswest.ensembl.org/info/genome/genebuild/transcript_quality_tags.html. Features include: gene, transcript, exon, CDS, UTR, start_codon, stop_codon, and Selenocysteine. Remapped from Ensembl GRCh38 to UCSC hg38. (Scaffoldings wihtout UCSC matches are kept with Ensebml ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz": "12.30M",
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "288.24K"
+        },
+        "final-files": [
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz",
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594503125,
+      "version": "1"
+    },
     "hg38-ccds-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -10500,6 +10936,66 @@
       },
       "text_prefix": false,
       "timestamp": 1590710882,
+      "version": "1"
+    },
+    "hg38-gene-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "Gene-Annotations",
+        "All-Regions",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Comprehensive set of gene anntotations including reference chromosomes, scaffoldings, assebly patches, and alternative loci. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: gene, transcript, exon, CDS, UTR, start_codon, stop_codon, and Selenocysteine. Remapped from Ensembl GRCh38 to UCSC hg38. (Scaffoldings wihtout UCSC matches are kept with Ensebml ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-gene-features-gencode-v1.gtf.gz": "60.76M",
+          "hg38-gene-features-gencode-v1.gtf.gz.tbi": "368.32K"
+        },
+        "final-files": [
+          "hg38-gene-features-gencode-v1.gtf.gz",
+          "hg38-gene-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594503082,
       "version": "1"
     },
     "hg38-gtf-ensembl-v1": {

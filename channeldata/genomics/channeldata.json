@@ -751,6 +751,66 @@
       "timestamp": 1590451422,
       "version": "1"
     },
+    "grch37-canonical-transcript-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Canonical-Transcripts",
+        "Canonical-Isoforms",
+        "Gene-Features",
+        "GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features from Ensembl Release-75 for protein-coding canonical transcripts based on the APPRIS transcript annotations. Features include gene, transcript, CDS, UTR, exon, start_codon, and stop_codon for all canonical transcripts. Canonical transcripts are determined based on APPRIS annotations. In short, for all protein coding transcripts, transcripts are filtered based on APPRIS isoform flags. If multiple transcripts of the same gene have equal flags, the isoform with the most exons is chosen. If all transcritps for a gene annotated by APPRIS are missing from the base gtf file no canonical transcript is chosen and the gene is removed. APPRIS flag information can be found here: http://appris-tools.org/#/downloads or here: https://uswest.ensembl.org/info/genome/genebuild/transcript_quality_tags.html",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-canonical-transcript-features-ensembl-v1.gtf.gz": "9.31M",
+          "grch37-canonical-transcript-features-ensembl-v1.gtf.gz.tbi": "250.77K"
+        },
+        "final-files": [
+          "grch37-canonical-transcript-features-ensembl-v1.gtf.gz",
+          "grch37-canonical-transcript-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594959436,
+      "version": "1"
+    },
     "grch37-canonical-transcript-features-gencode-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -1506,66 +1566,6 @@
       },
       "text_prefix": false,
       "timestamp": 1558210111,
-      "version": "1"
-    },
-    "grch37-eiee-genes-ostrander-v1": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "description": null,
-      "dev_url": null,
-      "doc_source_url": null,
-      "doc_url": null,
-      "home": null,
-      "icon_hash": null,
-      "icon_url": null,
-      "identifiers": {
-        "genome-build": "GRCh37",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "eiee",
-        "early-infantile",
-        "epileptic",
-        "epilepsy",
-        "encephalopathy",
-        "ostrander",
-        "bed-file",
-        "genes",
-        "pathoscore"
-      ],
-      "license": null,
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "recipe_origin": null,
-      "run_exports": {},
-      "source_git_url": null,
-      "source_url": null,
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "This is a set of genes from a recent paper on EIEE (Early Infantile Epileptic Encephalopathy) a severe, fatal epileptic syndrome that occurs within the first few months of life. The gene set is a compilation of gene sets from a few different companies' gene panels, as well as one from the U of Chicago. Paper at: https://www.nature.com/articles/s41525-018-0061-8",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-provider": "ostrander",
-        "data-version": "13-Aug-2018",
-        "file-type": [
-          "bed"
-        ],
-        "final-files": [
-          "grch37-eiee-genes-ostrander-v1.complement.bed.gz",
-          "grch37-eiee-genes-ostrander-v1.complement.bed.gz.tbi",
-          "grch37-eiee-genes-ostrander-v1.bed.gz",
-          "grch37-eiee-genes-ostrander-v1.bed.gz.tbi"
-        ],
-        "genomic-coordinate-base": "0-based-inclusive",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "timestamp": 1571801269,
       "version": "1"
     },
     "grch37-esp-variants-uw-v1": {
@@ -4323,6 +4323,66 @@
       },
       "text_prefix": false,
       "timestamp": 1590451499,
+      "version": "1"
+    },
+    "grch38-canonical-transcript-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Canonical-Transcripts",
+        "Canonical-Isoforms",
+        "Gene-Features",
+        "GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features from Ensembl Release-100 for protein-coding canonical transcripts based on the APPRIS transcript annotations. Features include gene, transcript, CDS, five_prime_utr, three_prime_utr, exon, start_codon, and stop_codon for all canonical transcripts. Canonical transcripts are determined based on APPRIS annotations. In short, for all protein coding transcripts, transcripts are filtered based on APPRIS isoform flags. If multiple transcripts of the same gene have equal flags, the isoform with the most exons is chosen. If all transcritps for a gene annotated by APPRIS are missing from the base gtf file no canonical transcript is chosen and the gene is removed. APPRIS flag information can be found here: http://appris-tools.org/#/downloads or here: https://uswest.ensembl.org/info/genome/genebuild/transcript_quality_tags.html. Remapped from Ensembl GRCh38 to UCSC hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-canonical-transcript-features-ensembl-v1.gtf.gz": "11.49M",
+          "grch38-canonical-transcript-features-ensembl-v1.gtf.gz.tbi": "256.64K"
+        },
+        "final-files": [
+          "grch38-canonical-transcript-features-ensembl-v1.gtf.gz",
+          "grch38-canonical-transcript-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594959373,
       "version": "1"
     },
     "grch38-canonical-transcript-features-gencode-v1": {
@@ -7391,6 +7451,66 @@
       "timestamp": 1590451531,
       "version": "1"
     },
+    "hg19-canonical-transcript-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Canonical-Transcripts",
+        "Canonical-Isoforms",
+        "Gene-Features",
+        "GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features from Ensembl Release-75 for protein-coding canonical transcripts based on the APPRIS transcript annotations. Features include gene, transcript, CDS, UTR, exon, start_codon, and stop_codon for all canonical transcripts. Canonical transcripts are determined based on APPRIS annotations. In short, for all protein coding transcripts, transcripts are filtered based on APPRIS isoform flags. If multiple transcripts of the same gene have equal flags, the isoform with the most exons is chosen. If all transcritps for a gene annotated by APPRIS are missing from the base gtf file no canonical transcript is chosen and the gene is removed. APPRIS flag information can be found here: http://appris-tools.org/#/downloads or here: https://uswest.ensembl.org/info/genome/genebuild/transcript_quality_tags.html. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-canonical-transcript-features-ensembl-v1.gtf.gz": "9.34M",
+          "hg19-canonical-transcript-features-ensembl-v1.gtf.gz.tbi": "250.81K"
+        },
+        "final-files": [
+          "hg19-canonical-transcript-features-ensembl-v1.gtf.gz",
+          "hg19-canonical-transcript-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594959404,
+      "version": "1"
+    },
     "hg19-canonical-transcript-features-gencode-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -10160,6 +10280,66 @@
       },
       "text_prefix": false,
       "timestamp": 1590451453,
+      "version": "1"
+    },
+    "hg38-canonical-transcript-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Canonical-Transcripts",
+        "Canonical-Isoforms",
+        "Gene-Features",
+        "GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Gene features from Ensembl Release-100 for protein-coding canonical transcripts based on the APPRIS transcript annotations. Features include gene, transcript, CDS, five_prime_utr, three_prime_utr, exon, start_codon, and stop_codon for all canonical transcripts. Canonical transcripts are determined based on APPRIS annotations. In short, for all protein coding transcripts, transcripts are filtered based on APPRIS isoform flags. If multiple transcripts of the same gene have equal flags, the isoform with the most exons is chosen. If all transcritps for a gene annotated by APPRIS are missing from the base gtf file no canonical transcript is chosen and the gene is removed. APPRIS flag information can be found here: http://appris-tools.org/#/downloads or here: https://uswest.ensembl.org/info/genome/genebuild/transcript_quality_tags.html. Remapped from Ensembl GRCh38 to UCSC hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-canonical-transcript-features-ensembl-v1.gtf.gz": "11.52M",
+          "hg38-canonical-transcript-features-ensembl-v1.gtf.gz.tbi": "256.40K"
+        },
+        "final-files": [
+          "hg38-canonical-transcript-features-ensembl-v1.gtf.gz",
+          "hg38-canonical-transcript-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594959342,
       "version": "1"
     },
     "hg38-canonical-transcript-features-gencode-v1": {

@@ -1568,6 +1568,71 @@
       "timestamp": 1558210111,
       "version": "1"
     },
+    "grch37-eiee-genes-ostrander-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "eiee",
+        "early-infantile",
+        "epileptic",
+        "epilepsy",
+        "encephalopathy",
+        "ostrander",
+        "genes",
+        "gene-set"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a set of eiee genes. The eiee gene set comes from a paper on EIEE (Early Infantile Epileptic Encephalopathy) a severe, fatal epileptic syndrome that occurs within the first few months of life. The gene set is a compilation of gene sets from a few different companies, gene panels, as well as one from the U of Chicago. Paper at: https://www.nature.com/articles/s41525-018-0061-8",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ostrander",
+        "data-version": "13-Aug-2018",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-eiee-genes-ostrander-v1.bed.gz": "48.52K",
+          "grch37-eiee-genes-ostrander-v1.bed.gz.tbi": "14.85K",
+          "grch37-eiee-genes-ostrander-v1.complement.bed.gz": "30.66K",
+          "grch37-eiee-genes-ostrander-v1.complement.bed.gz.tbi": "14.59K"
+        },
+        "final-files": [
+          "grch37-eiee-genes-ostrander-v1.bed.gz",
+          "grch37-eiee-genes-ostrander-v1.bed.gz.tbi",
+          "grch37-eiee-genes-ostrander-v1.complement.bed.gz",
+          "grch37-eiee-genes-ostrander-v1.complement.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594963937,
+      "version": "1"
+    },
     "grch37-esp-variants-uw-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -2127,10 +2192,10 @@
       "keywords": [
         "heart",
         "heart-disease",
+        "heart-genes",
         "genes",
         "sifrim",
-        "bed-file",
-        "pathoscore"
+        "gene-set"
       ],
       "license": null,
       "post_link": true,
@@ -2143,16 +2208,22 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "Manually curated list of congenital heart disease (CHD) genes from Sifrim et al.: www.nature.com/articles/ng.3627. Used Supplemental Table 20 here: https://media.nature.com/original/nature-assets/ng/journal/v48/n9/extref/ng.3627-S13.xlsx",
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a manually curated set of congenital heart disease (CHD) genes from Sifrim et al. (www.nature.com/articles/ng.3627). Used Supplemental Table 20 here: https://media.nature.com/original/nature-assets/ng/journal/v48/n9/extref/ng.3627-S13.xlsx",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
-        "data-provider": "sifrim",
+        "data-provider": "Sifrim",
         "data-version": "01-Aug-2016",
         "file-type": [
           "bed"
         ],
+        "final-file-sizes": {
+          "grch37-heart-genes-sifrim-v1.bed.gz": "39.03K",
+          "grch37-heart-genes-sifrim-v1.bed.gz.tbi": "12.38K",
+          "grch37-heart-genes-sifrim-v1.complement.bed.gz": "26.32K",
+          "grch37-heart-genes-sifrim-v1.complement.bed.gz.tbi": "13.63K"
+        },
         "final-files": [
           "grch37-heart-genes-sifrim-v1.bed.gz",
           "grch37-heart-genes-sifrim-v1.bed.gz.tbi",
@@ -2163,7 +2234,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571801318,
+      "timestamp": 1594963998,
       "version": "1"
     },
     "grch37-hg002-pb-chr22-giab-v1": {
@@ -5097,6 +5168,71 @@
       "timestamp": 1587057227,
       "version": "1"
     },
+    "grch38-eiee-genes-ostrander-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "eiee",
+        "early-infantile",
+        "epileptic",
+        "epilepsy",
+        "encephalopathy",
+        "ostrander",
+        "genes",
+        "gene-set"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a set of eiee genes. The eiee gene set comes from a paper on EIEE (Early Infantile Epileptic Encephalopathy) a severe, fatal epileptic syndrome that occurs within the first few months of life. The gene set is a compilation of gene sets from a few different companies, gene panels, as well as one from the U of Chicago. Paper at: https://www.nature.com/articles/s41525-018-0061-8",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ostrander",
+        "data-version": "13-Aug-2018",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-eiee-genes-ostrander-v1.bed.gz": "61.20K",
+          "grch38-eiee-genes-ostrander-v1.bed.gz.tbi": "15.09K",
+          "grch38-eiee-genes-ostrander-v1.complement.bed.gz": "34.10K",
+          "grch38-eiee-genes-ostrander-v1.complement.bed.gz.tbi": "20.15K"
+        },
+        "final-files": [
+          "grch38-eiee-genes-ostrander-v1.bed.gz",
+          "grch38-eiee-genes-ostrander-v1.bed.gz.tbi",
+          "grch38-eiee-genes-ostrander-v1.complement.bed.gz",
+          "grch38-eiee-genes-ostrander-v1.complement.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594963907,
+      "version": "1"
+    },
     "grch38-evofold-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -5378,6 +5514,69 @@
       },
       "text_prefix": false,
       "timestamp": 1558392518,
+      "version": "1"
+    },
+    "grch38-heart-genes-sifrim-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "heart",
+        "heart-disease",
+        "heart-genes",
+        "genes",
+        "sifrim",
+        "gene-set"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a manually curated set of congenital heart disease (CHD) genes from Sifrim et al. (www.nature.com/articles/ng.3627). Used Supplemental Table 20 here: https://media.nature.com/original/nature-assets/ng/journal/v48/n9/extref/ng.3627-S13.xlsx",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Sifrim",
+        "data-version": "01-Aug-2016",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-heart-genes-sifrim-v1.bed.gz": "42.23K",
+          "grch38-heart-genes-sifrim-v1.bed.gz.tbi": "12.05K",
+          "grch38-heart-genes-sifrim-v1.complement.bed.gz": "28.85K",
+          "grch38-heart-genes-sifrim-v1.complement.bed.gz.tbi": "19.29K"
+        },
+        "final-files": [
+          "grch38-heart-genes-sifrim-v1.bed.gz",
+          "grch38-heart-genes-sifrim-v1.bed.gz.tbi",
+          "grch38-heart-genes-sifrim-v1.complement.bed.gz",
+          "grch38-heart-genes-sifrim-v1.complement.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594964028,
       "version": "1"
     },
     "grch38-hg002-chr22-illumina-giab-v1": {
@@ -8151,6 +8350,71 @@
       "timestamp": 1558392629,
       "version": "1"
     },
+    "hg19-eiee-genes-ostrander-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "eiee",
+        "early-infantile",
+        "epileptic",
+        "epilepsy",
+        "encephalopathy",
+        "ostrander",
+        "genes",
+        "gene-set"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a set of eiee genes. The eiee gene set comes from a paper on EIEE (Early Infantile Epileptic Encephalopathy) a severe, fatal epileptic syndrome that occurs within the first few months of life. The gene set is a compilation of gene sets from a few different companies, gene panels, as well as one from the U of Chicago. Paper at: https://www.nature.com/articles/s41525-018-0061-8",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ostrander",
+        "data-version": "13-Aug-2018",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-eiee-genes-ostrander-v1.bed.gz": "48.78K",
+          "hg19-eiee-genes-ostrander-v1.bed.gz.tbi": "14.85K",
+          "hg19-eiee-genes-ostrander-v1.complement.bed.gz": "30.71K",
+          "hg19-eiee-genes-ostrander-v1.complement.bed.gz.tbi": "11.01K"
+        },
+        "final-files": [
+          "hg19-eiee-genes-ostrander-v1.bed.gz",
+          "hg19-eiee-genes-ostrander-v1.bed.gz.tbi",
+          "hg19-eiee-genes-ostrander-v1.complement.bed.gz",
+          "hg19-eiee-genes-ostrander-v1.complement.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594963968,
+      "version": "1"
+    },
     "hg19-evofold-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -8537,6 +8801,69 @@
       },
       "text_prefix": false,
       "timestamp": 1558392562,
+      "version": "1"
+    },
+    "hg19-heart-genes-sifrim-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "heart",
+        "heart-disease",
+        "heart-genes",
+        "genes",
+        "sifrim",
+        "gene-set"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a manually curated set of congenital heart disease (CHD) genes from Sifrim et al. (www.nature.com/articles/ng.3627). Used Supplemental Table 20 here: https://media.nature.com/original/nature-assets/ng/journal/v48/n9/extref/ng.3627-S13.xlsx",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Sifrim",
+        "data-version": "01-Aug-2016",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-heart-genes-sifrim-v1.bed.gz": "39.09K",
+          "hg19-heart-genes-sifrim-v1.bed.gz.tbi": "12.42K",
+          "hg19-heart-genes-sifrim-v1.complement.bed.gz": "26.38K",
+          "hg19-heart-genes-sifrim-v1.complement.bed.gz.tbi": "10.07K"
+        },
+        "final-files": [
+          "hg19-heart-genes-sifrim-v1.bed.gz",
+          "hg19-heart-genes-sifrim-v1.bed.gz.tbi",
+          "hg19-heart-genes-sifrim-v1.complement.bed.gz",
+          "hg19-heart-genes-sifrim-v1.complement.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594963813,
       "version": "1"
     },
     "hg19-known-genes-ucsc-v1": {
@@ -10938,6 +11265,71 @@
       "timestamp": 1587057305,
       "version": "1"
     },
+    "hg38-eiee-genes-ostrander-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "eiee",
+        "early-infantile",
+        "epileptic",
+        "epilepsy",
+        "encephalopathy",
+        "ostrander",
+        "genes",
+        "gene-set"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a set of eiee genes. The eiee gene set comes from a paper on EIEE (Early Infantile Epileptic Encephalopathy) a severe, fatal epileptic syndrome that occurs within the first few months of life. The gene set is a compilation of gene sets from a few different companies, gene panels, as well as one from the U of Chicago. Paper at: https://www.nature.com/articles/s41525-018-0061-8",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ostrander",
+        "data-version": "13-Aug-2018",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-eiee-genes-ostrander-v1.bed.gz": "61.34K",
+          "hg38-eiee-genes-ostrander-v1.bed.gz.tbi": "15.14K",
+          "hg38-eiee-genes-ostrander-v1.complement.bed.gz": "35.92K",
+          "hg38-eiee-genes-ostrander-v1.complement.bed.gz.tbi": "19.75K"
+        },
+        "final-files": [
+          "hg38-eiee-genes-ostrander-v1.bed.gz",
+          "hg38-eiee-genes-ostrander-v1.bed.gz.tbi",
+          "hg38-eiee-genes-ostrander-v1.complement.bed.gz",
+          "hg38-eiee-genes-ostrander-v1.complement.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594963874,
+      "version": "1"
+    },
     "hg38-evofold-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -11265,6 +11657,69 @@
       },
       "text_prefix": false,
       "timestamp": 1558756481,
+      "version": "1"
+    },
+    "hg38-heart-genes-sifrim-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "heart",
+        "heart-disease",
+        "heart-genes",
+        "genes",
+        "sifrim",
+        "gene-set"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a manually curated set of congenital heart disease (CHD) genes from Sifrim et al. (www.nature.com/articles/ng.3627). Used Supplemental Table 20 here: https://media.nature.com/original/nature-assets/ng/journal/v48/n9/extref/ng.3627-S13.xlsx",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Sifrim",
+        "data-version": "01-Aug-2016",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-heart-genes-sifrim-v1.bed.gz": "42.13K",
+          "hg38-heart-genes-sifrim-v1.bed.gz.tbi": "12.08K",
+          "hg38-heart-genes-sifrim-v1.complement.bed.gz": "30.58K",
+          "hg38-heart-genes-sifrim-v1.complement.bed.gz.tbi": "18.88K"
+        },
+        "final-files": [
+          "hg38-heart-genes-sifrim-v1.bed.gz",
+          "hg38-heart-genes-sifrim-v1.bed.gz.tbi",
+          "hg38-heart-genes-sifrim-v1.complement.bed.gz",
+          "hg38-heart-genes-sifrim-v1.complement.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1594963843,
       "version": "1"
     },
     "hg38-known-genes-ucsc-v1": {

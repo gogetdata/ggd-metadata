@@ -875,6 +875,65 @@
       "timestamp": 1594490718,
       "version": "1"
     },
+    "grch37-ccdg-sv-vcf-ccdg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sv",
+        "ccdg",
+        "structural-variants",
+        "sv",
+        "structural",
+        "vcf-file"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SV callset 2 from ccdg in grch37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ccdg",
+        "data-version": "2",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "grch37-ccdg-sv-vcf-ccdg-v1.public.v2.sorted.vcf.gz": "32.07M",
+          "grch37-ccdg-sv-vcf-ccdg-v1.public.v2.sorted.vcf.gz.tbi": "442.27K"
+        },
+        "final-files": [
+          "grch37-ccdg-sv-vcf-ccdg-v1.public.v2.sorted.vcf.gz",
+          "grch37-ccdg-sv-vcf-ccdg-v1.public.v2.sorted.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596135780,
+      "version": "1"
+    },
     "grch37-ccds-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4593,6 +4652,65 @@
       "timestamp": 1594490657,
       "version": "1"
     },
+    "grch38-ccdg-sv-vcf-ccdg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sv",
+        "ccdg",
+        "structural-variants",
+        "sv",
+        "structural",
+        "vcf-file"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SV callset 2 from ccdg in grch38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ccdg",
+        "data-version": "2",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "grch38-ccdg-sv-vcf-ccdg-v1.public.v2.vcf.gz": "50.44M",
+          "grch38-ccdg-sv-vcf-ccdg-v1.public.v2.vcf.gz.tbi": "375.58K"
+        },
+        "final-files": [
+          "grch38-ccdg-sv-vcf-ccdg-v1.public.v2.vcf.gz",
+          "grch38-ccdg-sv-vcf-ccdg-v1.public.v2.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596135808,
+      "version": "1"
+    },
     "grch38-ccds-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -8033,6 +8151,65 @@
       "timestamp": 1594490748,
       "version": "1"
     },
+    "hg19-ccdg-sv-vcf-ccdg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sv",
+        "ccdg",
+        "structural-variants",
+        "sv",
+        "structural",
+        "vcf-file"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SV callset 2 from ccdg in hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ccdg",
+        "data-version": "2",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "hg19-ccdg-sv-vcf-ccdg-v1.public.v2.vcf.gz": "32.13M",
+          "hg19-ccdg-sv-vcf-ccdg-v1.public.v2.vcf.gz.tbi": "442.36K"
+        },
+        "final-files": [
+          "hg19-ccdg-sv-vcf-ccdg-v1.public.v2.vcf.gz",
+          "hg19-ccdg-sv-vcf-ccdg-v1.public.v2.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596135865,
+      "version": "1"
+    },
     "hg19-ccds-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -9373,6 +9550,62 @@
       },
       "text_prefix": false,
       "timestamp": 1588982654,
+      "version": "1"
+    },
+    "hg19-liftover-chain-19-to-38-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "chain",
+        "liftover",
+        "hg38",
+        "hg19",
+        "ucsc"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Liftover chain file from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ucsc",
+        "data-version": "1",
+        "file-type": [
+          "over.chain.gz"
+        ],
+        "final-file-sizes": {
+          "hg19-liftover-chain-19-to-38-ucsc-v1.over.chain.gz": "227.70K"
+        },
+        "final-files": [
+          "hg19-liftover-chain-19-to-38-ucsc-v1.over.chain.gz"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596135836,
       "version": "1"
     },
     "hg19-microsatellites-ucsc-v1": {
@@ -11177,6 +11410,65 @@
       },
       "text_prefix": false,
       "timestamp": 1594503125,
+      "version": "1"
+    },
+    "hg38-ccdg-sv-vcf-ccdg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sv",
+        "ccdg",
+        "structural-variants",
+        "sv",
+        "structural",
+        "vcf-file"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SV callset 2 from ccdg in hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ccdg",
+        "data-version": "2",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "hg38-ccdg-sv-vcf-ccdg-v1.public.v2.sorted.vcf.gz": "50.47M",
+          "hg38-ccdg-sv-vcf-ccdg-v1.public.v2.sorted.vcf.gz.tbi": "375.59K"
+        },
+        "final-files": [
+          "hg38-ccdg-sv-vcf-ccdg-v1.public.v2.sorted.vcf.gz",
+          "hg38-ccdg-sv-vcf-ccdg-v1.public.v2.sorted.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596135893,
       "version": "1"
     },
     "hg38-ccds-genes-ucsc-v1": {

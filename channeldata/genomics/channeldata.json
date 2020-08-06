@@ -2365,6 +2365,71 @@
       "timestamp": 1573702170,
       "version": "1"
     },
+    "grch37-hg002-svs-giab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sv",
+        "nist",
+        "structural-variants",
+        "sv",
+        "structural",
+        "vcf-file",
+        "giab",
+        "ashkenazi",
+        "na24385",
+        "hg002",
+        "trio",
+        "son"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SV callset for the Ashkenazi trio son HG002 in grch37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "giab",
+        "data-version": "0.6",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "grch37-hg002-svs-giab-v1.6.sorted.vcf.gz": "25.50M",
+          "grch37-hg002-svs-giab-v1.6.sorted.vcf.gz.tbi": "451.75K"
+        },
+        "final-files": [
+          "grch37-hg002-svs-giab-v1.6.sorted.vcf.gz",
+          "grch37-hg002-svs-giab-v1.6.sorted.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596749304,
+      "version": "1"
+    },
     "grch37-hg003-pb-chr22-giab-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -2601,6 +2666,62 @@
       },
       "text_prefix": false,
       "timestamp": 1588982691,
+      "version": "1"
+    },
+    "grch37-liftover-chain-38-to-37-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "chain",
+        "liftover",
+        "grch38",
+        "grch37",
+        "ensembl"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Liftover chain file from ensembl",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ensembl",
+        "data-version": "1",
+        "file-type": [
+          "chain.gz"
+        ],
+        "final-file-sizes": {
+          "grch37-liftover-chain-38-to-37-ensembl-v1.chain.gz": "730.39K"
+        },
+        "final-files": [
+          "grch37-liftover-chain-38-to-37-ensembl-v1.chain.gz"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596749247,
       "version": "1"
     },
     "grch37-microsatellites-ucsc-v1": {
@@ -6251,6 +6372,62 @@
       "timestamp": 1588982627,
       "version": "1"
     },
+    "grch38-liftover-chain-37-to-38-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "chain",
+        "liftover",
+        "grch38",
+        "grch37",
+        "ensembl"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Liftover chain file from ensembl",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ensembl",
+        "data-version": "1",
+        "file-type": [
+          "chain.gz"
+        ],
+        "final-file-sizes": {
+          "grch38-liftover-chain-37-to-38-ensembl-v1.chain.gz": "285.25K"
+        },
+        "final-files": [
+          "grch38-liftover-chain-37-to-38-ensembl-v1.chain.gz"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596749333,
+      "version": "1"
+    },
     "grch38-microsatellites-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -9544,6 +9721,71 @@
       "timestamp": 1594963813,
       "version": "1"
     },
+    "hg19-hg002-svs-giab-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sv",
+        "nist",
+        "structural-variants",
+        "sv",
+        "structural",
+        "vcf-file",
+        "giab",
+        "ashkenazi",
+        "na24385",
+        "hg002",
+        "trio",
+        "son"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SV callset for the Ashkenazi trio son HG002 in hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "giab",
+        "data-version": "0.6",
+        "file-type": [
+          "vcf"
+        ],
+        "final-file-sizes": {
+          "hg19-hg002-svs-giab-v1.6.sorted.vcf.gz": "25.52M",
+          "hg19-hg002-svs-giab-v1.6.sorted.vcf.gz.tbi": "451.88K"
+        },
+        "final-files": [
+          "hg19-hg002-svs-giab-v1.6.sorted.vcf.gz",
+          "hg19-hg002-svs-giab-v1.6.sorted.vcf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596749218,
+      "version": "1"
+    },
     "hg19-known-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -9668,7 +9910,7 @@
       "timestamp": 1588982654,
       "version": "1"
     },
-    "hg19-liftover-chain-19-to-38-ucsc-v1": {
+    "hg19-liftover-chain-38-to-19-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
       "deactivate.d": false,
@@ -9712,16 +9954,16 @@
           "over.chain.gz"
         ],
         "final-file-sizes": {
-          "hg19-liftover-chain-19-to-38-ucsc-v1.over.chain.gz": "227.70K"
+          "hg19-liftover-chain-38-to-19-ucsc-v1.over.chain.gz": "1.25M"
         },
         "final-files": [
-          "hg19-liftover-chain-19-to-38-ucsc-v1.over.chain.gz"
+          "hg19-liftover-chain-38-to-19-ucsc-v1.over.chain.gz"
         ],
         "genomic-coordinate-base": "NA",
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1596135836,
+      "timestamp": 1596749276,
       "version": "1"
     },
     "hg19-microsatellites-ucsc-v1": {
@@ -12887,6 +13129,62 @@
       },
       "text_prefix": false,
       "timestamp": 1588982717,
+      "version": "1"
+    },
+    "hg38-liftover-chain-19-to-38-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "chain",
+        "liftover",
+        "hg38",
+        "hg19",
+        "ucsc"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Liftover chain file from UCSC",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ucsc",
+        "data-version": "1",
+        "file-type": [
+          "over.chain.gz"
+        ],
+        "final-file-sizes": {
+          "hg38-liftover-chain-19-to-38-ucsc-v1.over.chain.gz": "227.70K"
+        },
+        "final-files": [
+          "hg38-liftover-chain-19-to-38-ucsc-v1.over.chain.gz"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596749190,
       "version": "1"
     },
     "hg38-microsatellites-ucsc-v1": {

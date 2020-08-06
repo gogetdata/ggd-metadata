@@ -3926,6 +3926,66 @@
       "timestamp": 1591214549,
       "version": "1"
     },
+    "grch37-structural-variants-bedpe-ccdg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sv",
+        "ccdg",
+        "structural-variants",
+        "sv",
+        "structural",
+        "bedpe-file",
+        "bed-file"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SV callset 2 from ccdg in grch37, bedpe format",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ccdg",
+        "data-version": "2",
+        "file-type": [
+          "bedpe"
+        ],
+        "final-file-sizes": {
+          "grch37-structural-variants-bedpe-ccdg-v1.public.v2.sorted.bedpe.gz": "32.87M",
+          "grch37-structural-variants-bedpe-ccdg-v1.public.v2.sorted.bedpe.gz.tbi": "1.01M"
+        },
+        "final-files": [
+          "grch37-structural-variants-bedpe-ccdg-v1.public.v2.sorted.bedpe.gz",
+          "grch37-structural-variants-bedpe-ccdg-v1.public.v2.sorted.bedpe.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596751467,
+      "version": "1"
+    },
     "grch37-structural-variants-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -7446,6 +7506,66 @@
       },
       "text_prefix": false,
       "timestamp": 1591214608,
+      "version": "1"
+    },
+    "grch38-structural-variants-bedpe-ccdg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sv",
+        "ccdg",
+        "structural-variants",
+        "sv",
+        "structural",
+        "bedpe-file",
+        "bed-file"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SV callset 2 from ccdg in hg38, bedpe format",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ccdg",
+        "data-version": "2",
+        "file-type": [
+          "bedpe"
+        ],
+        "final-file-sizes": {
+          "grch38-structural-variants-bedpe-ccdg-v1.public.sorted.v2.bedpe.gz": "51.98M",
+          "grch38-structural-variants-bedpe-ccdg-v1.public.sorted.v2.bedpe.gz.tbi": "1.22M"
+        },
+        "final-files": [
+          "grch38-structural-variants-bedpe-ccdg-v1.public.sorted.v2.bedpe.gz",
+          "grch38-structural-variants-bedpe-ccdg-v1.public.sorted.v2.bedpe.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596751523,
       "version": "1"
     },
     "grch38-structural-variants-ensembl-v1": {
@@ -11030,6 +11150,66 @@
       "timestamp": 1591214520,
       "version": "1"
     },
+    "hg19-structural-variants-bedpe-ccdg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sv",
+        "ccdg",
+        "structural-variants",
+        "sv",
+        "structural",
+        "bedpe-file",
+        "bed-file"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SV callset 2 from ccdg in grch37, bedpe format",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ccdg",
+        "data-version": "2",
+        "file-type": [
+          "bedpe"
+        ],
+        "final-file-sizes": {
+          "hg19-structural-variants-bedpe-ccdg-v1.public.sorted.v2.bedpe.gz": "32.94M",
+          "hg19-structural-variants-bedpe-ccdg-v1.public.sorted.v2.bedpe.gz.tbi": "1.01M"
+        },
+        "final-files": [
+          "hg19-structural-variants-bedpe-ccdg-v1.public.sorted.v2.bedpe.gz",
+          "hg19-structural-variants-bedpe-ccdg-v1.public.sorted.v2.bedpe.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596751551,
+      "version": "1"
+    },
     "hg19-structural-variants-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -14291,6 +14471,66 @@
       },
       "text_prefix": false,
       "timestamp": 1591214578,
+      "version": "1"
+    },
+    "hg38-structural-variants-bedpe-ccdg-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "sv",
+        "ccdg",
+        "structural-variants",
+        "sv",
+        "structural",
+        "bedpe-file",
+        "bed-file"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SV callset 2 from ccdg in hg38, bedpe format",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ccdg",
+        "data-version": "2",
+        "file-type": [
+          "bedpe"
+        ],
+        "final-file-sizes": {
+          "hg38-structural-variants-bedpe-ccdg-v1.public.v2.sorted.bedpe.gz": "52.01M",
+          "hg38-structural-variants-bedpe-ccdg-v1.public.v2.sorted.bedpe.gz.tbi": "1.22M"
+        },
+        "final-files": [
+          "hg38-structural-variants-bedpe-ccdg-v1.public.v2.sorted.bedpe.gz",
+          "hg38-structural-variants-bedpe-ccdg-v1.public.v2.sorted.bedpe.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596751495,
       "version": "1"
     },
     "hg38-structural-variants-ensembl-v1": {

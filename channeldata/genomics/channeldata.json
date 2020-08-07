@@ -694,6 +694,68 @@
       "timestamp": 1592456073,
       "version": "1"
     },
+    "grch37-cancer-genes-futreal-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Cancer",
+        "cancer-genes",
+        "genes",
+        "Futreal",
+        "gene-set"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a manually curated set of cancer genes from Futreal et al. https://www.nature.com/articles/nrc1299. Gene symbols manually extracted from the supplemental PDF table here: https://media.nature.com/original/nature-assets/nrc/journal/v4/n3/extref/nrc1299-S1.pdf. Gene symbols manually translated to HGNC nomeclature.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Futreal",
+        "data-version": "01-March-2004",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-cancer-genes-futreal-v1.bed.gz": "46.78K",
+          "grch37-cancer-genes-futreal-v1.bed.gz.tbi": "13.99K",
+          "grch37-cancer-genes-futreal-v1.compliment.bed.gz": "29.13K",
+          "grch37-cancer-genes-futreal-v1.compliment.bed.gz.tbi": "14.41K"
+        },
+        "final-files": [
+          "grch37-cancer-genes-futreal-v1.bed.gz",
+          "grch37-cancer-genes-futreal-v1.bed.gz.tbi",
+          "grch37-cancer-genes-futreal-v1.compliment.bed.gz",
+          "grch37-cancer-genes-futreal-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596827984,
+      "version": "1"
+    },
     "grch37-canonical-isoforms-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4705,6 +4767,68 @@
       "timestamp": 1592456015,
       "version": "1"
     },
+    "grch38-cancer-genes-futreal-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Cancer",
+        "cancer-genes",
+        "genes",
+        "Futreal",
+        "gene-set"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a manually curated set of cancer genes from Futreal et al. https://www.nature.com/articles/nrc1299. Gene symbols manually extracted from the supplemental PDF table here: https://media.nature.com/original/nature-assets/nrc/journal/v4/n3/extref/nrc1299-S1.pdf. Gene symbols manually translated to HGNC nomeclature.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Futreal",
+        "data-version": "01-March-2004",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-cancer-genes-futreal-v1.bed.gz": "49.01K",
+          "grch38-cancer-genes-futreal-v1.bed.gz.tbi": "13.70K",
+          "grch38-cancer-genes-futreal-v1.compliment.bed.gz": "31.01K",
+          "grch38-cancer-genes-futreal-v1.compliment.bed.gz.tbi": "19.96K"
+        },
+        "final-files": [
+          "grch38-cancer-genes-futreal-v1.bed.gz",
+          "grch38-cancer-genes-futreal-v1.bed.gz.tbi",
+          "grch38-cancer-genes-futreal-v1.compliment.bed.gz",
+          "grch38-cancer-genes-futreal-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596827897,
+      "version": "1"
+    },
     "grch38-canonical-isoforms-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -8383,6 +8507,68 @@
       "timestamp": 1592455985,
       "version": "1"
     },
+    "hg19-cancer-genes-futreal-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Cancer",
+        "cancer-genes",
+        "genes",
+        "Futreal",
+        "gene-set"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a manually curated set of cancer genes from Futreal et al. https://www.nature.com/articles/nrc1299. Gene symbols manually extracted from the supplemental PDF table here: https://media.nature.com/original/nature-assets/nrc/journal/v4/n3/extref/nrc1299-S1.pdf. Gene symbols manually translated to HGNC nomeclature.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Futreal",
+        "data-version": "01-March-2004",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-cancer-genes-futreal-v1.bed.gz": "46.80K",
+          "hg19-cancer-genes-futreal-v1.bed.gz.tbi": "14.03K",
+          "hg19-cancer-genes-futreal-v1.compliment.bed.gz": "29.08K",
+          "hg19-cancer-genes-futreal-v1.compliment.bed.gz.tbi": "10.80K"
+        },
+        "final-files": [
+          "hg19-cancer-genes-futreal-v1.bed.gz",
+          "hg19-cancer-genes-futreal-v1.bed.gz.tbi",
+          "hg19-cancer-genes-futreal-v1.compliment.bed.gz",
+          "hg19-cancer-genes-futreal-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596827926,
+      "version": "1"
+    },
     "hg19-canonical-isoforms-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -11820,6 +12006,68 @@
       },
       "text_prefix": false,
       "timestamp": 1558392652,
+      "version": "1"
+    },
+    "hg38-cancer-genes-futreal-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Cancer",
+        "cancer-genes",
+        "genes",
+        "Futreal",
+        "gene-set"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS region genomic coordinates, along with complement coordinates, for a manually curated set of cancer genes from Futreal et al. https://www.nature.com/articles/nrc1299. Gene symbols manually extracted from the supplemental PDF table here: https://media.nature.com/original/nature-assets/nrc/journal/v4/n3/extref/nrc1299-S1.pdf. Gene symbols manually translated to HGNC nomeclature.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Futreal",
+        "data-version": "01-March-2004",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-cancer-genes-futreal-v1.bed.gz": "48.87K",
+          "hg38-cancer-genes-futreal-v1.bed.gz.tbi": "13.72K",
+          "hg38-cancer-genes-futreal-v1.compliment.bed.gz": "32.68K",
+          "hg38-cancer-genes-futreal-v1.compliment.bed.gz.tbi": "19.54K"
+        },
+        "final-files": [
+          "hg38-cancer-genes-futreal-v1.bed.gz",
+          "hg38-cancer-genes-futreal-v1.bed.gz.tbi",
+          "hg38-cancer-genes-futreal-v1.compliment.bed.gz",
+          "hg38-cancer-genes-futreal-v1.compliment.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1596827955,
       "version": "1"
     },
     "hg38-canonical-isoforms-ucsc-v1": {

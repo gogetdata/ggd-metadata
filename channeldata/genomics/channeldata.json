@@ -182,36 +182,6 @@
       "timestamp": 1559191575,
       "version": "1"
     },
-    "ggd": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "description": null,
-      "dev_url": null,
-      "doc_source_url": null,
-      "doc_url": null,
-      "home": "https://github.com/gogetdata/ggd-cli",
-      "icon_hash": null,
-      "icon_url": null,
-      "identifiers": null,
-      "keywords": null,
-      "license": "MIT",
-      "post_link": false,
-      "pre_link": false,
-      "pre_unlink": false,
-      "recipe_origin": null,
-      "run_exports": {},
-      "source_git_url": null,
-      "source_url": "https://github.com/gogetdata/ggd-cli/archive/v0.1.2.tar.gz",
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "GoGetData (GGD) is a genomic data managment system. It provide simple and reproducible access to a repository of genomic data. Simply put, it is 'Conda' for genomic data",
-      "tags": null,
-      "text_prefix": false,
-      "timestamp": 1592322214,
-      "version": "2"
-    },
     "grch37-1000g-omni-snps-broad-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -4048,6 +4018,65 @@
       "timestamp": 1596751467,
       "version": "1"
     },
+    "grch37-structural-variants-database-genomic-variants-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "structural-variants",
+        "structural-variant",
+        "SVs",
+        "SV",
+        "dbVar",
+        "dbvar"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Database of Genomic Variants incorporating dbVar, July 2013 and later",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "2020-01-13",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-structural-variants-database-genomic-variants-ucsc-v1.bed.gz": "73.99M",
+          "grch37-structural-variants-database-genomic-variants-ucsc-v1.bed.gz.tbi": "215.69K"
+        },
+        "final-files": [
+          "grch37-structural-variants-database-genomic-variants-ucsc-v1.bed.gz",
+          "grch37-structural-variants-database-genomic-variants-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597208809,
+      "version": "1"
+    },
     "grch37-structural-variants-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -7690,6 +7719,65 @@
       },
       "text_prefix": false,
       "timestamp": 1596751523,
+      "version": "1"
+    },
+    "grch38-structural-variants-database-genomic-variants-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "structural-variants",
+        "structural-variant",
+        "SVs",
+        "SV",
+        "dbVar",
+        "dbvar"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Database of Genomic Variants incorporating dbVar, July 2013 and later",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "2020-01-14",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-structural-variants-database-genomic-variants-ucsc-v1.bed.gz": "73.35M",
+          "grch38-structural-variants-database-genomic-variants-ucsc-v1.bed.gz.tbi": "216.28K"
+        },
+        "final-files": [
+          "grch38-structural-variants-database-genomic-variants-ucsc-v1.bed.gz",
+          "grch38-structural-variants-database-genomic-variants-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597208841,
       "version": "1"
     },
     "grch38-structural-variants-ensembl-v1": {
@@ -11396,6 +11484,65 @@
       "timestamp": 1596751551,
       "version": "1"
     },
+    "hg19-structural-variants-database-genomic-variants-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "structural-variants",
+        "structural-variant",
+        "SVs",
+        "SV",
+        "dbVar",
+        "dbvar"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Database of Genomic Variants incorporating dbVar, July 2013 and later",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "2020-01-13",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-structural-variants-database-genomic-variants-ucsc-v1.bed.gz": "74.51M",
+          "hg19-structural-variants-database-genomic-variants-ucsc-v1.bed.gz.tbi": "216.71K"
+        },
+        "final-files": [
+          "hg19-structural-variants-database-genomic-variants-ucsc-v1.bed.gz",
+          "hg19-structural-variants-database-genomic-variants-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597208777,
+      "version": "1"
+    },
     "hg19-structural-variants-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -14779,6 +14926,65 @@
       },
       "text_prefix": false,
       "timestamp": 1596751495,
+      "version": "1"
+    },
+    "hg38-structural-variants-database-genomic-variants-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "structural-variants",
+        "structural-variant",
+        "SVs",
+        "SV",
+        "dbVar",
+        "dbvar"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Database of Genomic Variants incorporating dbVar, July 2013 and later",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "2020-01-14",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-structural-variants-database-genomic-variants-ucsc-v1.bed.gz": "73.86M",
+          "hg38-structural-variants-database-genomic-variants-ucsc-v1.bed.gz.tbi": "216.80K"
+        },
+        "final-files": [
+          "hg38-structural-variants-database-genomic-variants-ucsc-v1.bed.gz",
+          "hg38-structural-variants-database-genomic-variants-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597208873,
       "version": "1"
     },
     "hg38-structural-variants-ensembl-v1": {

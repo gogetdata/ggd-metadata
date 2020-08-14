@@ -2756,6 +2756,69 @@
       "timestamp": 1596749247,
       "version": "1"
     },
+    "grch37-lncrna-sequences-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "reference",
+        "gencode",
+        "fasta",
+        "non-coding",
+        "noncoding",
+        "long-noncoding",
+        "lncrna",
+        "transcript"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Long non-coding RNA transcript sequences for CHR regions. Nucleotide sequences of long non-coding RNA transcripts on the reference chromosomes",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "grch37-lncrna-sequences-chr-regions-gencode-v1.fa.gz": "16.05M",
+          "grch37-lncrna-sequences-chr-regions-gencode-v1.fa.gz.fai": "6.57M",
+          "grch37-lncrna-sequences-chr-regions-gencode-v1.fa.gz.gzi": "17.40K"
+        },
+        "final-files": [
+          "grch37-lncrna-sequences-chr-regions-gencode-v1.fa.gz",
+          "grch37-lncrna-sequences-chr-regions-gencode-v1.fa.gz.fai",
+          "grch37-lncrna-sequences-chr-regions-gencode-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597440490,
+      "version": "1"
+    },
     "grch37-microsatellites-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -6641,6 +6704,69 @@
       "timestamp": 1596749333,
       "version": "1"
     },
+    "grch38-lncrna-sequences-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "reference",
+        "gencode",
+        "fasta",
+        "non-coding",
+        "noncoding",
+        "long-noncoding",
+        "lncrna",
+        "transcript"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Long non-coding RNA transcript sequences for CHR regions. Nucleotide sequences of long non-coding RNA transcripts on the reference chromosomes",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34,patch13",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "grch38-lncrna-sequences-chr-regions-gencode-v1.fa.gz": "16.00M",
+          "grch38-lncrna-sequences-chr-regions-gencode-v1.fa.gz.fai": "6.18M",
+          "grch38-lncrna-sequences-chr-regions-gencode-v1.fa.gz.gzi": "17.34K"
+        },
+        "final-files": [
+          "grch38-lncrna-sequences-chr-regions-gencode-v1.fa.gz",
+          "grch38-lncrna-sequences-chr-regions-gencode-v1.fa.gz.fai",
+          "grch38-lncrna-sequences-chr-regions-gencode-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597440462,
+      "version": "1"
+    },
     "grch38-microsatellites-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -10418,6 +10544,69 @@
       "timestamp": 1596749276,
       "version": "1"
     },
+    "hg19-lncrna-sequences-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "reference",
+        "gencode",
+        "fasta",
+        "non-coding",
+        "noncoding",
+        "long-noncoding",
+        "lncrna",
+        "transcript"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Long non-coding RNA transcript sequences for CHR regions. Nucleotide sequences of long non-coding RNA transcripts on the reference chromosomes",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "hg19-lncrna-sequences-chr-regions-gencode-v1.fa.gz": "16.05M",
+          "hg19-lncrna-sequences-chr-regions-gencode-v1.fa.gz.fai": "6.57M",
+          "hg19-lncrna-sequences-chr-regions-gencode-v1.fa.gz.gzi": "17.40K"
+        },
+        "final-files": [
+          "hg19-lncrna-sequences-chr-regions-gencode-v1.fa.gz",
+          "hg19-lncrna-sequences-chr-regions-gencode-v1.fa.gz.fai",
+          "hg19-lncrna-sequences-chr-regions-gencode-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597440518,
+      "version": "1"
+    },
     "hg19-microsatellites-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -13818,6 +14007,69 @@
       },
       "text_prefix": false,
       "timestamp": 1596749190,
+      "version": "1"
+    },
+    "hg38-lncrna-sequences-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "reference",
+        "gencode",
+        "fasta",
+        "non-coding",
+        "noncoding",
+        "long-noncoding",
+        "lncrna",
+        "transcript"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Long non-coding RNA transcript sequences for CHR regions. Nucleotide sequences of long non-coding RNA transcripts on the reference chromosomes",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34,patch13",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "hg38-lncrna-sequences-chr-regions-gencode-v1.fa.gz": "16.00M",
+          "hg38-lncrna-sequences-chr-regions-gencode-v1.fa.gz.fai": "6.18M",
+          "hg38-lncrna-sequences-chr-regions-gencode-v1.fa.gz.gzi": "17.34K"
+        },
+        "final-files": [
+          "hg38-lncrna-sequences-chr-regions-gencode-v1.fa.gz",
+          "hg38-lncrna-sequences-chr-regions-gencode-v1.fa.gz.fai",
+          "hg38-lncrna-sequences-chr-regions-gencode-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597440547,
       "version": "1"
     },
     "hg38-microsatellites-ucsc-v1": {

@@ -7182,6 +7182,65 @@
       "timestamp": 1590812937,
       "version": "1"
     },
+    "grch38-reference-genome-all-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "reference",
+        "all-assembly",
+        "gencode",
+        "fasta"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Genome sequence. Nucleotide sequence of the GRCh38.p13 genome assembly version on all regions, including reference chromosomes, scaffolds, assembly patches and haplotypes",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34,patch-13",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "grch38-reference-genome-all-gencode-v1.fa.gz": "942.24M",
+          "grch38-reference-genome-all-gencode-v1.fa.gz.fai": "21.95K",
+          "grch38-reference-genome-all-gencode-v1.fa.gz.gzi": "814.12K"
+        },
+        "final-files": [
+          "grch38-reference-genome-all-gencode-v1.fa.gz",
+          "grch38-reference-genome-all-gencode-v1.fa.gz.fai",
+          "grch38-reference-genome-all-gencode-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597422533,
+      "version": "1"
+    },
     "grch38-reference-genome-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -7259,11 +7318,10 @@
         "species": "Homo_sapiens"
       },
       "keywords": [
-        "Reference-Genome",
-        "Fasta",
-        "DNA-Sequence",
-        "GENCODE-34",
-        "Fasta-sequence"
+        "reference",
+        "primary-assembly",
+        "gencode",
+        "fasta"
       ],
       "license": null,
       "post_link": true,
@@ -7276,20 +7334,20 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "The GRCh38, patch13, DNA nucleotide sequence for all regions including reference chromomsomes, scaffoldings, assembly patches, and haplotypes.",
+      "summary": "Genome sequence, primary assembly. Nucleotide sequence of the GRCh38 primary genome assembly (chromosomes and scaffolds)",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
         "data-provider": "GENCODE",
-        "data-version": "release-34,patch-13",
+        "data-version": "release-34",
         "file-type": [
           "fa"
         ],
         "final-file-sizes": {
-          "grch38-reference-genome-gencode-v1.fa.gz": "942.24M",
-          "grch38-reference-genome-gencode-v1.fa.gz.fai": "21.95K",
-          "grch38-reference-genome-gencode-v1.fa.gz.gzi": "814.12K"
+          "grch38-reference-genome-gencode-v1.fa.gz": "894.51M",
+          "grch38-reference-genome-gencode-v1.fa.gz.fai": "6.41K",
+          "grch38-reference-genome-gencode-v1.fa.gz.gzi": "772.41K"
         },
         "final-files": [
           "grch38-reference-genome-gencode-v1.fa.gz",
@@ -7300,7 +7358,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1595616140,
+      "timestamp": 1597422445,
       "version": "1"
     },
     "grch38-refseq-gene-features-ucsc-v1": {
@@ -14348,6 +14406,65 @@
       "timestamp": 1590812968,
       "version": "1"
     },
+    "hg38-reference-genome-all-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "reference",
+        "all-assembly",
+        "gencode",
+        "fasta"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Genome sequence. Nucleotide sequence of the hg38.p13 genome assembly version on all regions, including reference chromosomes, scaffolds, assembly patches and haplotypes",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34,patch-13",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "hg38-reference-genome-all-gencode-v1.fa.gz": "942.24M",
+          "hg38-reference-genome-all-gencode-v1.fa.gz.fai": "22.03K",
+          "hg38-reference-genome-all-gencode-v1.fa.gz.gzi": "814.12K"
+        },
+        "final-files": [
+          "hg38-reference-genome-all-gencode-v1.fa.gz",
+          "hg38-reference-genome-all-gencode-v1.fa.gz.fai",
+          "hg38-reference-genome-all-gencode-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597422475,
+      "version": "1"
+    },
     "hg38-reference-genome-gencode-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -14364,11 +14481,10 @@
         "species": "Homo_sapiens"
       },
       "keywords": [
-        "Reference-Genome",
-        "Fasta",
-        "DNA-Sequence",
-        "GENCODE-34",
-        "Fasta-sequence"
+        "reference",
+        "primary-assembly",
+        "gencode",
+        "fasta"
       ],
       "license": null,
       "post_link": true,
@@ -14381,20 +14497,20 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "The GRCh38, patch13, DNA nucleotide sequence for all regions including reference chromomsomes, scaffoldings, assembly patches, and haplotypes. Mapped to hg38",
+      "summary": "Genome sequence, primary assembly. Nucleotide sequence of the hg38 primary genome assembly (chromosomes and scaffolds)",
       "tags": {
         "cached": [
           "uploaded_to_aws"
         ],
         "data-provider": "GENCODE",
-        "data-version": "release-34,patch-13",
+        "data-version": "release-34",
         "file-type": [
           "fa"
         ],
         "final-file-sizes": {
-          "hg38-reference-genome-gencode-v1.fa.gz": "942.24M",
-          "hg38-reference-genome-gencode-v1.fa.gz.fai": "22.03K",
-          "hg38-reference-genome-gencode-v1.fa.gz.gzi": "814.12K"
+          "hg38-reference-genome-gencode-v1.fa.gz": "894.51M",
+          "hg38-reference-genome-gencode-v1.fa.gz.fai": "6.48K",
+          "hg38-reference-genome-gencode-v1.fa.gz.gzi": "772.41K"
         },
         "final-files": [
           "hg38-reference-genome-gencode-v1.fa.gz",
@@ -14405,7 +14521,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1595616173,
+      "timestamp": 1597422504,
       "version": "1"
     },
     "hg38-reference-genome-ucsc-v1": {

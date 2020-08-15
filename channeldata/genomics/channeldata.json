@@ -2819,6 +2819,66 @@
       "timestamp": 1596749247,
       "version": "1"
     },
+    "grch37-lncrna-annotations-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "non-coding",
+        "noncoding",
+        "long-noncoding",
+        "lncrna",
+        "annotation",
+        "gtf"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Long non-coding RNA gene annotation. It contains the comprehensive gene annotation of lncRNA genes on the reference chromosomes. This is a subset of the main annotation file",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-lncrna-annotations-chr-regions-gencode-v1.gtf.gz": "6.78M",
+          "grch37-lncrna-annotations-chr-regions-gencode-v1.gtf.gz.tbi": "190.93K"
+        },
+        "final-files": [
+          "grch37-lncrna-annotations-chr-regions-gencode-v1.gtf.gz",
+          "grch37-lncrna-annotations-chr-regions-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597466677,
+      "version": "1"
+    },
     "grch37-lncrna-sequences-chr-regions-gencode-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -6830,6 +6890,66 @@
       "timestamp": 1596749333,
       "version": "1"
     },
+    "grch38-lncrna-annotations-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "non-coding",
+        "noncoding",
+        "long-noncoding",
+        "lncrna",
+        "annotation",
+        "gtf"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Long non-coding RNA gene annotation. It contains the comprehensive gene annotation of lncRNA genes on the reference chromosomes. This is a subset of the main annotation file",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-lncrna-annotations-chr-regions-gencode-v1.gtf.gz": "15.27K",
+          "grch38-lncrna-annotations-chr-regions-gencode-v1.gtf.gz.tbi": "8.77K"
+        },
+        "final-files": [
+          "grch38-lncrna-annotations-chr-regions-gencode-v1.gtf.gz",
+          "grch38-lncrna-annotations-chr-regions-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597466590,
+      "version": "1"
+    },
     "grch38-lncrna-sequences-chr-regions-gencode-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -10733,6 +10853,66 @@
       "timestamp": 1596749276,
       "version": "1"
     },
+    "hg19-lncrna-annotations-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "non-coding",
+        "noncoding",
+        "long-noncoding",
+        "lncrna",
+        "annotation",
+        "gtf"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Long non-coding RNA gene annotation. It contains the comprehensive gene annotation of lncRNA genes on the reference chromosomes. This is a subset of the main annotation file",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-lncrna-annotations-chr-regions-gencode-v1.gtf.gz": "6.80M",
+          "hg19-lncrna-annotations-chr-regions-gencode-v1.gtf.gz.tbi": "190.91K"
+        },
+        "final-files": [
+          "hg19-lncrna-annotations-chr-regions-gencode-v1.gtf.gz",
+          "hg19-lncrna-annotations-chr-regions-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597466648,
+      "version": "1"
+    },
     "hg19-lncrna-sequences-chr-regions-gencode-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -14259,6 +14439,66 @@
       },
       "text_prefix": false,
       "timestamp": 1596749190,
+      "version": "1"
+    },
+    "hg38-lncrna-annotations-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "non-coding",
+        "noncoding",
+        "long-noncoding",
+        "lncrna",
+        "annotation",
+        "gtf"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Long non-coding RNA gene annotation. It contains the comprehensive gene annotation of lncRNA genes on the reference chromosomes. This is a subset of the main annotation file",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-lncrna-annotations-chr-regions-gencode-v1.gtf.gz": "15.37K",
+          "hg38-lncrna-annotations-chr-regions-gencode-v1.gtf.gz.tbi": "8.75K"
+        },
+        "final-files": [
+          "hg38-lncrna-annotations-chr-regions-gencode-v1.gtf.gz",
+          "hg38-lncrna-annotations-chr-regions-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597466619,
       "version": "1"
     },
     "hg38-lncrna-sequences-chr-regions-gencode-v1": {

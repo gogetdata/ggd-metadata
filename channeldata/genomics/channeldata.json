@@ -5881,6 +5881,69 @@
       "timestamp": 1591241849,
       "version": "1"
     },
+    "grch38-consensus-pseudogene-annotations-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "pseudogene",
+        "pseudogenes",
+        "yale",
+        "UCSC",
+        "consensus",
+        "consensus-pseudogene",
+        "consensus-pseudogenes",
+        "annotation",
+        "gtf"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Consensus pseudogenes predicted by the Yale and UCSC pipelines. 2-way consensus (retrotransposed) pseudogenes predicted by the Yale and UCSC pipelines, but not by HAVANA, on the reference chromosomes. This dataset does not form part of the main annotation file.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-consensus-pseudogene-annotations-chr-regions-gencode-v1.gtf.gz": "361.23K",
+          "grch38-consensus-pseudogene-annotations-chr-regions-gencode-v1.gtf.gz.tbi": "103.59K"
+        },
+        "final-files": [
+          "grch38-consensus-pseudogene-annotations-chr-regions-gencode-v1.gtf.gz",
+          "grch38-consensus-pseudogene-annotations-chr-regions-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597511132,
+      "version": "1"
+    },
     "grch38-constrained-coding-regions-quinlan-lab-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -13670,6 +13733,69 @@
       },
       "text_prefix": false,
       "timestamp": 1591241821,
+      "version": "1"
+    },
+    "hg38-consensus-pseudogene-annotations-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "pseudogene",
+        "pseudogenes",
+        "yale",
+        "UCSC",
+        "consensus",
+        "consensus-pseudogene",
+        "consensus-pseudogenes",
+        "annotation",
+        "gtf"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Consensus pseudogenes predicted by the Yale and UCSC pipelines. 2-way consensus (retrotransposed) pseudogenes predicted by the Yale and UCSC pipelines, but not by HAVANA, on the reference chromosomes. This dataset does not form part of the main annotation file.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-consensus-pseudogene-annotations-chr-regions-gencode-v1.gtf.gz": "360.60K",
+          "hg38-consensus-pseudogene-annotations-chr-regions-gencode-v1.gtf.gz.tbi": "103.54K"
+        },
+        "final-files": [
+          "hg38-consensus-pseudogene-annotations-chr-regions-gencode-v1.gtf.gz",
+          "hg38-consensus-pseudogene-annotations-chr-regions-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597511164,
       "version": "1"
     },
     "hg38-constrained-coding-regions-quinlan-lab-v1": {

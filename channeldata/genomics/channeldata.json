@@ -4546,6 +4546,67 @@
       "timestamp": 1597506377,
       "version": "1"
     },
+    "grch37-transcript-sequences-protein-coding-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "fasta",
+        "protein",
+        "coding",
+        "protein-coding",
+        "transcript"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Nucleotide sequences of protein-coding transcripts on the reference chromosomes",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "grch37-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz": "49.59M",
+          "grch37-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.fai": "16.10M",
+          "grch37-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.gzi": "58.54K"
+        },
+        "final-files": [
+          "grch37-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz",
+          "grch37-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.fai",
+          "grch37-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597548005,
+      "version": "1"
+    },
     "grch37-trna-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -8631,6 +8692,67 @@
       "timestamp": 1597506441,
       "version": "1"
     },
+    "grch38-transcript-sequences-protein-coding-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "fasta",
+        "protein",
+        "coding",
+        "protein-coding",
+        "transcript"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Nucleotide sequences of protein-coding transcripts on the reference chromosomes",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "grch38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz": "49.32M",
+          "grch38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.fai": "15.29M",
+          "grch38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.gzi": "58.36K"
+        },
+        "final-files": [
+          "grch38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz",
+          "grch38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.fai",
+          "grch38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597547939,
+      "version": "1"
+    },
     "grch38-trna-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -12574,6 +12696,67 @@
       "timestamp": 1597506409,
       "version": "1"
     },
+    "hg19-transcript-sequences-protein-coding-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "fasta",
+        "protein",
+        "coding",
+        "protein-coding",
+        "transcript"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Nucleotide sequences of protein-coding transcripts on the reference chromosomes",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "hg19-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz": "49.59M",
+          "hg19-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.fai": "16.10M",
+          "hg19-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.gzi": "58.54K"
+        },
+        "final-files": [
+          "hg19-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz",
+          "hg19-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.fai",
+          "hg19-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597547907,
+      "version": "1"
+    },
     "hg19-trna-genes-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -16442,6 +16625,67 @@
       },
       "text_prefix": false,
       "timestamp": 1597506345,
+      "version": "1"
+    },
+    "hg38-transcript-sequences-protein-coding-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "fasta",
+        "protein",
+        "coding",
+        "protein-coding",
+        "transcript"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Nucleotide sequences of protein-coding transcripts on the reference chromosomes",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "hg38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz": "49.32M",
+          "hg38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.fai": "15.29M",
+          "hg38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.gzi": "58.36K"
+        },
+        "final-files": [
+          "hg38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz",
+          "hg38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.fai",
+          "hg38-transcript-sequences-protein-coding-chr-regions-gencode-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597547972,
       "version": "1"
     },
     "hg38-trna-genes-ucsc-v1": {

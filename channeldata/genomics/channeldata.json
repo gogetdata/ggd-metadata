@@ -7676,6 +7676,64 @@
       "timestamp": 1591310264,
       "version": "1"
     },
+    "grch38-polya-annotations-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "polya",
+        "polyadenylation",
+        "annotation",
+        "gtf"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "PolyA feature annotation. It contains the polyA features (polyA_signal, polyA_site, pseudo_polyA) manually annotated by HAVANA on the reference chromosomes. This dataset does not form part of the main annotation file",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-polya-annotations-chr-regions-gencode-v1.gtf.gz": "2.02M",
+          "grch38-polya-annotations-chr-regions-gencode-v1.gtf.gz.tbi": "305.73K"
+        },
+        "final-files": [
+          "grch38-polya-annotations-chr-regions-gencode-v1.gtf.gz",
+          "grch38-polya-annotations-chr-regions-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597850381,
+      "version": "1"
+    },
     "grch38-predicted-trna-annotations-chr-regions-gencode-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -15631,6 +15689,64 @@
       },
       "text_prefix": false,
       "timestamp": 1591310235,
+      "version": "1"
+    },
+    "hg38-polya-annotations-chr-regions-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gencode",
+        "polya",
+        "polyadenylation",
+        "annotation",
+        "gtf"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "PolyA feature annotation. It contains the polyA features (polyA_signal, polyA_site, pseudo_polyA) manually annotated by HAVANA on the reference chromosomes. This dataset does not form part of the main annotation file",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-polya-annotations-chr-regions-gencode-v1.gtf.gz": "2.02M",
+          "hg38-polya-annotations-chr-regions-gencode-v1.gtf.gz.tbi": "305.09K"
+        },
+        "final-files": [
+          "hg38-polya-annotations-chr-regions-gencode-v1.gtf.gz",
+          "hg38-polya-annotations-chr-regions-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1597850412,
       "version": "1"
     },
     "hg38-predicted-trna-annotations-chr-regions-gencode-v1": {

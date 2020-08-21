@@ -2069,6 +2069,66 @@
       "timestamp": 1594490565,
       "version": "1"
     },
+    "grch37-gene-features-introns-only-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Intron-Features",
+        "Introns",
+        "Intron-Features-Only"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Intron features created from the Ensembl gene features, including all annotated transcripts, that make up the Ensembl gene sets. Intron features for each transcripts have been added to the annotation set. All other features are removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: intron. Features are in GTF format.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-gene-features-introns-only-ensembl-v1.gtf.gz": "8.93M",
+          "grch37-gene-features-introns-only-ensembl-v1.gtf.gz.tbi": "241.66K"
+        },
+        "final-files": [
+          "grch37-gene-features-introns-only-ensembl-v1.gtf.gz",
+          "grch37-gene-features-introns-only-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598051665,
+      "version": "1"
+    },
     "grch37-gene-features-with-introns-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -6547,6 +6607,66 @@
       "timestamp": 1594490779,
       "version": "1"
     },
+    "grch38-gene-features-introns-only-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Intron-Features",
+        "Introns",
+        "Intron-Features-Only"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Intron features created from the Ensembl gene features, including all annotated transcripts, that make up the Ensembl gene sets. Intron features for each transcripts have been added to the annotation set. All other features are removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: intron. Features are in GTF format.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-gene-features-introns-only-ensembl-v1.gtf.gz": "12.27M",
+          "grch38-gene-features-introns-only-ensembl-v1.gtf.gz.tbi": "256.09K"
+        },
+        "final-files": [
+          "grch38-gene-features-introns-only-ensembl-v1.gtf.gz",
+          "grch38-gene-features-introns-only-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598051599,
+      "version": "1"
+    },
     "grch38-gene-features-with-introns-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -10810,6 +10930,66 @@
       "timestamp": 1594490626,
       "version": "1"
     },
+    "hg19-gene-features-introns-only-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Intron-Features",
+        "Introns",
+        "Intron-Features-Only"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Intron features created from the Ensembl gene features, including all annotated transcripts, that make up the Ensembl gene sets. Intron features for each transcripts have been added to the annotation set. All other features are removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: intron. Features are in GTF format. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-gene-features-introns-only-ensembl-v1.gtf.gz": "8.95M",
+          "hg19-gene-features-introns-only-ensembl-v1.gtf.gz.tbi": "241.58K"
+        },
+        "final-files": [
+          "hg19-gene-features-introns-only-ensembl-v1.gtf.gz",
+          "hg19-gene-features-introns-only-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598051566,
+      "version": "1"
+    },
     "hg19-gene-features-with-introns-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -14757,6 +14937,66 @@
       },
       "text_prefix": false,
       "timestamp": 1594503082,
+      "version": "1"
+    },
+    "hg38-gene-features-introns-only-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Intron-Features",
+        "Introns",
+        "Intron-Features-Only"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Intron features created from the Ensembl gene features, including all annotated transcripts, that make up the Ensembl gene sets. Intron features for each transcripts have been added to the annotation set. All other features are removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: intron. Features are in GTF format. Remapped from Ensembl GRCh38 to UCSC hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-gene-features-introns-only-ensembl-v1.gtf.gz": "12.30M",
+          "hg38-gene-features-introns-only-ensembl-v1.gtf.gz.tbi": "256.17K"
+        },
+        "final-files": [
+          "hg38-gene-features-introns-only-ensembl-v1.gtf.gz",
+          "hg38-gene-features-introns-only-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598051632,
       "version": "1"
     },
     "hg38-gene-features-with-introns-ensembl-v1": {

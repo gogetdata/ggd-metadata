@@ -2189,6 +2189,68 @@
       "timestamp": 1597985606,
       "version": "1"
     },
+    "grch37-gene-features-with-introns-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "Gene-Annotations",
+        "All-Regions",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Intron-Features",
+        "Introns"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Comprehensive set of gene anntotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). Intron features for each transcripts have been added to the annotation set. Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Features include: gene, transcript, exon, intron, CDS, UTR, start_codon, stop_codon, and Selenocysteine.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-gene-features-with-introns-gencode-v1.gtf.gz": "85.98M",
+          "grch37-gene-features-with-introns-gencode-v1.gtf.gz.tbi": "267.58K"
+        },
+        "final-files": [
+          "grch37-gene-features-with-introns-gencode-v1.gtf.gz",
+          "grch37-gene-features-with-introns-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598121536,
+      "version": "1"
+    },
     "grch37-germline-variants-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -6727,6 +6789,68 @@
       "timestamp": 1597985639,
       "version": "1"
     },
+    "grch38-gene-features-with-introns-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "Gene-Annotations",
+        "All-Regions",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Intron-Features",
+        "Introns"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Comprehensive set of gene anntotations including reference chromosomes, scaffoldings, assebly patches, and alternative loci. Intron features for each transcripts have been added to the annotation set. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: gene, transcript, exon, intron, CDS, UTR, start_codon, stop_codon, and Selenocysteine.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-gene-features-with-introns-gencode-v1.gtf.gz": "74.82M",
+          "grch38-gene-features-with-introns-gencode-v1.gtf.gz.tbi": "289.18K"
+        },
+        "final-files": [
+          "grch38-gene-features-with-introns-gencode-v1.gtf.gz",
+          "grch38-gene-features-with-introns-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598121508,
+      "version": "1"
+    },
     "grch38-gtf-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -11050,6 +11174,68 @@
       "timestamp": 1597985542,
       "version": "1"
     },
+    "hg19-gene-features-with-introns-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "Gene-Annotations",
+        "All-Regions",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Intron-Features",
+        "Introns"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Comprehensive set of gene anntotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). Intron features for each transcripts have been added to the annotation set. Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Features include: gene, transcript, exon, intron,  CDS, UTR, start_codon, stop_codon, and Selenocysteine. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-gene-features-with-introns-gencode-v1.gtf.gz": "86.22M",
+          "hg19-gene-features-with-introns-gencode-v1.gtf.gz.tbi": "268.27K"
+        },
+        "final-files": [
+          "hg19-gene-features-with-introns-gencode-v1.gtf.gz",
+          "hg19-gene-features-with-introns-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598121480,
+      "version": "1"
+    },
     "hg19-germline-variants-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -15057,6 +15243,68 @@
       },
       "text_prefix": false,
       "timestamp": 1597985574,
+      "version": "1"
+    },
+    "hg38-gene-features-with-introns-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "Gene-Annotations",
+        "All-Regions",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Intron-Features",
+        "Introns"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Comprehensive set of gene anntotations including reference chromosomes, scaffoldings, assebly patches, and alternative loci. Intron features for each transcripts have been added to the annotation set. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: gene, transcript, exon, intron, CDS, UTR, start_codon, stop_codon, and Selenocysteine. Remapped from Ensembl GRCh38 to UCSC hg38. (Scaffoldings wihtout UCSC matches are kept with Ensebml ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-gene-features-with-introns-gencode-v1.gtf.gz": "74.88M",
+          "hg38-gene-features-with-introns-gencode-v1.gtf.gz.tbi": "287.62K"
+        },
+        "final-files": [
+          "hg38-gene-features-with-introns-gencode-v1.gtf.gz",
+          "hg38-gene-features-with-introns-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598121563,
       "version": "1"
     },
     "hg38-gtf-ensembl-v1": {

@@ -7020,8 +7020,8 @@
           "gtf"
         ],
         "final-file-sizes": {
-          "grch38-gene-only-features-ensembl-v1.gtf.gz": "1.45M",
-          "grch38-gene-only-features-ensembl-v1.gtf.gz.tbi": "192.27K"
+          "grch38-gene-only-features-ensembl-v1.gtf.gz": "1.46M",
+          "grch38-gene-only-features-ensembl-v1.gtf.gz.tbi": "192.36K"
         },
         "final-files": [
           "grch38-gene-only-features-ensembl-v1.gtf.gz",
@@ -7031,7 +7031,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1598300758,
+      "timestamp": 1598632925,
       "version": "1"
     },
     "grch38-gene-only-features-gencode-v1": {
@@ -15945,7 +15945,7 @@
         ],
         "final-file-sizes": {
           "hg38-gene-only-features-ensembl-v1.gtf.gz": "1.46M",
-          "hg38-gene-only-features-ensembl-v1.gtf.gz.tbi": "192.91K"
+          "hg38-gene-only-features-ensembl-v1.gtf.gz.tbi": "192.79K"
         },
         "final-files": [
           "hg38-gene-only-features-ensembl-v1.gtf.gz",
@@ -15955,7 +15955,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1598300835,
+      "timestamp": 1598632959,
       "version": "1"
     },
     "hg38-gene-only-features-gencode-v1": {

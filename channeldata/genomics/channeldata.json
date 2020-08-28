@@ -1091,6 +1091,124 @@
       "timestamp": 1590278653,
       "version": "1"
     },
+    "grch37-cds-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "CDS-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: CDS. Features are in GTF format.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-cds-only-features-ensembl-v1.gtf.gz": "10.78M",
+          "grch37-cds-only-features-ensembl-v1.gtf.gz.tbi": "501.40K"
+        },
+        "final-files": [
+          "grch37-cds-only-features-ensembl-v1.gtf.gz",
+          "grch37-cds-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598656433,
+      "version": "1"
+    },
+    "grch37-cds-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "CDS-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS only features from the comprehensive set of gene annotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). All other features have been removed. Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Features include: CDS.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-cds-only-features-gencode-v1.gtf.gz": "21.08M",
+          "grch37-cds-only-features-gencode-v1.gtf.gz.tbi": "517.43K"
+        },
+        "final-files": [
+          "grch37-cds-only-features-gencode-v1.gtf.gz",
+          "grch37-cds-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598656403,
+      "version": "1"
+    },
     "grch37-chrom-mapping-ensembl2refseq-ncbi-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -6017,6 +6135,124 @@
       "timestamp": 1590278595,
       "version": "1"
     },
+    "grch38-cds-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "CDS-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: CDS. Features are in GTF format",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-cds-only-features-ensembl-v1.gtf.gz": "14.18M",
+          "grch38-cds-only-features-ensembl-v1.gtf.gz.tbi": "512.87K"
+        },
+        "final-files": [
+          "grch38-cds-only-features-ensembl-v1.gtf.gz",
+          "grch38-cds-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598656343,
+      "version": "1"
+    },
+    "grch38-cds-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "CDS-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS only features from the comprehensive set of gene annotations including reference chromosomes, scaffoldings, assembly patches, and alternative loci. All other features have been removed. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: CDS.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-cds-only-features-gencode-v1.gtf.gz": "18.49M",
+          "grch38-cds-only-features-gencode-v1.gtf.gz.tbi": "549.66K"
+        },
+        "final-files": [
+          "grch38-cds-only-features-gencode-v1.gtf.gz",
+          "grch38-cds-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598656464,
+      "version": "1"
+    },
     "grch38-chrom-mapping-ensembl2refseq-ncbi-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -10889,6 +11125,124 @@
       "timestamp": 1590278624,
       "version": "1"
     },
+    "hg19-cds-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "CDS-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.) Features include: CDS. Features are in GTF format. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-cds-only-features-ensembl-v1.gtf.gz": "10.83M",
+          "hg19-cds-only-features-ensembl-v1.gtf.gz.tbi": "502.19K"
+        },
+        "final-files": [
+          "hg19-cds-only-features-ensembl-v1.gtf.gz",
+          "hg19-cds-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598656373,
+      "version": "1"
+    },
+    "hg19-cds-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "CDS-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS only features from the comprehensive set of gene annotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). All other features have been removed. Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Features include: CDS. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-cds-only-features-gencode-v1.gtf.gz": "21.13M",
+          "hg19-cds-only-features-gencode-v1.gtf.gz.tbi": "517.72K"
+        },
+        "final-files": [
+          "hg19-cds-only-features-gencode-v1.gtf.gz",
+          "hg19-cds-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598656313,
+      "version": "1"
+    },
     "hg19-chrom-mapping-ensembl2ucsc-ncbi-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -15291,6 +15645,124 @@
       },
       "text_prefix": false,
       "timestamp": 1590278693,
+      "version": "1"
+    },
+    "hg38-cds-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "CDS-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: CDS. Features are in GTF format. Remapped from Ensembl GRCh38 to UCSC hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-cds-only-features-ensembl-v1.gtf.gz": "14.24M",
+          "hg38-cds-only-features-ensembl-v1.gtf.gz.tbi": "512.61K"
+        },
+        "final-files": [
+          "hg38-cds-only-features-ensembl-v1.gtf.gz",
+          "hg38-cds-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598656283,
+      "version": "1"
+    },
+    "hg38-cds-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "CDS-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "CDS only features from the comprehensive set of gene annotations including reference chromosomes, scaffoldings, assembly patches, and alternative loci. All other features have been removed. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: CDS. Remapped from Ensembl GRCh38 to UCSC hg38.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-cds-only-features-gencode-v1.gtf.gz": "18.48M",
+          "hg38-cds-only-features-gencode-v1.gtf.gz.tbi": "548.12K"
+        },
+        "final-files": [
+          "hg38-cds-only-features-gencode-v1.gtf.gz",
+          "hg38-cds-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598656494,
       "version": "1"
     },
     "hg38-chrom-mapping-ensembl2ucsc-ncbi-v1": {

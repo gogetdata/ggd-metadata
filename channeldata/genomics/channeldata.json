@@ -4853,6 +4853,124 @@
       "timestamp": 1592030330,
       "version": "1"
     },
+    "grch37-transcript-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "Transcript-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Transcript only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: transcript. Features are in GTF format.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-transcript-only-features-ensembl-v1.gtf.gz": "5.04M",
+          "grch37-transcript-only-features-ensembl-v1.gtf.gz.tbi": "207.26K"
+        },
+        "final-files": [
+          "grch37-transcript-only-features-ensembl-v1.gtf.gz",
+          "grch37-transcript-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598643380,
+      "version": "1"
+    },
+    "grch37-transcript-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Transcript-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Transcript only features from the comprehensive set of gene annotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). All other features have been removed. Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Features include: transcript.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-transcript-only-features-gencode-v1.gtf.gz": "10.20M",
+          "grch37-transcript-only-features-gencode-v1.gtf.gz.tbi": "209.52K"
+        },
+        "final-files": [
+          "grch37-transcript-only-features-gencode-v1.gtf.gz",
+          "grch37-transcript-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598643414,
+      "version": "1"
+    },
     "grch37-transcript-sequences-chr-regions-gencode-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -9473,6 +9591,124 @@
       "timestamp": 1592030302,
       "version": "1"
     },
+    "grch38-transcript-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "Transcript-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Transcript only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: transcript. Features are in GTF format",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-transcript-only-features-ensembl-v1.gtf.gz": "6.89M",
+          "grch38-transcript-only-features-ensembl-v1.gtf.gz.tbi": "201.63K"
+        },
+        "final-files": [
+          "grch38-transcript-only-features-ensembl-v1.gtf.gz",
+          "grch38-transcript-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598643347,
+      "version": "1"
+    },
+    "grch38-transcript-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Transcript-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Transcript only features from the comprehensive set of gene annotations including reference chromosomes, scaffoldings, assembly patches, and alternative loci. All other features have been removed. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: transcript.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-transcript-only-features-gencode-v1.gtf.gz": "9.83M",
+          "grch38-transcript-only-features-gencode-v1.gtf.gz.tbi": "228.14K"
+        },
+        "final-files": [
+          "grch38-transcript-only-features-gencode-v1.gtf.gz",
+          "grch38-transcript-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598643480,
+      "version": "1"
+    },
     "grch38-transcript-sequences-chr-regions-gencode-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -13893,6 +14129,124 @@
       "timestamp": 1596739873,
       "version": "1"
     },
+    "hg19-transcript-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "Transcript-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Transcript only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.) Features include: transcript. Features are in GTF format. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-transcript-only-features-ensembl-v1.gtf.gz": "5.06M",
+          "hg19-transcript-only-features-ensembl-v1.gtf.gz.tbi": "207.33K"
+        },
+        "final-files": [
+          "hg19-transcript-only-features-ensembl-v1.gtf.gz",
+          "hg19-transcript-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598643580,
+      "version": "1"
+    },
+    "hg19-transcript-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Transcript-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Transcript only features from the comprehensive set of gene annotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). All other features have been removed. Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Features include: transcript. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-transcript-only-features-gencode-v1.gtf.gz": "10.22M",
+          "hg19-transcript-only-features-gencode-v1.gtf.gz.tbi": "209.58K"
+        },
+        "final-files": [
+          "hg19-transcript-only-features-gencode-v1.gtf.gz",
+          "hg19-transcript-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598643513,
+      "version": "1"
+    },
     "hg19-transcript-sequences-chr-regions-gencode-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -18295,6 +18649,124 @@
       },
       "text_prefix": false,
       "timestamp": 1596739770,
+      "version": "1"
+    },
+    "hg38-transcript-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "Transcript-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Transcript only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: transcript. Features are in GTF format. Remapped from Ensembl GRCh38 to UCSC hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-transcript-only-features-ensembl-v1.gtf.gz": "6.91M",
+          "hg38-transcript-only-features-ensembl-v1.gtf.gz.tbi": "201.73K"
+        },
+        "final-files": [
+          "hg38-transcript-only-features-ensembl-v1.gtf.gz",
+          "hg38-transcript-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598643447,
+      "version": "1"
+    },
+    "hg38-transcript-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Transcript-Only-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Transcript only features from the comprehensive set of gene annotations including reference chromosomes, scaffoldings, assembly patches, and alternative loci. All other features have been removed. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: transcript. Remapped from Ensembl GRCh38 to UCSC hg38.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-transcript-only-features-gencode-v1.gtf.gz": "9.81M",
+          "hg38-transcript-only-features-gencode-v1.gtf.gz.tbi": "226.76K"
+        },
+        "final-files": [
+          "hg38-transcript-only-features-gencode-v1.gtf.gz",
+          "hg38-transcript-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598643547,
       "version": "1"
     },
     "hg38-transcript-sequences-chr-regions-gencode-v1": {

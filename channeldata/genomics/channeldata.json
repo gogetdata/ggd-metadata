@@ -4190,8 +4190,13 @@
         "species": "Homo_sapiens"
       },
       "keywords": [
-        "amino-acid",
-        "constraint"
+        "amion-acid",
+        "amino-acid-change",
+        "constraint",
+        "missense-badness-score",
+        "blosum-score",
+        "granthams-score",
+        "amino-acid-score"
       ],
       "license": null,
       "post_link": true,
@@ -4204,7 +4209,7 @@
       "subdirs": [
         "noarch"
       ],
-      "summary": "missense badnass, blosum, grantham scores foreach amino acid change",
+      "summary": "Scores for each amino acid changes from missense badnass, blosum, and granthams",
       "tags": {
         "cached": [
           "uploaded_to_aws"
@@ -4214,6 +4219,9 @@
         "file-type": [
           "txt"
         ],
+        "final-file-sizes": {
+          "grch37-scores-by-amino-acid-change-ggd-v1.txt": "4.86K"
+        },
         "final-files": [
           "grch37-scores-by-amino-acid-change-ggd-v1.txt"
         ],
@@ -4221,7 +4229,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1571887093,
+      "timestamp": 1598625813,
       "version": "1"
     },
     "grch37-segmental-dups-ucsc-v1": {
@@ -8871,6 +8879,64 @@
       "timestamp": 1588044037,
       "version": "1"
     },
+    "grch38-scores-by-amino-acid-change-ggd-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "amion-acid",
+        "amino-acid-change",
+        "constraint",
+        "missense-badness-score",
+        "blosum-score",
+        "granthams-score",
+        "amino-acid-score"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Scores for each amino acid changes from missense badnass, blosum, and granthams",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ggd",
+        "data-version": "1",
+        "file-type": [
+          "txt"
+        ],
+        "final-file-sizes": {
+          "grch38-scores-by-amino-acid-change-ggd-v1.txt": "4.86K"
+        },
+        "final-files": [
+          "grch38-scores-by-amino-acid-change-ggd-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598625780,
+      "version": "1"
+    },
     "grch38-segmental-dups-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -13298,6 +13364,64 @@
       "timestamp": 1588043951,
       "version": "1"
     },
+    "hg19-scores-by-amino-acid-change-ggd-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "amion-acid",
+        "amino-acid-change",
+        "constraint",
+        "missense-badness-score",
+        "blosum-score",
+        "granthams-score",
+        "amino-acid-score"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Scores for each amino acid changes from missense badnass, blosum, and granthams",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ggd",
+        "data-version": "1",
+        "file-type": [
+          "txt"
+        ],
+        "final-file-sizes": {
+          "hg19-scores-by-amino-acid-change-ggd-v1.txt": "4.86K"
+        },
+        "final-files": [
+          "hg19-scores-by-amino-acid-change-ggd-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598625748,
+      "version": "1"
+    },
     "hg19-segmental-dups-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -17597,6 +17721,64 @@
       },
       "text_prefix": false,
       "timestamp": 1588043987,
+      "version": "1"
+    },
+    "hg38-scores-by-amino-acid-change-ggd-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "amion-acid",
+        "amino-acid-change",
+        "constraint",
+        "missense-badness-score",
+        "blosum-score",
+        "granthams-score",
+        "amino-acid-score"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Scores for each amino acid changes from missense badnass, blosum, and granthams",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "ggd",
+        "data-version": "1",
+        "file-type": [
+          "txt"
+        ],
+        "final-file-sizes": {
+          "hg38-scores-by-amino-acid-change-ggd-v1.txt": "4.86K"
+        },
+        "final-files": [
+          "hg38-scores-by-amino-acid-change-ggd-v1.txt"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598625697,
       "version": "1"
     },
     "hg38-segmental-dups-ucsc-v1": {

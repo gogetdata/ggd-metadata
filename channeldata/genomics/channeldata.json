@@ -3943,6 +3943,124 @@
       "timestamp": 1591310322,
       "version": "1"
     },
+    "grch37-protein-coding-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "Protein-Coding-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Features based on feature's gene biotype from Ensembl gene sets. All non-protein coding features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: CDS, Selenocysteine, UTR, exon, gene, start_codon, stop_codon, transcript. Features are in GTF format.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-protein-coding-features-ensembl-v1.gtf.gz": "35.31M",
+          "grch37-protein-coding-features-ensembl-v1.gtf.gz.tbi": "228.59K"
+        },
+        "final-files": [
+          "grch37-protein-coding-features-ensembl-v1.gtf.gz",
+          "grch37-protein-coding-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598732545,
+      "version": "1"
+    },
+    "grch37-protein-coding-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Protein-Coding-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Features based on feature's gene biotype from  the comprehensive set of gene annotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). All non-protein coding features have been removed. Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Features include: CDS, Selenocysteine, UTR, exon, gene, start_codon, stop_codon, transcript.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-protein-coding-features-gencode-v1.gtf.gz": "60.21M",
+          "grch37-protein-coding-features-gencode-v1.gtf.gz.tbi": "244.29K"
+        },
+        "final-files": [
+          "grch37-protein-coding-features-gencode-v1.gtf.gz",
+          "grch37-protein-coding-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598732610,
+      "version": "1"
+    },
     "grch37-radar-li-lab-stanford-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -8870,6 +8988,124 @@
       "timestamp": 1597517753,
       "version": "1"
     },
+    "grch38-protein-coding-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "Protein-Coding-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Features based on feature's gene biotype from Ensembl gene sets. All non-protein coding features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: CDS, Selenocysteine, five_prime_utr, three_prime_utr, exon, gene, start_codon, stop_codon, transcript. Features are in GTF format",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-protein-coding-features-ensembl-v1.gtf.gz": "48.54M",
+          "grch38-protein-coding-features-ensembl-v1.gtf.gz.tbi": "236.12K"
+        },
+        "final-files": [
+          "grch38-protein-coding-features-ensembl-v1.gtf.gz",
+          "grch38-protein-coding-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598732578,
+      "version": "1"
+    },
+    "grch38-protein-coding-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Protein-Coding-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Features based on feature's gene biotype from the comprehensive set of gene annotations including reference chromosomes, scaffoldings, assembly patches, and alternative loci. All non-protein coding features have been removed. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: CDS, Selenocysteine, UTR, exon, gene, start_codon, stop_codon, transcript.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-protein-coding-features-gencode-v1.gtf.gz": "50.64M",
+          "grch38-protein-coding-features-gencode-v1.gtf.gz.tbi": "261.80K"
+        },
+        "final-files": [
+          "grch38-protein-coding-features-gencode-v1.gtf.gz",
+          "grch38-protein-coding-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598732413,
+      "version": "1"
+    },
     "grch38-radar-li-lab-stanford-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -13650,6 +13886,124 @@
       "timestamp": 1591310293,
       "version": "1"
     },
+    "hg19-protein-coding-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "Protein-Coding-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Features based on feature's gene biotype from Ensembl gene sets. All non-protein coding features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.) Features include: CDS, Selenocysteine, UTR, exon, gene, start_codon, stop_codon, transcript. Features are in GTF format. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-protein-coding-features-ensembl-v1.gtf.gz": "35.43M",
+          "hg19-protein-coding-features-ensembl-v1.gtf.gz.tbi": "229.29K"
+        },
+        "final-files": [
+          "hg19-protein-coding-features-ensembl-v1.gtf.gz",
+          "hg19-protein-coding-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598732446,
+      "version": "1"
+    },
+    "hg19-protein-coding-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Protein-Coding-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Features based on feature's gene biotype from the comprehensive set of gene annotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). All non-protein coding features have been removed. Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Features include: CDS, Selenocysteine, UTR, exon, gene, start_codon, stop_codon, transcript. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-protein-coding-features-gencode-v1.gtf.gz": "60.36M",
+          "hg19-protein-coding-features-gencode-v1.gtf.gz.tbi": "244.54K"
+        },
+        "final-files": [
+          "hg19-protein-coding-features-gencode-v1.gtf.gz",
+          "hg19-protein-coding-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598732512,
+      "version": "1"
+    },
     "hg19-radar-li-lab-stanford-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -18186,6 +18540,124 @@
       },
       "text_prefix": false,
       "timestamp": 1597517724,
+      "version": "1"
+    },
+    "hg38-protein-coding-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "Protein-Coding-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Features based on feature's gene biotype from Ensembl gene sets. All non-protein coding features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: CDS, Selenocysteine, five_prime_utr, three_prime_utr, exon, gene, start_codon, stop_codon, transcript. Features are in GTF format. Remapped from Ensembl GRCh38 to UCSC hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-protein-coding-features-ensembl-v1.gtf.gz": "48.71M",
+          "hg38-protein-coding-features-ensembl-v1.gtf.gz.tbi": "235.71K"
+        },
+        "final-files": [
+          "hg38-protein-coding-features-ensembl-v1.gtf.gz",
+          "hg38-protein-coding-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598732380,
+      "version": "1"
+    },
+    "hg38-protein-coding-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "Protein-Coding-Features"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Features based on feature's gene biotype from the comprehensive set of gene annotations including reference chromosomes, scaffoldings, assembly patches, and alternative loci. All non-protein coding features have been removed. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: CDS, Selenocysteine, UTR, exon, gene, start_codon, stop_codon, transcript. Remapped from Ensembl GRCh38 to UCSC hg38.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-protein-coding-features-gencode-v1.gtf.gz": "50.68M",
+          "hg38-protein-coding-features-gencode-v1.gtf.gz.tbi": "261.04K"
+        },
+        "final-files": [
+          "hg38-protein-coding-features-gencode-v1.gtf.gz",
+          "hg38-protein-coding-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598732479,
       "version": "1"
     },
     "hg38-radar-li-lab-stanford-v1": {

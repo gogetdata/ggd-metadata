@@ -5386,6 +5386,128 @@
       "timestamp": 1590537799,
       "version": "1"
     },
+    "grch37-utr-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "UTR-Only-Features",
+        "Five-Prime-UTR",
+        "Three-Prime-UTR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "UTR only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.) UTRs have been designated as 5' UTRs or 3' UTRs based on the coding region and strand of the associated gene .Features include: five_prime_utr, three_prime_utr. Features are in GTF format.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-utr-only-features-ensembl-v1.gtf.gz": "3.97M",
+          "grch37-utr-only-features-ensembl-v1.gtf.gz.tbi": "393.07K"
+        },
+        "final-files": [
+          "grch37-utr-only-features-ensembl-v1.gtf.gz",
+          "grch37-utr-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598901194,
+      "version": "1"
+    },
+    "grch37-utr-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "UTR-Only-Features",
+        "Five-Prime-UTR",
+        "Three-Prime-UTR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "UTR only features from the comprehensive set of gene annotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). All other features have been removed. UTRs have been designated as 5' UTRs or 3' UTRs based on the coding region and strand of the associated gene. Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assenbly patches, and alternative loci are NOT included. Features include: five_prime_utr, three_prime_utr.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch37-utr-only-features-gencode-v1.gtf.gz": "11.97M",
+          "grch37-utr-only-features-gencode-v1.gtf.gz.tbi": "408.26K"
+        },
+        "final-files": [
+          "grch37-utr-only-features-gencode-v1.gtf.gz",
+          "grch37-utr-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598901165,
+      "version": "1"
+    },
     "grch37-vcf-2.1-exome-gnomad-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -10360,6 +10482,128 @@
       "timestamp": 1590537856,
       "version": "1"
     },
+    "grch38-utr-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "UTR-Only-Features",
+        "Five-Prime-UTR",
+        "Three-Prime-UTR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "UTR only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: five_prime_utr, three_prime_utr. Features are in GTF format",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-utr-only-features-ensembl-v1.gtf.gz": "5.62M",
+          "grch38-utr-only-features-ensembl-v1.gtf.gz.tbi": "402.43K"
+        },
+        "final-files": [
+          "grch38-utr-only-features-ensembl-v1.gtf.gz",
+          "grch38-utr-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598900987,
+      "version": "1"
+    },
+    "grch38-utr-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "UTR-Only-Features",
+        "Five-Prime-UTR",
+        "Three-Prime-UTR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "UTR only features from the comprehensive set of gene annotations including reference chromosomes, scaffoldings, assembly patches, and alternative loci. All other features have been removed. UTRs have been designated as 5' UTRs or 3' UTRs based on the coding region and strand of the associated gene. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: five_prime_utr, three_prime_utr.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "grch38-utr-only-features-gencode-v1.gtf.gz": "10.17M",
+          "grch38-utr-only-features-gencode-v1.gtf.gz.tbi": "438.78K"
+        },
+        "final-files": [
+          "grch38-utr-only-features-gencode-v1.gtf.gz",
+          "grch38-utr-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598901135,
+      "version": "1"
+    },
     "grcz10-reference-genome-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -15134,6 +15378,128 @@
       "timestamp": 1590537827,
       "version": "1"
     },
+    "hg19-utr-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "UTR-Only-Features",
+        "Five-Prime-UTR",
+        "Three-Prime-UTR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "UTR only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.) UTRs have been designated as 5' UTRs or 3' UTRs based on the coding region and strand of the associated gene.Features include: five_prime_utr, three_prime_utr. Features are in GTF format. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-75_2-6-14",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-utr-only-features-ensembl-v1.gtf.gz": "3.97M",
+          "hg19-utr-only-features-ensembl-v1.gtf.gz.tbi": "393.68K"
+        },
+        "final-files": [
+          "hg19-utr-only-features-ensembl-v1.gtf.gz",
+          "hg19-utr-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598901046,
+      "version": "1"
+    },
+    "hg19-utr-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "UTR-Only-Features",
+        "Five-Prime-UTR",
+        "Three-Prime-UTR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "UTR only features from the comprehensive set of gene annotations created on GRCh38 and mapped to GRCh37 by GENCODE (v34lift37). All other features have been removed. UTRs have been designated as 5' UTRs or 3' UTRs based on the coding region and strand of the associated gene. Features include: five_prime_utr, three_prime_utr. Some annotations were obtained from GENCODE v19 when mapping failed. Scaffoldings, assembly patches, and alternative loci are NOT included. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg19-utr-only-features-gencode-v1.gtf.gz": "11.98M",
+          "hg19-utr-only-features-gencode-v1.gtf.gz.tbi": "408.72K"
+        },
+        "final-files": [
+          "hg19-utr-only-features-gencode-v1.gtf.gz",
+          "hg19-utr-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598901076,
+      "version": "1"
+    },
     "hg38-amino-acid-sequences-chr-regions-gencode-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -19890,6 +20256,128 @@
       },
       "text_prefix": false,
       "timestamp": 1590537888,
+      "version": "1"
+    },
+    "hg38-utr-only-features-ensembl-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "Ensembl-GTF",
+        "Ensembl-Gene-Set",
+        "Annotated-Transcripts",
+        "UTR-Only-Features",
+        "Five-Prime-UTR",
+        "Three-Prime-UTR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "UTR only features from Ensembl gene sets. All other features have been removed. (Alignment based annotation using proteins, cDNA, RNA-seq, etc.). Features include: five_prime_utr, three_prime_utr. Features are in GTF format. Remapped from Ensembl GRCh38 to UCSC hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "Ensembl",
+        "data-version": "release-100_3-7-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-utr-only-features-ensembl-v1.gtf.gz": "5.63M",
+          "hg38-utr-only-features-ensembl-v1.gtf.gz.tbi": "403.06K"
+        },
+        "final-files": [
+          "hg38-utr-only-features-ensembl-v1.gtf.gz",
+          "hg38-utr-only-features-ensembl-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598901106,
+      "version": "1"
+    },
+    "hg38-utr-only-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Gene-Features",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts",
+        "UTR-Only-Features",
+        "Five-Prime-UTR",
+        "Three-Prime-UTR"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "UTR only features from the comprehensive set of gene annotations including reference chromosomes, scaffoldings, assembly patches, and alternative loci. All other features have been removed. UTRs have been designated as 5' UTRs or 3' UTRs based on the coding region and strand of the associated gene. Data is specific to GENCODE Release 34 (Ensembl 100). Features include: five_prime_utr, three_prime_utr. Remapped from Ensembl GRCh38 to UCSC hg38.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-utr-only-features-gencode-v1.gtf.gz": "10.18M",
+          "hg38-utr-only-features-gencode-v1.gtf.gz.tbi": "438.14K"
+        },
+        "final-files": [
+          "hg38-utr-only-features-gencode-v1.gtf.gz",
+          "hg38-utr-only-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1598901017,
       "version": "1"
     },
     "mm10-reference-ucsc-v1": {

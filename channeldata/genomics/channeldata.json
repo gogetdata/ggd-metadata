@@ -967,7 +967,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1594490718,
+      "timestamp": 1602121888,
       "version": "1"
     },
     "grch37-ccdg-sv-vcf-ccdg-v1": {
@@ -2126,6 +2126,63 @@
       },
       "text_prefix": false,
       "timestamp": 1588950914,
+      "version": "1"
+    },
+    "grch37-exome-variants-gnomad-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gnomAD",
+        "variants",
+        "population-variation",
+        "Genome-Aggergation-Database"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SNV and INDEL varaints from 125,748 exomes in the gnomAD dataset version 2.1.1 in bcf format. The file constains all subsets of non-neuro, non-cancer, controls-only, and non-TOPMed samples.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "gnomAD",
+        "data-version": "v2.1.1",
+        "file-type": [
+          "bcf"
+        ],
+        "final-file-sizes": {
+          "grch37-exome-variants-gnomad-v1.bcf": "28.98G",
+          "grch37-exome-variants-gnomad-v1.bcf.csi": "708.01K"
+        },
+        "final-files": [
+          "grch37-exome-variants-gnomad-v1.bcf",
+          "grch37-exome-variants-gnomad-v1.bcf.csi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1601657825,
       "version": "1"
     },
     "grch37-gaps-ucsc-v1": {
@@ -4348,67 +4405,6 @@
       "timestamp": 1592030246,
       "version": "1"
     },
-    "grch37-reference-genome-gencode-v1": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "description": null,
-      "dev_url": null,
-      "doc_source_url": null,
-      "doc_url": null,
-      "home": null,
-      "icon_hash": null,
-      "icon_url": null,
-      "identifiers": {
-        "genome-build": "GRCh37",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "Reference-Genome",
-        "Fasta",
-        "DNA-Sequence",
-        "GENCODE-34",
-        "Fasta-sequence",
-        "primary-assemlby"
-      ],
-      "license": null,
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "recipe_origin": null,
-      "run_exports": {},
-      "source_git_url": null,
-      "source_url": null,
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "The GRCh37 DNA nucleotide sequence primary assembly. Sequence regions include reference chromsomes and scaffoldings.",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-provider": "GENCODE",
-        "data-version": "release-34",
-        "file-type": [
-          "fa"
-        ],
-        "final-file-sizes": {
-          "grch37-reference-genome-gencode-v1.fa.gz": "881.99M",
-          "grch37-reference-genome-gencode-v1.fa.gz.fai": "2.74K",
-          "grch37-reference-genome-gencode-v1.fa.gz.gzi": "772.92K"
-        },
-        "final-files": [
-          "grch37-reference-genome-gencode-v1.fa.gz",
-          "grch37-reference-genome-gencode-v1.fa.gz.fai",
-          "grch37-reference-genome-gencode-v1.fa.gz.gzi"
-        ],
-        "genomic-coordinate-base": "NA",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "timestamp": 1595616238,
-      "version": "1"
-    },
     "grch37-refseq-gene-features-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -6373,7 +6369,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1594490657,
+      "timestamp": 1602121828,
       "version": "1"
     },
     "grch38-ccdg-sv-vcf-ccdg-v1": {
@@ -7508,6 +7504,64 @@
       },
       "text_prefix": false,
       "timestamp": 1588950941,
+      "version": "1"
+    },
+    "grch38-exome-variants-gnomad-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gnomAD",
+        "variants",
+        "population-variation",
+        "Genome-Aggergation-Database",
+        "gnomAd-liftover"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SNV and INDEL varaints from 125,748 exomes in the gnomAD dataset version 2.1.1 in bcf format. These variants were lifted over from gnomAD v2.1.1 GRCh37 to GRCh38 by the gnomAD group. The file constains all subsets of non-neuro, non-cancer, controls-only, and non-TOPMed samples.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "gnomAD",
+        "data-version": "v2.1.1",
+        "file-type": [
+          "bcf"
+        ],
+        "final-file-sizes": {
+          "grch38-exome-variants-gnomad-v1.bcf": "28.51G",
+          "grch38-exome-variants-gnomad-v1.bcf.csi": "705.67K"
+        },
+        "final-files": [
+          "grch38-exome-variants-gnomad-v1.bcf",
+          "grch38-exome-variants-gnomad-v1.bcf.csi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1601658905,
       "version": "1"
     },
     "grch38-gaps-ucsc-v1": {
@@ -11725,7 +11779,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1594490748,
+      "timestamp": 1602121919,
       "version": "1"
     },
     "hg19-ccdg-sv-vcf-ccdg-v1": {
@@ -12725,6 +12779,63 @@
       },
       "text_prefix": false,
       "timestamp": 1588950888,
+      "version": "1"
+    },
+    "hg19-exome-variants-gnomad-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gnomAD",
+        "variants",
+        "population-variation",
+        "Genome-Aggergation-Database"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SNV and INDEL varaints from 125,748 exomes in the gnomAD dataset version 2.1.1 in bcf format. The file constains all subsets of non-neuro, non-cancer, controls-only, and non-TOPMed samples. Remapped from Ensembl GRCh37 to UCSC hg19",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "gnomAD",
+        "data-version": "v2.1.1",
+        "file-type": [
+          "bcf"
+        ],
+        "final-file-sizes": {
+          "hg19-exome-variants-gnomad-v1.bcf": "28.98G",
+          "hg19-exome-variants-gnomad-v1.bcf.csi": "707.78K"
+        },
+        "final-files": [
+          "hg19-exome-variants-gnomad-v1.bcf",
+          "hg19-exome-variants-gnomad-v1.bcf.csi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1601659944,
       "version": "1"
     },
     "hg19-gaps-ucsc-v1": {
@@ -15093,64 +15204,6 @@
       "timestamp": 1594403316,
       "version": "1"
     },
-    "hg19-simple-repeats-ucsc-v1": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "description": null,
-      "dev_url": null,
-      "doc_source_url": null,
-      "doc_url": null,
-      "home": null,
-      "icon_hash": null,
-      "icon_url": null,
-      "identifiers": {
-        "genome-build": "hg19",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "simrep",
-        "simple-repeats",
-        "repeats",
-        "tandem-repeats",
-        "simple-tandem-repeats"
-      ],
-      "license": null,
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "recipe_origin": null,
-      "run_exports": {},
-      "source_git_url": null,
-      "source_url": null,
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "Simple repeats track from UCSC. Simple tandem repeats and imperfect repeats identified by the Tandem Repeats Finder (TRF) algorithm. Any scaffoldings not in the hg19.genome file are removed from the final file",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-provider": "UCSC",
-        "data-version": "22-Mar-2020",
-        "file-type": [
-          "bed"
-        ],
-        "final-file-sizes": {
-          "hg19-simple-repeats-ucsc-v1.bed.gz": "25.58M",
-          "hg19-simple-repeats-ucsc-v1.bed.gz.tbi": "1.35M"
-        },
-        "final-files": [
-          "hg19-simple-repeats-ucsc-v1.bed.gz",
-          "hg19-simple-repeats-ucsc-v1.bed.gz.tbi"
-        ],
-        "genomic-coordinate-base": "0-based-inclusive",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "timestamp": 1588101166,
-      "version": "1"
-    },
     "hg19-somatic-variants-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -16609,7 +16662,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1594503125,
+      "timestamp": 1602121858,
       "version": "1"
     },
     "hg38-ccdg-sv-vcf-ccdg-v1": {
@@ -17628,6 +17681,64 @@
       },
       "text_prefix": false,
       "timestamp": 1588950981,
+      "version": "1"
+    },
+    "hg38-exome-variants-gnomad-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "gnomAD",
+        "variants",
+        "population-variation",
+        "Genome-Aggergation-Database",
+        "gnomAd-liftover"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "SNV and INDEL varaints from 125,748 exomes in the gnomAD dataset version 2.1.1 in bcf format. These variants were lifted over from gnomAD v2.1.1 GRCh37 to GRCh38 by the gnomAD group. The file constains all subsets of non-neuro, non-cancer, controls-only, and non-TOPMed samples. Remapped from Ensembl GRCh38 to UCSC hg38",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "gnomAD",
+        "data-version": "v2.1.1",
+        "file-type": [
+          "bcf"
+        ],
+        "final-file-sizes": {
+          "hg38-exome-variants-gnomad-v1.bcf": "28.51G",
+          "hg38-exome-variants-gnomad-v1.bcf.csi": "705.50K"
+        },
+        "final-files": [
+          "hg38-exome-variants-gnomad-v1.bcf",
+          "hg38-exome-variants-gnomad-v1.bcf.csi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1601661008,
       "version": "1"
     },
     "hg38-gaps-ucsc-v1": {

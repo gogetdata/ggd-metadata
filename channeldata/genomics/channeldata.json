@@ -956,8 +956,8 @@
           "gtf"
         ],
         "final-file-sizes": {
-          "grch37-canonical-transcript-features-gencode-v1.gtf.gz": "15.54M",
-          "grch37-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "266.50K"
+          "grch37-canonical-transcript-features-gencode-v1.gtf.gz": "15.42M",
+          "grch37-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "260.39K"
         },
         "final-files": [
           "grch37-canonical-transcript-features-gencode-v1.gtf.gz",
@@ -967,7 +967,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1602121888,
+      "timestamp": 1602167693,
       "version": "1"
     },
     "grch37-ccdg-sv-vcf-ccdg-v1": {
@@ -4405,6 +4405,67 @@
       "timestamp": 1592030246,
       "version": "1"
     },
+    "grch37-reference-genome-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Reference-Genome",
+        "Fasta",
+        "DNA-Sequence",
+        "GENCODE-34",
+        "Fasta-sequence",
+        "primary-assemlby"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "The GRCh37 DNA nucleotide sequence primary assembly. Sequence regions include reference chromsomes and scaffoldings.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34",
+        "file-type": [
+          "fa"
+        ],
+        "final-file-sizes": {
+          "grch37-reference-genome-gencode-v1.fa.gz": "881.99M",
+          "grch37-reference-genome-gencode-v1.fa.gz.fai": "2.74K",
+          "grch37-reference-genome-gencode-v1.fa.gz.gzi": "772.92K"
+        },
+        "final-files": [
+          "grch37-reference-genome-gencode-v1.fa.gz",
+          "grch37-reference-genome-gencode-v1.fa.gz.fai",
+          "grch37-reference-genome-gencode-v1.fa.gz.gzi"
+        ],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1595616238,
+      "version": "1"
+    },
     "grch37-refseq-gene-features-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -6358,8 +6419,8 @@
           "gtf"
         ],
         "final-file-sizes": {
-          "grch38-canonical-transcript-features-gencode-v1.gtf.gz": "12.25M",
-          "grch38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "286.97K"
+          "grch38-canonical-transcript-features-gencode-v1.gtf.gz": "12.13M",
+          "grch38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "280.81K"
         },
         "final-files": [
           "grch38-canonical-transcript-features-gencode-v1.gtf.gz",
@@ -6369,7 +6430,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1602121828,
+      "timestamp": 1602167759,
       "version": "1"
     },
     "grch38-ccdg-sv-vcf-ccdg-v1": {
@@ -11779,7 +11840,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1602121919,
+      "timestamp": 1602207027,
       "version": "1"
     },
     "hg19-ccdg-sv-vcf-ccdg-v1": {
@@ -15204,6 +15265,64 @@
       "timestamp": 1594403316,
       "version": "1"
     },
+    "hg19-simple-repeats-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "simrep",
+        "simple-repeats",
+        "repeats",
+        "tandem-repeats",
+        "simple-tandem-repeats"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Simple repeats track from UCSC. Simple tandem repeats and imperfect repeats identified by the Tandem Repeats Finder (TRF) algorithm. Any scaffoldings not in the hg19.genome file are removed from the final file",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "22-Mar-2020",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-simple-repeats-ucsc-v1.bed.gz": "25.58M",
+          "hg19-simple-repeats-ucsc-v1.bed.gz.tbi": "1.35M"
+        },
+        "final-files": [
+          "hg19-simple-repeats-ucsc-v1.bed.gz",
+          "hg19-simple-repeats-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1588101166,
+      "version": "1"
+    },
     "hg19-somatic-variants-ensembl-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -16599,70 +16718,6 @@
       },
       "text_prefix": false,
       "timestamp": 1594959342,
-      "version": "1"
-    },
-    "hg38-canonical-transcript-features-gencode-v1": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "description": null,
-      "dev_url": null,
-      "doc_source_url": null,
-      "doc_url": null,
-      "home": null,
-      "icon_hash": null,
-      "icon_url": null,
-      "identifiers": {
-        "genome-build": "hg38",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "Canonical",
-        "Canonical-Transcripts",
-        "Canonical-Isoforms",
-        "Gene-Features",
-        "GTF",
-        "Gene-Features",
-        "Gene-Annotations",
-        "GTF",
-        "GENOCDOE-GTF",
-        "GENCODE-Gene-Sets",
-        "Annotated-Transcripts"
-      ],
-      "license": null,
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "recipe_origin": null,
-      "run_exports": {},
-      "source_git_url": null,
-      "source_url": null,
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "Protein Coding Canonical Transcript Features for each protein coding gene id from GENCODE's v34 (Ensembl 100) comprehensive set of gene anntotations. Canonical Transcripts are determined using the APPRIS annotation dataset. In short, for all protein coding transcripts, transcripts are filtered based on APPRIS isoform flags. If multiple transcripts of the same gene have equal flags, the isoform with the most exons is chosen. If all transcritps for a gene are not annotated by APPRIS, the transcript with the most exons is chosen as the canonical transcript. APPRIS flag information can be found here: http://appris-tools.org/#/downloads or here: https://uswest.ensembl.org/info/genome/genebuild/transcript_quality_tags.html. Features include: gene, transcript, exon, CDS, UTR, start_codon, stop_codon, and Selenocysteine. Remapped from Ensembl GRCh38 to UCSC hg38. (Scaffoldings wihtout UCSC matches are kept with Ensebml ids)",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-provider": "GENCODE",
-        "data-version": "release-34_03-24-2020",
-        "file-type": [
-          "gtf"
-        ],
-        "final-file-sizes": {
-          "hg38-canonical-transcript-features-gencode-v1.gtf.gz": "12.30M",
-          "hg38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "288.24K"
-        },
-        "final-files": [
-          "hg38-canonical-transcript-features-gencode-v1.gtf.gz",
-          "hg38-canonical-transcript-features-gencode-v1.gtf.gz.tbi"
-        ],
-        "genomic-coordinate-base": "1-based-inclusive",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "timestamp": 1602121858,
       "version": "1"
     },
     "hg38-ccdg-sv-vcf-ccdg-v1": {

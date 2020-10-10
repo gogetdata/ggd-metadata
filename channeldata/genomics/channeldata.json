@@ -16720,6 +16720,70 @@
       "timestamp": 1594959342,
       "version": "1"
     },
+    "hg38-canonical-transcript-features-gencode-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Canonical",
+        "Canonical-Transcripts",
+        "Canonical-Isoforms",
+        "Gene-Features",
+        "GTF",
+        "Gene-Features",
+        "Gene-Annotations",
+        "GTF",
+        "GENOCDOE-GTF",
+        "GENCODE-Gene-Sets",
+        "Annotated-Transcripts"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "Protein Coding Canonical Transcript Features for each protein coding gene id from GENCODE's v34 (Ensembl 100) comprehensive set of gene anntotations. Canonical Transcripts are determined using the APPRIS annotation dataset. In short, for all protein coding transcripts, transcripts are filtered based on APPRIS isoform flags. If multiple transcripts of the same gene have equal flags, the isoform with the most exons is chosen. If all transcritps for a gene are not annotated by APPRIS, the transcript with the most exons is chosen as the canonical transcript. APPRIS flag information can be found here: http://appris-tools.org/#/downloads or here: https://uswest.ensembl.org/info/genome/genebuild/transcript_quality_tags.html. Features include: gene, transcript, exon, CDS, UTR, start_codon, stop_codon, and Selenocysteine. Remapped from Ensembl GRCh38 to UCSC hg38. (Scaffoldings wihtout UCSC matches are kept with Ensebml ids)",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "GENCODE",
+        "data-version": "release-34_03-24-2020",
+        "file-type": [
+          "gtf"
+        ],
+        "final-file-sizes": {
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz": "12.30M",
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "288.24K"
+        },
+        "final-files": [
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz",
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz.tbi"
+        ],
+        "genomic-coordinate-base": "1-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1602293674,
+      "version": "1"
+    },
     "hg38-ccdg-sv-vcf-ccdg-v1": {
       "activate.d": false,
       "binary_prefix": false,

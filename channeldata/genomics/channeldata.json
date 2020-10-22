@@ -11840,7 +11840,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1602207027,
+      "timestamp": 1603330190,
       "version": "1"
     },
     "hg19-ccdg-sv-vcf-ccdg-v1": {
@@ -18368,69 +18368,6 @@
       },
       "text_prefix": false,
       "timestamp": 1558756481,
-      "version": "1"
-    },
-    "hg38-haploinsufficient-genes-clingen-v1": {
-      "activate.d": false,
-      "binary_prefix": false,
-      "deactivate.d": false,
-      "description": null,
-      "dev_url": null,
-      "doc_source_url": null,
-      "doc_url": null,
-      "home": null,
-      "icon_hash": null,
-      "icon_url": null,
-      "identifiers": {
-        "genome-build": "hg38",
-        "species": "Homo_sapiens"
-      },
-      "keywords": [
-        "haploinsufficiency",
-        "haploinsufficient",
-        "haploinsufficient-genes",
-        "genes",
-        "Clingen",
-        "gene-set"
-      ],
-      "license": null,
-      "post_link": true,
-      "pre_link": false,
-      "pre_unlink": false,
-      "recipe_origin": null,
-      "run_exports": {},
-      "source_git_url": null,
-      "source_url": null,
-      "subdirs": [
-        "noarch"
-      ],
-      "summary": "CDS region genomic coordinates, along with complement coordinates, for a set of haploinsufficient genes from ClinGen's Dosage Sensitivity Map curated by Daniel MacArthur''s lab. The genes used are those that are haplosensitive and not triplosensitive, and are level 3 (the maximum level) dosage sensitive. Original work on this is part of the Cytogenomic Arrays Consortium. Paper at: 'https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008023/'. Any genes in patch regions or non-reference scaffoldings are not included.",
-      "tags": {
-        "cached": [
-          "uploaded_to_aws"
-        ],
-        "data-provider": "ClinGen",
-        "data-version": "01-Sept-2016",
-        "file-type": [
-          "bed"
-        ],
-        "final-file-sizes": {
-          "hg38-haploinsufficient-genes-clingen-v1.bed.gz": "50.07K",
-          "hg38-haploinsufficient-genes-clingen-v1.bed.gz.tbi": "14.35K",
-          "hg38-haploinsufficient-genes-clingen-v1.compliment.bed.gz": "32.30K",
-          "hg38-haploinsufficient-genes-clingen-v1.compliment.bed.gz.tbi": "19.34K"
-        },
-        "final-files": [
-          "hg38-haploinsufficient-genes-clingen-v1.bed.gz",
-          "hg38-haploinsufficient-genes-clingen-v1.bed.gz.tbi",
-          "hg38-haploinsufficient-genes-clingen-v1.compliment.bed.gz",
-          "hg38-haploinsufficient-genes-clingen-v1.compliment.bed.gz.tbi"
-        ],
-        "genomic-coordinate-base": "0-based-inclusive",
-        "ggd-channel": "genomics"
-      },
-      "text_prefix": false,
-      "timestamp": 1595621908,
       "version": "1"
     },
     "hg38-haploinsufficient-genes-dang-v1": {

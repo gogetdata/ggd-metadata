@@ -967,7 +967,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1602167693,
+      "timestamp": 1603849219,
       "version": "1"
     },
     "grch37-ccdg-sv-vcf-ccdg-v1": {
@@ -4707,6 +4707,65 @@
       "timestamp": 1588051241,
       "version": "1"
     },
+    "grch37-self-chain-high-identity-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh37",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Self-Chain",
+        "Self-Alignment",
+        "Repeats",
+        "low-copy-repeats",
+        "High-Identity",
+        ">=90%-Identity"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "High identity, >=90%, Self chain alignments of the human genome with an improved gap scoring system. Genomic coordinates are merged across all overlapping intervals, providing continuous high identity self chain repeat regions. Alignments point out areas of duplication within the human genome, with the exception of the pseudoautosomal regions on X and Y. From the Human Chained Self Alignemnts track on UCSC. Remapped from UCSC hg19 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "27-Apr-2009",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch37-self-chain-high-identity-ucsc-v1.bed.gz": "52.37K",
+          "grch37-self-chain-high-identity-ucsc-v1.bed.gz.tbi": "40.70K"
+        },
+        "final-files": [
+          "grch37-self-chain-high-identity-ucsc-v1.bed.gz",
+          "grch37-self-chain-high-identity-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1608333212,
+      "version": "1"
+    },
     "grch37-self-chain-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -6430,7 +6489,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1602167759,
+      "timestamp": 1603849159,
       "version": "1"
     },
     "grch38-ccdg-sv-vcf-ccdg-v1": {
@@ -10068,6 +10127,65 @@
       "timestamp": 1588051189,
       "version": "1"
     },
+    "grch38-self-chain-high-identity-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "GRCh38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Self-Chain",
+        "Self-Alignment",
+        "Repeats",
+        "low-copy-repeats",
+        "High-Identity",
+        ">=90%-Identity"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "High identity, >=90%, Self chain alignments of the human genome with an improved gap scoring system. Genomic coordinates are merged across all overlapping intervals, providing continuous high identity self chain repeat regions. Alignments point out areas of duplication within the human genome, with the exception of the pseudoautosomal regions on X and Y. From the Human Chained Self Alignemnts track on UCSC. Remapped from UCSC hg38 to Ensembl GRCh37",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "06-Mar-2014",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "grch38-self-chain-high-identity-ucsc-v1.bed.gz": "61.66K",
+          "grch38-self-chain-high-identity-ucsc-v1.bed.gz.tbi": "52.74K"
+        },
+        "final-files": [
+          "grch38-self-chain-high-identity-ucsc-v1.bed.gz",
+          "grch38-self-chain-high-identity-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1608333245,
+      "version": "1"
+    },
     "grch38-self-chain-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -11829,8 +11947,8 @@
           "gtf"
         ],
         "final-file-sizes": {
-          "hg19-canonical-transcript-features-gencode-v1.gtf.gz": "15.56M",
-          "hg19-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "266.51K"
+          "hg19-canonical-transcript-features-gencode-v1.gtf.gz": "15.44M",
+          "hg19-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "260.95K"
         },
         "final-files": [
           "hg19-canonical-transcript-features-gencode-v1.gtf.gz",
@@ -11840,7 +11958,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1603417247,
+      "timestamp": 1603849249,
       "version": "1"
     },
     "hg19-ccdg-sv-vcf-ccdg-v1": {
@@ -15208,6 +15326,65 @@
       "timestamp": 1588051215,
       "version": "1"
     },
+    "hg19-self-chain-high-identity-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg19",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Self-Chain",
+        "Self-Alignment",
+        "Repeats",
+        "low-copy-repeats",
+        "High-Identity",
+        ">=90%-Identity"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "High identity, >=90%, Self chain alignments of the human genome with an improved gap scoring system. Genomic coordinates are merged across all overlapping intervals, providing continuous high identity self chain repeat regions. Alignments point out areas of duplication within the human genome, with the exception of the pseudoautosomal regions on X and Y. From the Human Chained Self Alignments track on UCSC.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "27-Apr-2009",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg19-self-chain-high-identity-ucsc-v1.bed.gz": "54.73K",
+          "hg19-self-chain-high-identity-ucsc-v1.bed.gz.tbi": "40.85K"
+        },
+        "final-files": [
+          "hg19-self-chain-high-identity-ucsc-v1.bed.gz",
+          "hg19-self-chain-high-identity-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1608333309,
+      "version": "1"
+    },
     "hg19-self-chain-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -16770,8 +16947,8 @@
           "gtf"
         ],
         "final-file-sizes": {
-          "hg38-canonical-transcript-features-gencode-v1.gtf.gz": "12.30M",
-          "hg38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "288.24K"
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz": "12.18M",
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "281.30K"
         },
         "final-files": [
           "hg38-canonical-transcript-features-gencode-v1.gtf.gz",
@@ -16781,7 +16958,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1603417215,
+      "timestamp": 1608016753,
       "version": "1"
     },
     "hg38-ccdg-sv-vcf-ccdg-v1": {
@@ -20223,6 +20400,65 @@
       "timestamp": 1588051162,
       "version": "1"
     },
+    "hg38-self-chain-high-identity-ucsc-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "hg38",
+        "species": "Homo_sapiens"
+      },
+      "keywords": [
+        "Self-Chain",
+        "Self-Alignment",
+        "Repeats",
+        "low-copy-repeats",
+        "High-Identity",
+        ">=90%-Identity"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "High identity, >=90%, Self chain alignments of the human genome with an improved gap scoring system. Genomic coordinates are merged across all overlapping intervals, providing continuous high identity self chain repeat regions. Alignments point out areas of duplication within the human genome, with the exception of the pseudoautosomal regions on X and Y. From the Human Chained Self Alignemnts track on UCSC.",
+      "tags": {
+        "cached": [
+          "uploaded_to_aws"
+        ],
+        "data-provider": "UCSC",
+        "data-version": "06-Mar-2014",
+        "file-type": [
+          "bed"
+        ],
+        "final-file-sizes": {
+          "hg38-self-chain-high-identity-ucsc-v1.bed.gz": "64.21K",
+          "hg38-self-chain-high-identity-ucsc-v1.bed.gz.tbi": "52.58K"
+        },
+        "final-files": [
+          "hg38-self-chain-high-identity-ucsc-v1.bed.gz",
+          "hg38-self-chain-high-identity-ucsc-v1.bed.gz.tbi"
+        ],
+        "genomic-coordinate-base": "0-based-inclusive",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1608333277,
+      "version": "1"
+    },
     "hg38-self-chain-ucsc-v1": {
       "activate.d": false,
       "binary_prefix": false,
@@ -21096,6 +21332,52 @@
       },
       "text_prefix": false,
       "timestamp": 1598901017,
+      "version": "1"
+    },
+    "meta-recipe-geo-accession-geo-v1": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": null,
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": null,
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": {
+        "genome-build": "meta-recipe",
+        "species": "meta-recipe"
+      },
+      "keywords": [
+        "Gene-Expression-Omnibus",
+        "GEO",
+        "GEO-Accession-ID",
+        "GEO-meta-recipe"
+      ],
+      "license": null,
+      "post_link": true,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": null,
+      "subdirs": [
+        "noarch"
+      ],
+      "summary": "A meta-recipe for the Gene Expression Omnibus (GEO) database from NCBI. This meta-recipe contains the instructions for accessing GEO data using GEO Accession IDs. GEO Datasets (GDS), GEO Platforms (GPL), GEO Series (GSE), and GEO Samples (GSM) are all accessible through this meta-recipe. Files downloaded for each type are: (GDS) SOFT files. (GPL) SOFT files and ANNOT files if they exist. (GSE) SOFT file and MATRIX files if they exist. (GSM) The main table file as a .txt file. Additionally, for all 4 types, all supplemental files are downloaded if they exist. Once installed, GEO ID specific recipes will contain ID specific info, such as a summary of the data and a url to the GEO Accession ID specific page. This info can be accessed using 'ggd pkg-info'. To install simply add the '--id' flag with the desired GEO Accession ID when running 'ggd install'. Additional info about GEO can be found at http://www.ncbi.nlm.nih.gov/geo",
+      "tags": {
+        "data-provider": "GEO",
+        "data-version": "meta-recipe",
+        "file-type": [],
+        "final-file-sizes": {},
+        "final-files": [],
+        "genomic-coordinate-base": "NA",
+        "ggd-channel": "genomics"
+      },
+      "text_prefix": false,
+      "timestamp": 1608004648,
       "version": "1"
     },
     "mm10-reference-ucsc-v1": {

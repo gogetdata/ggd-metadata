@@ -956,8 +956,8 @@
           "gtf"
         ],
         "final-file-sizes": {
-          "grch37-canonical-transcript-features-gencode-v1.gtf.gz": "15.42M",
-          "grch37-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "260.39K"
+          "grch37-canonical-transcript-features-gencode-v1.gtf.gz": "14.99M",
+          "grch37-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "257.76K"
         },
         "final-files": [
           "grch37-canonical-transcript-features-gencode-v1.gtf.gz",
@@ -967,7 +967,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1603849219,
+      "timestamp": 1627750940,
       "version": "1"
     },
     "grch37-ccdg-sv-vcf-ccdg-v1": {
@@ -6478,8 +6478,8 @@
           "gtf"
         ],
         "final-file-sizes": {
-          "grch38-canonical-transcript-features-gencode-v1.gtf.gz": "12.13M",
-          "grch38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "280.81K"
+          "grch38-canonical-transcript-features-gencode-v1.gtf.gz": "10.74M",
+          "grch38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "262.63K"
         },
         "final-files": [
           "grch38-canonical-transcript-features-gencode-v1.gtf.gz",
@@ -6489,7 +6489,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1603849159,
+      "timestamp": 1627750822,
       "version": "1"
     },
     "grch38-ccdg-sv-vcf-ccdg-v1": {
@@ -11947,8 +11947,8 @@
           "gtf"
         ],
         "final-file-sizes": {
-          "hg19-canonical-transcript-features-gencode-v1.gtf.gz": "15.44M",
-          "hg19-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "260.95K"
+          "hg19-canonical-transcript-features-gencode-v1.gtf.gz": "15.01M",
+          "hg19-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "258.07K"
         },
         "final-files": [
           "hg19-canonical-transcript-features-gencode-v1.gtf.gz",
@@ -11958,7 +11958,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1603849249,
+      "timestamp": 1627750985,
       "version": "1"
     },
     "hg19-ccdg-sv-vcf-ccdg-v1": {
@@ -16947,8 +16947,8 @@
           "gtf"
         ],
         "final-file-sizes": {
-          "hg38-canonical-transcript-features-gencode-v1.gtf.gz": "12.18M",
-          "hg38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "281.30K"
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz": "10.75M",
+          "hg38-canonical-transcript-features-gencode-v1.gtf.gz.tbi": "262.08K"
         },
         "final-files": [
           "hg38-canonical-transcript-features-gencode-v1.gtf.gz",
@@ -16958,7 +16958,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1608016753,
+      "timestamp": 1627750866,
       "version": "1"
     },
     "hg38-ccdg-sv-vcf-ccdg-v1": {
@@ -21377,7 +21377,7 @@
         "ggd-channel": "genomics"
       },
       "text_prefix": false,
-      "timestamp": 1608004648,
+      "timestamp": 1609016929,
       "version": "1"
     },
     "mm10-reference-ucsc-v1": {
